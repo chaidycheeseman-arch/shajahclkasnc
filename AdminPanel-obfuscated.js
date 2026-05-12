@@ -1,0 +1,8082 @@
+const _0x351085 = _0xf632;
+(function (_0x35f0a4, _0xba2b37) {
+  const _0x2c8465 = _0xf632,
+    _0x4757cf = _0x35f0a4();
+  while (!![]) {
+    try {
+      const _0xb46012 =
+        (-parseInt(_0x2c8465(0x13d)) / (-0x95b + -0x120b + 0x73 * 0x3d)) *
+          (parseInt(_0x2c8465(0x24e)) / (0x225 + -0x193c + -0x1b * -0xdb)) +
+        -parseInt(_0x2c8465(0x1ed)) / (0x584 + 0x4f * -0x6d + 0x1c22) +
+        (-parseInt(_0x2c8465(0x2dc)) / (0x1868 + 0x55f * -0x1 + -0x1305)) *
+          (parseInt(_0x2c8465(0x2b1)) /
+            (-0x3dd * -0x2 + -0x1e7 * 0x3 + 0x4 * -0x80)) +
+        (parseInt(_0x2c8465(0x1c3)) / (-0x24d7 + -0x80b * -0x3 + 0x65e * 0x2)) *
+          (-parseInt(_0x2c8465(0x202)) / (-0xf4b + -0x1b90 + 0x2 * 0x1571)) +
+        parseInt(_0x2c8465(0x190)) / (0x193b + -0xa * -0x364 + -0x3b1b) +
+        parseInt(_0x2c8465(0x21f)) / (0x18e7 + -0x18ac + -0x32 * 0x1) +
+        (parseInt(_0x2c8465(0x263)) /
+          (-0x12e9 * -0x1 + 0x6d6 + -0x1 * 0x19b5)) *
+          (parseInt(_0x2c8465(0x335)) / (0x19db + 0x1 * -0xbb9 + -0xe17));
+      if (_0xb46012 === _0xba2b37) break;
+      else _0x4757cf["push"](_0x4757cf["shift"]());
+    } catch (_0x544d89) {
+      _0x4757cf["push"](_0x4757cf["shift"]());
+    }
+  }
+})(_0x2ffe, 0x1d3e7 * 0x3 + 0xa324e + 0x6908 * -0xb);
+const _0x1ec2dd = (function () {
+    let _0x312b5a = !![];
+    return function (_0x2e718c, _0x4fee83) {
+      const _0x11f872 = _0x312b5a
+        ? function () {
+            if (_0x4fee83) {
+              const _0x3d73a9 = _0x4fee83["apply"](_0x2e718c, arguments);
+              return ((_0x4fee83 = null), _0x3d73a9);
+            }
+          }
+        : function () {};
+      return ((_0x312b5a = ![]), _0x11f872);
+    };
+  })(),
+  _0x5b0119 = _0x1ec2dd(this, function () {
+    const _0x2ab584 = _0xf632,
+      _0x4b6c65 = function () {
+        const _0x24e2f6 = _0xf632;
+        let _0x476ef3;
+        try {
+          _0x476ef3 = Function(
+            "return\x20(function()\x20" + _0x24e2f6(0x1a0) + ");",
+          )();
+        } catch (_0x5956ff) {
+          _0x476ef3 = window;
+        }
+        return _0x476ef3;
+      },
+      _0x37f18e = _0x4b6c65(),
+      _0x3bd13a = (_0x37f18e[_0x2ab584(0x20c)] =
+        _0x37f18e[_0x2ab584(0x20c)] || {}),
+      _0x2cbca3 = [
+        _0x2ab584(0x24a),
+        "warn",
+        "info",
+        _0x2ab584(0x21d),
+        _0x2ab584(0x2d9),
+        _0x2ab584(0x1da),
+        _0x2ab584(0x164),
+      ];
+    for (
+      let _0x57159e = -0x631 * -0x6 + 0x1022 + -0x9b * 0x58;
+      _0x57159e < _0x2cbca3[_0x2ab584(0x19b)];
+      _0x57159e++
+    ) {
+      const _0xa33ed0 =
+          _0x1ec2dd[_0x2ab584(0x19f)]["prototype"][_0x2ab584(0x29f)](_0x1ec2dd),
+        _0x4ddb39 = _0x2cbca3[_0x57159e],
+        _0x24bfc5 = _0x3bd13a[_0x4ddb39] || _0xa33ed0;
+      ((_0xa33ed0[_0x2ab584(0x226)] = _0x1ec2dd["bind"](_0x1ec2dd)),
+        (_0xa33ed0["toString"] =
+          _0x24bfc5[_0x2ab584(0x1b0)][_0x2ab584(0x29f)](_0x24bfc5)),
+        (_0x3bd13a[_0x4ddb39] = _0xa33ed0));
+    }
+  });
+_0x5b0119();
+import {
+  a as _0x3a5a53,
+  j as _0x332f06,
+  m as _0x502d1c,
+  A as _0x470e35,
+} from "./vendor-BBrb-ole.js";
+import { s as _0x5ea00c } from "./supabase-Bm-D3fr9.js";
+import {
+  c as _0x270d66,
+  X as _0x12c7ad,
+  C as _0x438a88,
+  R as _0x3fcd26,
+  S as _0x35a2a7,
+  D as _0x57c93a,
+  K as _0x141a92,
+  H as _0x2d1992,
+  M as _0x4b502d,
+  a as _0x128f46,
+  U as _0x1d2a78,
+  b as _0x4bf88a,
+  d as _0x27c9a7,
+  e as _0x434324,
+  T as _0x2fc31c,
+  f as _0x35a774,
+  g as _0x1f64a7,
+  h as _0x2eea83,
+  i as _0x11b6dd,
+  j as _0x545049,
+  k as _0x3b699c,
+  G as _0x4bf5ae,
+  I as _0x3c4a55,
+  P as _0xd0883d,
+  l as _0x29cb78,
+  m as _0x31dee6,
+  n as _0x107785,
+} from "./x--jYrg3Zr.js";
+function _0x2ffe() {
+  const _0x2adc9e = [
+    "style",
+    "from",
+    "block\x20text-xs\x20text-slate-500\x20mb-1",
+    "total",
+    "批量通过",
+    "text-slate-300\x20hover:text-rose-400\x20hover:bg-slate-100",
+    "\x20条设备",
+    "解除失败",
+    "px-2\x20py-1.5\x20bg-white\x20border\x20border-slate-300\x20text-slate-700\x20text-xs\x20rounded-lg\x20hover:bg-slate-50",
+    "tags",
+    "toLocaleString",
+    "全部状态",
+    "bg-amber-50/80\x20p-3\x20rounded-xl\x20border\x20border-amber-100",
+    "保存备注失败",
+    "option",
+    "No\x20users\x20found",
+    "flex\x20flex-wrap\x20gap-2\x20text-[0.625rem]\x20text-slate-400\x20mt-1",
+    "输入新标签回车添加",
+    "全部来源",
+    "-9999px",
+    "name",
+    "table",
+    "text-xs\x20text-slate-400\x20mr-2",
+    "批量置顶",
+    "text-rose-500\x20font-bold",
+    "voided",
+    "useEffect",
+    "flex-1\x20min-w-[100px]\x20py-2\x20rounded-lg\x20text-sm\x20font-medium\x20transition-all\x20flex\x20items-center\x20justify-center\x20gap-2\x20",
+    "Active:\x20",
+    "邮箱注册",
+    "action",
+    "isFavorite",
+    "max_devices",
+    "limit",
+    "后续（followup）",
+    "text-lg\x20font-medium",
+    "gate_device_blocked",
+    "isArray",
+    "createdAt",
+    "w-full\x20bg-white/50\x20border\x20border-slate-200\x20rounded-2xl\x20px-4\x20py-3\x20text-slate-800\x20placeholder-slate-400\x20focus:outline-none\x20focus:border-slate-800\x20transition-colors\x20text-center",
+    "1918689hipbga",
+    "push",
+    "申请理由",
+    "批量置顶操作失败",
+    "批量删除",
+    "pending_users",
+    "text-slate-600\x20hover:underline",
+    "user_agent",
+    "activation_generate_secret",
+    "toUpperCase",
+    "text-emerald-700\x20bg-emerald-50\x20px-2\x20py-0.5\x20rounded",
+    "已复制到剪贴板",
+    "Approve",
+    "flex\x20flex-wrap\x20gap-2\x20items-center\x20justify-end",
+    "px-4\x20py-2\x20bg-teal-700\x20text-white\x20text-sm\x20font-medium\x20rounded-xl\x20hover:bg-teal-800\x20disabled:opacity-50",
+    "reduce",
+    "This\x20message\x20will\x20be\x20displayed\x20on\x20the\x20Gatekeeper\x20screen\x20for\x20all\x20users.",
+    "Re-approve",
+    "gate_user_access",
+    "bg-amber-50\x20text-amber-600\x20hover:bg-amber-100",
+    "text-slate-500\x20font-medium",
+    "14llgtoV",
+    "upsert",
+    "text-xs\x20px-2\x20py-1.5\x20bg-slate-900\x20text-white\x20rounded-lg",
+    "flex\x20items-center\x20gap-1\x20bg-slate-50\x20px-1.5\x20py-0.5\x20rounded\x20truncate\x20max-w-[200px]",
+    "w-2\x20h-2\x20rounded-full\x20flex-shrink-0\x20",
+    "\x20Pending",
+    "stopPropagation",
+    "\x20·\x20已用\x20",
+    "\x20/\x20",
+    "jsx",
+    "console",
+    "下一页",
+    "请确认已在\x20Supabase\x20执行\x20docs/supabase_gate_device_blocked.sql",
+    "admin_generate_activation_codes2",
+    "px-3\x20py-2\x20rounded-lg\x20bg-slate-100\x20text-slate-700\x20text-xs\x20font-medium\x20hover:bg-slate-200\x20disabled:opacity-50\x20disabled:cursor-not-allowed",
+    "min-w-0\x20space-y-1",
+    "一键复制",
+    "py-2\x20pr-2\x20font-mono\x20text-slate-600",
+    "flex\x20flex-wrap\x20items-center\x20gap-2",
+    "batch_id",
+    "get_activation_codes_page",
+    "text-amber-700\x20bg-amber-50\x20px-2\x20py-0.5\x20rounded",
+    "px-3\x20py-2\x20bg-slate-900\x20text-white\x20text-sm\x20font-medium\x20rounded-lg\x20hover:bg-slate-800\x20disabled:opacity-50",
+    "used_by_name",
+    "ml-auto\x20flex\x20items-center\x20gap-1.5\x20px-3\x20py-2\x20rounded-lg\x20bg-slate-200\x20text-slate-700\x20text-sm\x20font-medium\x20hover:bg-slate-300",
+    "flex-1",
+    "py-2",
+    "error",
+    "tbody",
+    "5128893WCtDkc",
+    "top",
+    "生成失败（接口错误）\x0a",
+    "text-slate-300",
+    "copy",
+    "thead",
+    "flex\x20items-center\x20justify-between\x20gap-3\x20mb-3\x20flex-wrap",
+    "__proto__",
+    "max",
+    "w-full\x20bg-slate-50\x20border\x20border-slate-200\x20rounded-xl\x20px-3\x20py-2\x20text-sm\x20mb-3",
+    "超设备上限",
+    "作废该码",
+    "unauthorized",
+    "text-xs\x20border\x20border-slate-200\x20rounded-lg\x20px-2\x20py-1.5\x20w-32",
+    "批量收藏",
+    "initial",
+    "（并删除该批次未使用/已作废码明细）",
+    "flex\x20flex-wrap\x20items-center\x20justify-between\x20gap-2\x20text-xs\x20border\x20border-slate-100\x20rounded-xl\x20p-3\x20bg-slate-50/80\x20",
+    "fill-current",
+    "请先填写「激活码生成密钥」（与\x20internal_config.activation_generate_secret\x20一致）",
+    "已拒绝",
+    "激活码管理",
+    "例如：初次-第1批\x20/\x20后续-2026-04月",
+    "flex\x20items-center\x20gap-2\x20text-xs\x20text-slate-600\x20cursor-pointer\x20mb-3",
+    "reject_reason",
+    "w-[360px]\x20max-w-full\x20bg-slate-100\x20border-0\x20rounded-lg\x20px-3\x20py-2\x20text-sm\x20text-slate-700\x20outline-none",
+    "stats",
+    "fixed\x20inset-0\x20z-[10000]\x20bg-gradient-to-br\x20from-rose-50\x20via-white\x20to-blue-50\x20flex\x20items-center\x20justify-center\x20p-6",
+    "used_count",
+    "display_name",
+    "p-2\x20rounded-full\x20hover:bg-slate-100\x20text-slate-600\x20",
+    "text/csv;charset=utf-8",
+    "overflow-x-auto",
+    "text-[0.625rem]\x20bg-slate-100\x20text-slate-500\x20px-1.5\x20py-0.5\x20rounded\x20font-medium",
+    "操作审计日志",
+    "复制失败，请手动选中文本复制",
+    "blockedDevices",
+    "font-semibold\x20text-slate-900",
+    "flex\x20items-center\x20justify-center\x20gap-2\x20py-4",
+    "text-sm\x20font-semibold\x20text-slate-800\x20mb-2",
+    "，执行迁移后请用\x20SQL\x20修改默认值。明文激活码仅在生成后下方展示一次。",
+    "flex\x20items-center\x20gap-1",
+    "本批备注（用于区分第\x20N\x20批）",
+    "log",
+    "px-3\x20py-2\x20rounded-lg\x20bg-slate-900\x20text-white\x20text-xs\x20font-medium\x20hover:bg-slate-800\x20disabled:opacity-50\x20disabled:cursor-not-allowed",
+    "确定封禁该邮箱账号？其将无法再登录。",
+    "category",
+    "2FuvMxJ",
+    "px-2\x20py-1.5\x20bg-slate-900\x20text-white\x20text-xs\x20rounded-lg\x20hover:bg-slate-800",
+    "min-w-0",
+    "flex\x20justify-between\x20items-start\x20mb-2\x20gap-2",
+    "解除限制",
+    "form",
+    "expires_at",
+    "flex\x20gap-1",
+    "申请时间",
+    "revoked",
+    "在此输入公告...",
+    "All\x20Users",
+    "toISOString",
+    "flex\x20items-center\x20gap-1\x20bg-slate-50\x20px-1.5\x20py-0.5\x20rounded",
+    "mx-2\x20text-slate-400",
+    "无标签",
+    "Save\x20Announcement",
+    "label",
+    "kind",
+    "batch_note",
+    "待审批",
+    "30qkMoVc",
+    "Enter",
+    "all",
+    "型号UA",
+    "add",
+    ".csv",
+    "last_ip",
+    "text-slate-400\x20mx-2",
+    "pending",
+    "\x20·\x20作废\x20",
+    "已选逐码",
+    "已选\x20",
+    "确定删除选中的\x20",
+    "font-bold\x20text-slate-400\x20mr-1",
+    "userId",
+    "flex\x20items-center\x20gap-2\x20flex-wrap",
+    "rounded",
+    "forEach",
+    "span",
+    "path",
+    "href",
+    "\x20·\x20已用",
+    "opacity-20",
+    "上一页",
+    "voided_count",
+    "ceil",
+    "生成失败：",
+    "pt-2\x20border-t\x20border-slate-50\x20flex\x20justify-end",
+    "animate-spin",
+    "flex\x20items-center\x20gap-2",
+    "border-t\x20border-slate-100\x20bg-slate-50/50",
+    "last_seen_at",
+    "grid\x20grid-cols-1\x20sm:grid-cols-2\x20gap-3",
+    "M21\x2010.656V19a2\x202\x200\x200\x201-2\x202H5a2\x202\x200\x200\x201-2-2V5a2\x202\x200\x200\x201\x202-2h12.344",
+    "removeChild",
+    "border-t\x20border-slate-100",
+    "\x22\x20吗？该用户的所有设备将无法访问。",
+    "批量删除失败",
+    "relative",
+    "初次（initial）",
+    "撤销理由（用户可见，可选）：",
+    "floor",
+    "input",
+    "text-[0.625rem]\x20text-slate-400\x20mb-1",
+    "作废本批剩余",
+    "解除后，用户在该设备上可再次完成门禁登记。",
+    "Pending\x20Approval",
+    "设置有效期失败",
+    "w-full\x20bg-slate-100\x20border-none\x20rounded-xl\x20pl-10\x20pr-4\x20py-2.5\x20text-sm\x20focus:ring-2\x20focus:ring-slate-200\x20outline-none\x20transition-all",
+    "createElement",
+    "gateAccess",
+    "text-slate-700",
+    "bg-amber-400",
+    "p-1.5\x20text-slate-300\x20hover:text-rose-500\x20transition-colors",
+    "key",
+    "isPinned",
+    "bg-emerald-50\x20text-emerald-700\x20hover:bg-emerald-100",
+    "admin_void_activation_code",
+    "text-[0.625rem]\x20text-slate-400\x20text-right\x20flex-shrink-0",
+    "slice",
+    "bind",
+    "bg-rose-50\x20text-rose-600\x20hover:bg-rose-100",
+    "w-2\x20h-2\x20rounded-full\x20bg-emerald-400\x20flex-shrink-0",
+    "收藏操作失败",
+    "text-xs\x20text-slate-500",
+    "ip_address",
+    "get_activation_audit_logs",
+    "textarea",
+    "text-[0.625rem]\x20bg-emerald-100\x20text-emerald-800\x20px-1.5\x20py-0.5\x20rounded\x20font-bold",
+    "bg-white\x20p-5\x20rounded-2xl\x20border\x20border-slate-100\x20shadow-sm",
+    "values",
+    "加载中…",
+    "w-full\x20text-xs\x20border\x20border-slate-200\x20rounded\x20px-2\x20py-1",
+    "用户撤销申请",
+    "flex-1\x20py-1.5\x20bg-amber-50\x20text-amber-600\x20border\x20border-amber-100\x20text-xs\x20font-medium\x20rounded-lg\x20hover:bg-amber-100",
+    "bg-slate-900\x20text-white",
+    "作废后同时删除该批次未使用/已作废码明细（保留已用码）",
+    "includes",
+    "20LAYquP",
+    "preventDefault",
+    "admin_void_activation_batch2",
+    "更新公告失败",
+    "w-16\x20h-16\x20bg-slate-100\x20rounded-full\x20flex\x20items-center\x20justify-center",
+    "toLowerCase",
+    "取消置顶",
+    "Add\x20note...",
+    "最近使用记录（最多展示\x2080\x20条）",
+    "text-sm\x20font-semibold\x20text-slate-800\x20mb-3",
+    "text-slate-600",
+    "p-1.5\x20rounded-lg\x20transition-colors\x20",
+    "flex\x20items-center\x20gap-1.5\x20text-sm\x20text-slate-600\x20cursor-pointer",
+    "order",
+    "settings",
+    "unused_count",
+    "access_requests",
+    "focus",
+    "text-xs\x20text-rose-500\x20hover:underline",
+    "未知错误",
+    "\x20个码，批次\x20id：",
+    "flex\x20flex-wrap\x20items-center\x20justify-between\x20gap-2",
+    "toLocaleDateString",
+    "text-xs\x20font-mono\x20text-slate-500",
+    "姓名\x20A-Z",
+    "批次码明细",
+    "全选本页",
+    "flex\x20justify-between\x20items-center\x20mb-8",
+    "获取数据失败",
+    "blocked_at",
+    "break-all\x20text-slate-500",
+    "flex\x20items-center\x20gap-1.5\x20text-xs\x20cursor-pointer\x20px-2\x20py-1\x20rounded-lg\x20border\x20border-slate-200\x20hover:bg-slate-50",
+    "导出\x20CSV",
+    "text-slate-400\x20mt-0.5",
+    "选择标签：",
+    "flex\x20items-center\x20justify-between\x20gap-2\x20mb-3",
+    "暂无已登记设备；用户通过邮箱登录并校验通过后会在此列出各机的\x20IP、UA\x20与活跃时间。",
+    "Unban\x20User",
+    "flex\x20items-center\x20gap-3\x20flex-1\x20min-w-0",
+    "font-semibold\x20text-slate-900\x20mb-3\x20flex\x20items-center\x20gap-2",
+    "exception",
+    "\x20·\x20未用\x20",
+    "auth_register",
+    "300008ckomfw",
+    "flex\x20items-center\x20gap-1\x20text-slate-500",
+    "announcement",
+    "驳回理由（用户可见，可选）：",
+    "code_count",
+    "device_id",
+    "is_pinned",
+    "isBanned",
+    "text-xs\x20text-slate-600\x20hover:bg-slate-50\x20p-1\x20rounded\x20text-left\x20w-full\x20border\x20border-transparent\x20hover:border-slate-100",
+    "删除未用",
+    "密码错误",
+    "blur",
+    "text-slate-900",
+    "py-2\x20pr-2\x20text-slate-600",
+    "bg-emerald-400",
+    "生成密钥存于数据库表\x20",
+    "checked",
+    "font-semibold\x20text-slate-900\x20flex\x20items-center\x20gap-2",
+    "createObjectURL",
+    "flex\x20gap-2\x20mb-3",
+    "max-w-3xl\x20mx-auto\x20space-y-4",
+    "text-amber-500\x20font-medium\x20flex\x20items-center\x20gap-1",
+    "execCommand",
+    "update",
+    "text-xs\x20px-3\x20py-1.5\x20rounded-lg\x20font-medium\x20transition-colors\x20",
+    "M20\x2013c0\x205-3.5\x207.5-7.66\x208.95a1\x201\x200\x200\x201-.67-.01C7.5\x2020.5\x204\x2018\x204\x2013V6a1\x201\x200\x200\x201\x201-1c2\x200\x204.5-1.2\x206.24-2.72a1.17\x201.17\x200\x200\x201\x201.52\x200C14.51\x203.81\x2017\x205\x2019\x205a1\x201\x200\x200\x201\x201\x201z",
+    "user_id",
+    "text-xs\x20text-slate-500\x20hover:bg-slate-50\x20p-1\x20rounded\x20cursor-pointer\x20flex\x20items-center\x20gap-1\x20border\x20border-transparent\x20hover:border-slate-100",
+    "border-slate-100",
+    "\x20·\x20设备\x20",
+    "select",
+    "text",
+    "font-mono\x20text-slate-600",
+    "cancelled",
+    "取消收藏",
+    "text-teal-700",
+    "checkbox",
+    "生成「初次」批次",
+    "gate",
+    "所选范围内没有待审批的设备",
+    "left",
+    "仅收藏",
+    "ml-2\x20text-rose-600\x20font-medium",
+    "text-xs\x20text-slate-700\x20bg-slate-50\x20p-2\x20rounded\x20border\x20border-slate-100",
+    "useState",
+    "jsxs",
+    "输入密码",
+    "取消选择",
+    "text-xs\x20font-mono\x20text-slate-600",
+    "delete",
+    "已禁止登记",
+    "首次登记\x20",
+    "Fragment",
+    "门禁列表_",
+    "p-3\x20border-b\x20border-slate-100\x20flex\x20flex-wrap\x20gap-2\x20items-center\x20justify-between",
+    "当前筛选无匹配数据。",
+    "操作失败",
+    "\x20Devices",
+    "请先在上方选择一个批次。",
+    "确定作废该批次下所有「未使用」激活码？已使用记录保留",
+    "bg-emerald-700\x20text-white",
+    "flex\x20items-center\x20gap-1\x20bg-slate-50\x20px-1.5\x20py-0.5\x20rounded\x20truncate\x20max-w-full",
+    "flex\x20flex-wrap\x20gap-2\x20mb-4",
+    "access_source",
+    "flex\x20flex-wrap\x20items-center\x20justify-between\x20gap-2\x20mb-3",
+    "size",
+    "w-full\x20max-w-sm\x20bg-white/60\x20backdrop-blur-2xl\x20p-8\x20rounded-[32px]\x20border\x20border-white/60\x20shadow-xl",
+    "bg-white\x20p-4\x20rounded-2xl\x20border\x20border-slate-100",
+    "审计日志",
+    "font-semibold\x20truncate\x20",
+    "px-3\x20py-1.5\x20rounded-lg\x20text-xs\x20font-medium\x20",
+    "w-full\x20h-40\x20bg-slate-50\x20border\x20border-slate-200\x20rounded-xl\x20p-3\x20text-xs\x20font-mono\x20focus:outline-none\x20resize-y\x20mb-4",
+    "followup",
+    "flex\x20justify-end",
+    "text-rose-600",
+    "密钥错误",
+    "created_at",
+    "text-xs\x20border\x20border-slate-200\x20rounded\x20px-2\x20py-1",
+    "space-y-2\x20max-h-64\x20overflow-y-auto",
+    "flex\x20justify-between\x20items-start\x20mb-2",
+    "全部标签",
+    "没有可复制的激活码",
+    "devices",
+    "hint",
+    "shield",
+    "string",
+    "text-xs\x20font-mono\x20text-amber-800\x20ml-2\x20break-all",
+    "查看逐码",
+    "作废失败",
+    "6378713VIQler",
+    "startsWith",
+    "codes",
+    "与\x20Supabase\x20internal_config\x20中一致",
+    "设备ID",
+    "px-2\x20py-1.5\x20bg-slate-100\x20text-slate-600\x20text-xs\x20rounded-lg\x20hover:bg-slate-200",
+    "编辑标签",
+    "已生成\x20",
+    "message",
+    "Ban\x20User",
+    "flex\x20flex-wrap\x20gap-2\x20items-center\x20py-2\x20px-3\x20bg-amber-50\x20rounded-xl\x20border\x20border-amber-100",
+    "some",
+    "flex\x20items-center\x20gap-1\x20text-rose-500\x20text-xs\x20font-medium\x20bg-rose-50\x20px-2\x20py-1\x20rounded-full\x20mr-2",
+    "请先勾选要删除的设备",
+    "unused",
+    "text-slate-600\x20mt-0.5",
+    "appendChild",
+    "p-2\x20rounded-lg\x20bg-slate-100\x20text-slate-600\x20disabled:opacity-40\x20disabled:cursor-not-allowed\x20hover:bg-slate-200",
+    "展示条数",
+    "font-bold\x20text-slate-700",
+    "flex\x20flex-wrap\x20items-center\x20justify-between\x20gap-2\x20mb-3\x20text-xs\x20text-slate-600",
+    "已展示\x20",
+    "ID:\x20",
+    "确定删除这条记录吗？用户将需要重新申请。",
+    "used_at",
+    "note",
+    "text-amber-500\x20hover:bg-amber-50",
+    "flex\x20items-center\x20justify-between\x20text-xs\x20text-slate-500\x20mb-2",
+    "bg-rose-400",
+    "flex\x20flex-wrap\x20gap-2\x20items-center",
+    "High\x20Usage",
+    "has",
+    "bg-slate-100\x20border-0\x20rounded-lg\x20px-3\x20py-2\x20text-sm\x20text-slate-700",
+    "updated_at",
+    "text-slate-400",
+    "px-4\x20py-2\x20bg-emerald-700\x20text-white\x20text-sm\x20font-medium\x20rounded-xl\x20hover:bg-emerald-800\x20disabled:opacity-50",
+    "last_active_at",
+    "fixed",
+    "w-full\x20h-32\x20bg-slate-50\x20border\x20border-slate-200\x20rounded-xl\x20p-3\x20text-sm\x20focus:outline-none\x20focus:border-slate-400\x20resize-none\x20mb-3",
+    "flex-1\x20flex\x20justify-end",
+    "\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20id,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20status,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20code_suffix,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20used_at,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20used_by_name,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20used_by_device_id,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20activation_code_batches\x20(\x20category\x20)\x0a\x20\x20\x20\x20\x20\x20\x20\x20",
+    "filter",
+    "生成「后续」批次",
+    "auto",
+    "code",
+    "font-medium",
+    "px-2\x20py-1.5\x20bg-rose-50\x20text-rose-700\x20text-xs\x20rounded-lg\x20hover:bg-rose-100",
+    "140483lyuUoN",
+    "details",
+    "value",
+    "is_banned",
+    "text-slate-500\x20mt-1",
+    "join",
+    "body",
+    "used",
+    "email",
+    "请先填写激活码生成密钥",
+    "activation",
+    "code_suffix",
+    "get_activation_codes_count",
+    "text-slate-500",
+    "gate:",
+    "target",
+    "click",
+    "该批次暂无数据。",
+    "w-full\x20text-xs",
+    "flex-1\x20py-1.5\x20bg-white\x20border\x20border-slate-200\x20text-slate-600\x20text-xs\x20font-medium\x20rounded-lg\x20hover:bg-slate-50",
+    "px-3\x20py-2\x20border-b\x20border-slate-100\x20bg-white/80\x20flex\x20flex-wrap\x20gap-4\x20items-start",
+    "useMemo",
+    "date",
+    "position",
+    "手动审批",
+    "最后活跃",
+    "总计\x20",
+    "button",
+    "作废失败\x0a",
+    "text-[0.625rem]\x20bg-indigo-100\x20text-indigo-800\x20px-1.5\x20py-0.5\x20rounded\x20font-bold\x20flex\x20items-center\x20gap-0.5",
+    "submit",
+    "audit",
+    "Admin\x20Access",
+    "accessSourceCounts",
+    "text-[0.625rem]\x20font-semibold\x20text-amber-900",
+    "确定要封禁用户\x20\x22",
+    "system_config",
+    "bg-white/20\x20px-1.5\x20py-0.5\x20rounded-full\x20text-[0.625rem]",
+    "flex\x20flex-wrap\x20items-center\x20gap-3\x20mb-4",
+    "trace",
+    "keys",
+    "rejected",
+    "请先勾选要操作的用户或设备",
+    "ring-2\x20ring-emerald-400",
+    "py-2\x20text-slate-600",
+    "最近一次生成的明文码（请复制保存）",
+    "加载激活码数据失败（请确认已执行\x20Supabase\x20迁移脚本）",
+    "div",
+    "activation_codes",
+    "批次已停用",
+    "text-xs\x20p-1\x20rounded\x20cursor-pointer\x20border\x20border-transparent\x20hover:border-slate-100\x20hover:bg-slate-50\x20",
+    "lastActive",
+    "bg-white\x20p-3\x20rounded-xl\x20border\x20border-slate-100",
+    "text-xs\x20text-slate-500\x20mb-3",
+    "get_activation_batch_summaries",
+    "Revoke",
+    "flex\x20justify-between\x20items-center",
+    "text-sm\x20text-amber-800\x20font-medium",
+    "object",
+    "border-indigo-100\x20bg-white",
+    "未加载",
+    "internal_config",
+    "w-full\x20bg-slate-900\x20text-white\x20font-medium\x20rounded-2xl\x20py-3\x20hover:bg-slate-800\x20transition-colors\x20shadow-lg\x20hover:shadow-xl",
+    "删除失败:\x20",
+    "p-2\x20space-y-2",
+    "text-xs\x20px-2\x20py-1.5\x20text-slate-500\x20hover:bg-slate-100\x20rounded-lg",
+    "border-rose-200\x20bg-rose-50/30",
+    "bg-emerald-50\x20text-emerald-800\x20border\x20border-emerald-200",
+    "flex\x20items-center\x20gap-2\x20text-xs\x20text-slate-400\x20flex-wrap",
+    "min",
+    "manual",
+    "bg-slate-100\x20text-slate-500",
+    "voided_at",
+    "rpc",
+    "text-xl\x20font-serif\x20font-medium\x20text-slate-800\x20flex\x20items-center\x20gap-2",
+    "仅置顶",
+    "is_favorite",
+    "1pflzl",
+    "BANNED",
+    "charAt",
+    "history",
+    "map",
+    "暂无批次（或未执行迁移）",
+    "5189096MPbcyZ",
+    "搜索：后6位\x20/\x20使用者\x20/\x20设备ID前8位",
+    "delete_unused",
+    "users",
+    "No\x20expiry",
+    "加载操作审计失败",
+    "flatMap",
+    "\x20条，当前筛选共\x20",
+    "gate_devices",
+    "后6位",
+    "bg-slate-100\x20text-slate-500\x20hover:bg-slate-200",
+    "length",
+    "最近活跃\x20",
+    "Created:\x20",
+    "text-xs\x20text-slate-500\x20mb-4",
+    "constructor",
+    "{}.constructor(\x22return\x20this\x22)(\x20)",
+    "text-xs\x20text-slate-400",
+    "bg-rose-100\x20text-rose-500",
+    "password",
+    "text-xs\x20p-1\x20rounded\x20cursor-pointer\x20flex\x20items-center\x20gap-1\x20border\x20border-transparent\x20hover:border-slate-100\x20hover:bg-slate-50\x20",
+    "text-emerald-700",
+    "used_by_device_id",
+    "确定只作废这一条未使用激活码？",
+    "space-y-3\x20max-w-3xl\x20mx-auto",
+    "px-3\x20py-1.5\x20rounded-lg\x20bg-rose-50\x20text-rose-700\x20text-xs\x20font-medium\x20hover:bg-rose-100",
+    "text-xs\x20text-slate-500\x20hover:text-slate-700\x20underline",
+    "text-xs\x20text-amber-900\x20underline\x20flex-shrink-0",
+    "approved",
+    "text-rose-500\x20hover:bg-rose-50",
+    "批次/备注",
+    "当前批次：",
+    "toString",
+    "激活码",
+    "\x20条记录吗？用户将需要重新申请。",
+    "square-check-big",
+    "flex\x20items-center\x20gap-2\x20px-4\x20py-2\x20bg-slate-900\x20text-white\x20text-sm\x20font-medium\x20rounded-xl\x20hover:bg-slate-800\x20disabled:opacity-50",
+    "find",
+    "revokeObjectURL",
+    "sort",
+    "status",
+    "已通过",
+    "bg-amber-500\x20text-white",
+    "点击添加备注…",
+    "rounded\x20flex-shrink-0",
+    "px-6\x20py-4\x20bg-white\x20border-b\x20border-slate-100\x20flex\x20flex-col\x20gap-4",
+    "text-xs\x20px-2\x20py-1\x20rounded-lg\x20border\x20border-slate-200\x20text-slate-600\x20hover:bg-slate-50\x20flex\x20items-center\x20gap-1",
+    "trim",
+    "py-2\x20pr-2",
+    "number",
+    "unknown",
+    "3438870KKfkpp",
+    "批量拒绝",
+  ];
+  _0x2ffe = function () {
+    return _0x2adc9e;
+  };
+  return _0x2ffe();
+}
+import "./index-CO_e8yUt.js"; /**
+ * @license lucide-react v0.562.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const Ps = [[_0x351085(0x276), { d: _0x351085(0x2f5), key: "oel41y" }]],
+  qs = _0x270d66(_0x351085(0x330), Ps),
+  $s = [
+    ["path", { d: _0x351085(0x284), key: "2acyp4" }],
+    ["path", { d: "m9\x2011\x203\x203L22\x204", key: _0x351085(0x18a) }],
+  ],
+  Fs = _0x270d66(_0x351085(0x1b3), $s),
+  mt = -0x1aa9 + -0x6a1 + 0x233e * 0x1,
+  se = 0x16 * 0xe5 + -0x103 * -0x25 + 0x3909 * -0x1,
+  Ms = ({ onClose: _0x59fbc3 }) => {
+    const _0x261390 = _0x351085,
+      [_0x44410f, _0x2815d6] = _0x3a5a53[_0x261390(0x308)](
+        !(0x797 + -0xbb * 0x1b + 0xc23),
+      ),
+      [_0x1b70f9, _0x5c8b14] = _0x3a5a53["useState"](""),
+      [_0x2c6d10, _0xc674b9] = _0x3a5a53[_0x261390(0x308)]([]),
+      [_0x35c958, _0x3247bb] = _0x3a5a53[_0x261390(0x308)]([]),
+      [_0x142254, _0x45fa81] = _0x3a5a53[_0x261390(0x308)]({}),
+      [_0x292708, _0x681fd3] = _0x3a5a53["useState"](
+        !(0x2b * 0x1a + -0x3ce * -0x6 + -0x1b31 * 0x1),
+      ),
+      [_0xc61065, _0x27c1a0] = _0x3a5a53[_0x261390(0x308)]({
+        total: 0x0,
+        pending: 0x0,
+        approved: 0x0,
+        rejected: 0x0,
+        revoked: 0x0,
+        users: 0x0,
+      }),
+      [_0x571456, _0x14b910] = _0x3a5a53["useState"](_0x261390(0x265)),
+      [_0xdf3b40, _0x2db632] = _0x3a5a53["useState"](""),
+      [_0x5e5db9, _0x2e9a9b] = _0x3a5a53[_0x261390(0x308)](null),
+      [_0x2cd2b3, _0x66c64a] = _0x3a5a53[_0x261390(0x308)](null),
+      [_0x2acd7c, _0x22a6a7] = _0x3a5a53[_0x261390(0x308)](null),
+      [_0x4f4d64, _0x388a25] = _0x3a5a53["useState"](null),
+      [_0x1098ed, _0x62ad04] = _0x3a5a53[_0x261390(0x308)](null),
+      [_0x465d7d, _0x1b284c] = _0x3a5a53[_0x261390(0x308)](""),
+      [_0x926cc6, _0x1375eb] = _0x3a5a53[_0x261390(0x308)](
+        !(-0x1663 + 0x11a7 + -0x4bd * -0x1),
+      ),
+      [_0x5e2804, _0x24c082] = _0x3a5a53[_0x261390(0x308)](
+        -0x13f * -0x19 + -0x1 * 0x26f5 + -0x7cf * -0x1,
+      ),
+      [_0x5abbb6, _0x465688] = _0x3a5a53[_0x261390(0x308)](""),
+      [_0x4bfdee, _0x43cc25] = _0x3a5a53["useState"](""),
+      [_0x2d1a36, _0x1bb529] = _0x3a5a53["useState"](
+        !(-0xbad + -0x1ad6 + 0x2684),
+      ),
+      [_0x5b028c, _0x751f80] = _0x3a5a53[_0x261390(0x308)](
+        !(0x6 * -0x665 + 0x1e3d + -0x1 * -0x822),
+      ),
+      [_0xcb3483, _0x3396d2] = _0x3a5a53["useState"](""),
+      [_0x3be73b, _0x5e6590] = _0x3a5a53[_0x261390(0x308)](_0x261390(0x170)),
+      [_0x2d9ce5, _0x2e8326] = _0x3a5a53["useState"](new Set()),
+      [_0x200eb0, _0x49784f] = _0x3a5a53[_0x261390(0x308)](new Set()),
+      [_0x9f0437, _0x44a9f3] = _0x3a5a53[_0x261390(0x308)](null),
+      [_0x3560c9, _0x224154] = _0x3a5a53[_0x261390(0x308)](""),
+      [_0x15945f, _0x94c21b] = _0x3a5a53[_0x261390(0x308)]([]),
+      [_0x5b7abd, _0x147c47] = _0x3a5a53[_0x261390(0x308)](
+        !(0x203 * 0x8 + 0x9c4 + 0x19db * -0x1),
+      ),
+      [_0x4e03be, _0x253888] = _0x3a5a53[_0x261390(0x308)]([]),
+      [_0x558180, _0x5a99e9] = _0x3a5a53[_0x261390(0x308)](null),
+      [_0x23a211, _0x459bb4] = _0x3a5a53[_0x261390(0x308)]([]),
+      [_0x12c333, _0x3f4dac] = _0x3a5a53[_0x261390(0x308)](
+        -0x8ef + 0x131b + 0x1b2 * -0x6,
+      ),
+      [_0x3ce9f8, _0xd0456b] = _0x3a5a53[_0x261390(0x308)](
+        0x6 * -0x601 + -0xa3d * 0x2 + -0x1 * -0x3880,
+      ),
+      [_0x46b49b, _0x37976b] = _0x3a5a53["useState"](
+        !(-0x1293 + -0x21f8 + 0x348c),
+      ),
+      _0x295947 = 0xd24 + 0xa79 * -0x3 + -0x1 * -0x1279,
+      [_0x3e76ed, _0x33f384] = _0x3a5a53["useState"](_0x261390(0x265)),
+      [_0x4d6c34, _0x22974a] = _0x3a5a53[_0x261390(0x308)](""),
+      [_0x19b8b9, _0x15ba72] = _0x3a5a53[_0x261390(0x308)](
+        -0xd93 + -0xc11 + 0xdcc * 0x2,
+      ),
+      [_0x1b4c9f, _0x3c50b9] = _0x3a5a53["useState"](""),
+      [_0x92177f, _0x2c66ef] = _0x3a5a53[_0x261390(0x308)](""),
+      [_0x4fc45a, _0x172bae] = _0x3a5a53[_0x261390(0x308)](""),
+      [_0x515afb, _0x4519f3] = _0x3a5a53[_0x261390(0x308)](
+        !(0x1 * 0x2503 + 0x1d0f + -0x4211 * 0x1),
+      ),
+      [_0x153fa1, _0x1499d8] = _0x3a5a53[_0x261390(0x308)](
+        !(-0x10d * 0x2 + -0x5f * 0x5 + 0x3f6),
+      ),
+      [_0x5a6b74, _0x382fe1] = _0x3a5a53[_0x261390(0x308)](
+        !(-0x6c6 + -0x1029 + -0x135 * -0x13),
+      ),
+      _0x54ade7 = "july2568",
+      [_0x40006c, _0x204909] = _0x3a5a53["useState"]([]),
+      [_0x5e116b, _0x47ee63] = _0x3a5a53["useState"](
+        !(0x2cd * -0x2 + 0x1 * -0x181d + 0x1db8),
+      ),
+      [_0x331507, _0x5adad2] = _0x3a5a53[_0x261390(0x308)](
+        0x1 * 0x12d1 + 0xf75 + 0x21e2 * -0x1,
+      ),
+      _0x37d88a = async () => {
+        const _0x32eae5 = _0x261390;
+        _0x681fd3(!(0xae7 * -0x3 + -0x1fb * -0x12 + 0x2f1 * -0x1));
+        try {
+          const { data: _0x453f5a, error: _0x51549d } = await _0x5ea00c[
+            _0x32eae5(0x1c6)
+          ](_0x32eae5(0x2c1))
+            ["select"]("*")
+            [_0x32eae5(0x2be)](_0x32eae5(0x2e2), {
+              ascending: !(-0x3 * 0x6d3 + -0x261 * 0x8 + 0x2782 * 0x1),
+            })
+            [_0x32eae5(0x2be)]("updated_at", {
+              ascending: !(-0x1b6e + -0x2 * -0x1364 + -0xb59),
+            })
+            [_0x32eae5(0x1e6)](mt);
+          if (_0x51549d) throw _0x51549d;
+          _0xc674b9(_0x453f5a || []);
+          const { data: _0x10e259 } = await _0x5ea00c["from"](_0x32eae5(0x161))
+            [_0x32eae5(0x2fa)](_0x32eae5(0x2de))
+            ["eq"]("id", 0xa29 + 0x1cf8 * -0x1 + 0x158 * 0xe)
+            ["single"]();
+          _0x10e259 && _0x1b284c(_0x10e259[_0x32eae5(0x2de)] || "");
+          const _0x121b0e = (_0x453f5a || [])[_0x32eae5(0x1fc)](
+            (_0x37cb1f, _0x2b4f4c) => {
+              const _0x458e1c = _0x32eae5,
+                _0x431377 = _0x2b4f4c[_0x458e1c(0x1d9)] || "Unknown";
+              (_0x37cb1f[_0x431377] ||
+                (_0x37cb1f[_0x431377] = {
+                  name: _0x431377,
+                  devices: [],
+                  stats: {
+                    total: 0x0,
+                    pending: 0x0,
+                    approved: 0x0,
+                    rejected: 0x0,
+                    revoked: 0x0,
+                  },
+                  lastActive:
+                    _0x2b4f4c["last_active_at"] || _0x2b4f4c[_0x458e1c(0x12f)],
+                  createdAt: _0x2b4f4c[_0x458e1c(0x328)],
+                  isBanned: !(-0x22 * -0x11 + 0xf69 + -0x11aa),
+                  isPinned: !(-0x1d53 * 0x1 + -0x26 * -0xaa + 0x418),
+                  isFavorite: !(-0x68 * -0x1d + 0x11 * 0x23 + -0xe1a),
+                  accessSourceCounts: { manual: 0x0, code: 0x0 },
+                  tags: [],
+                }),
+                _0x37cb1f[_0x431377][_0x458e1c(0x32e)][_0x458e1c(0x1ee)](
+                  _0x2b4f4c,
+                ),
+                _0x37cb1f[_0x431377][_0x458e1c(0x239)][_0x458e1c(0x1c8)]++);
+              const _0x4b1e9c = _0x2b4f4c["status"] || "unknown";
+              _0x37cb1f[_0x431377][_0x458e1c(0x239)][_0x4b1e9c] =
+                (_0x37cb1f[_0x431377][_0x458e1c(0x239)][_0x4b1e9c] ||
+                  0x40c + 0x1 * 0x16f9 + -0x1b05) +
+                (0x5 * -0x79 + -0xf88 + 0x11e6);
+              const _0x466b05 = _0x2b4f4c["access_source"] || _0x458e1c(0x183);
+              ((_0x37cb1f[_0x431377][_0x458e1c(0x15e)][_0x466b05] =
+                (_0x37cb1f[_0x431377][_0x458e1c(0x15e)][_0x466b05] ||
+                  0x267b + 0x1c60 * -0x1 + 0x1 * -0xa1b) +
+                (0x5cd * 0x3 + 0x3b9 * -0x7 + -0x3 * -0x2e3)),
+                _0x2b4f4c[_0x458e1c(0x140)] &&
+                  (_0x37cb1f[_0x431377]["isBanned"] = !(
+                    0x2 * 0xc91 +
+                    -0x80 * -0x1 +
+                    -0x19a2
+                  )),
+                _0x2b4f4c["is_pinned"] &&
+                  (_0x37cb1f[_0x431377][_0x458e1c(0x29a)] = !(
+                    0x2d * -0x60 +
+                    -0x1 * 0x111e +
+                    -0x1ca * -0x13
+                  )),
+                _0x2b4f4c[_0x458e1c(0x189)] &&
+                  (_0x37cb1f[_0x431377][_0x458e1c(0x1e4)] = !(
+                    -0x20bd +
+                    -0x16ac +
+                    0x3769
+                  )),
+                (_0x2b4f4c[_0x458e1c(0x1ce)] || [])["forEach"]((_0x1b5f37) => {
+                  const _0x4034eb = _0x458e1c;
+                  _0x1b5f37 &&
+                    !_0x37cb1f[_0x431377]["tags"][_0x4034eb(0x2b0)](
+                      _0x1b5f37,
+                    ) &&
+                    _0x37cb1f[_0x431377][_0x4034eb(0x1ce)][_0x4034eb(0x1ee)](
+                      _0x1b5f37,
+                    );
+                }));
+              const _0xddb201 =
+                _0x2b4f4c[_0x458e1c(0x132)] || _0x2b4f4c[_0x458e1c(0x12f)];
+              return (
+                new Date(_0xddb201) >
+                  new Date(_0x37cb1f[_0x431377][_0x458e1c(0x170)]) &&
+                  (_0x37cb1f[_0x431377][_0x458e1c(0x170)] = _0xddb201),
+                _0x2b4f4c[_0x458e1c(0x328)] &&
+                  (!_0x37cb1f[_0x431377][_0x458e1c(0x1eb)] ||
+                    new Date(_0x2b4f4c[_0x458e1c(0x328)]) <
+                      new Date(_0x37cb1f[_0x431377][_0x458e1c(0x1eb)])) &&
+                  (_0x37cb1f[_0x431377][_0x458e1c(0x1eb)] =
+                    _0x2b4f4c[_0x458e1c(0x328)]),
+                _0x37cb1f
+              );
+            },
+            {},
+          );
+          _0x45fa81(_0x121b0e);
+          let _0x147439 = [];
+          const { data: _0xa16dca, error: _0x56baa5 } = await _0x5ea00c[
+            _0x32eae5(0x1c6)
+          ](_0x32eae5(0x1ff))
+            ["select"]("*")
+            [_0x32eae5(0x2be)](_0x32eae5(0x12f), {
+              ascending: !(-0x2 * -0x2f + 0x219c + -0x21f9),
+            })
+            ["limit"](-0x1 * -0x1e2b + -0x1 * -0x1fc7 + -0x3bfe);
+          if (!_0x56baa5) {
+            if (_0xa16dca != null && _0xa16dca["length"]) {
+              const _0x4ae965 = _0xa16dca[_0x32eae5(0x18e)](
+                  (_0x596956) => _0x596956["user_id"],
+                ),
+                { data: _0x1dbea2, error: _0x486c6c } = await _0x5ea00c["from"](
+                  _0x32eae5(0x198),
+                )
+                  ["select"]("*")
+                  ["in"](_0x32eae5(0x2f6), _0x4ae965),
+                _0x39a1c7 = {};
+              (_0x1dbea2 || [])["forEach"]((_0x223d23) => {
+                const _0x422f06 = _0x32eae5;
+                (_0x39a1c7[_0x223d23[_0x422f06(0x2f6)]] ||
+                  (_0x39a1c7[_0x223d23["user_id"]] = []),
+                  _0x39a1c7[_0x223d23[_0x422f06(0x2f6)]][_0x422f06(0x1ee)](
+                    _0x223d23,
+                  ));
+              });
+              const { data: _0x2f97ba, error: _0x6e8ab9 } = await _0x5ea00c[
+                  _0x32eae5(0x1c6)
+                ]("gate_device_blocked")
+                  [_0x32eae5(0x2fa)]("*")
+                  ["in"]("user_id", _0x4ae965),
+                _0x30082f = {};
+              ((_0x2f97ba || [])[_0x32eae5(0x274)]((_0x1965d7) => {
+                const _0x144f49 = _0x32eae5;
+                (_0x30082f[_0x1965d7[_0x144f49(0x2f6)]] ||
+                  (_0x30082f[_0x1965d7["user_id"]] = []),
+                  _0x30082f[_0x1965d7[_0x144f49(0x2f6)]]["push"](_0x1965d7));
+              }),
+                (_0x147439 = _0xa16dca[_0x32eae5(0x18e)]((_0x49bb10) => ({
+                  ..._0x49bb10,
+                  devices: _0x39a1c7[_0x49bb10[_0x32eae5(0x2f6)]] || [],
+                  blockedDevices: _0x30082f[_0x49bb10[_0x32eae5(0x2f6)]] || [],
+                }))));
+            }
+          }
+          _0x3247bb(_0x147439);
+          const _0x13bd69 = (_0x453f5a || [])[_0x32eae5(0x1fc)](
+            (_0x5b9c2f, _0x24fb09) => {
+              const _0x4715f9 = _0x32eae5;
+              _0x5b9c2f["total"]++;
+              const _0x50537e = _0x24fb09[_0x4715f9(0x1b8)] || _0x4715f9(0x1c2);
+              return (
+                (_0x5b9c2f[_0x50537e] =
+                  (_0x5b9c2f[_0x50537e] ||
+                    -0x193b * 0x1 + -0x79 * -0x4c + -0xab1) +
+                  (0x19e1 + -0xf31 * 0x2 + 0x482)),
+                _0x5b9c2f
+              );
+            },
+            {
+              total: 0x0,
+              pending: 0x0,
+              approved: 0x0,
+              rejected: 0x0,
+              revoked: 0x0,
+              users:
+                Object[_0x32eae5(0x165)](_0x121b0e)[_0x32eae5(0x19b)] +
+                _0x147439[_0x32eae5(0x19b)],
+            },
+          );
+          (_0x27c1a0(_0x13bd69), _0x24c082(0x565 + 0x1 * -0x140c + 0xea8));
+        } catch {
+          alert(_0x32eae5(0x2cd));
+        } finally {
+          _0x681fd3(!(0x16 * -0xb + 0xc90 + -0xb9d));
+        }
+      };
+    _0x3a5a53[_0x261390(0x1df)](() => {
+      _0x44410f && _0x37d88a();
+    }, [_0x44410f]);
+    const _0x18887f = async () => {
+      const _0x2e341f = _0x261390;
+      _0x147c47(!(-0x1ea + 0x974 + -0x78a));
+      try {
+        const { data: _0x4a50e2, error: _0x3e59d6 } = await _0x5ea00c["rpc"](
+          _0x2e341f(0x173),
+        );
+        if (_0x3e59d6) throw _0x3e59d6;
+        const _0x1853fa = Array[_0x2e341f(0x1ea)](_0x4a50e2) ? _0x4a50e2 : [];
+        (_0x253888(_0x1853fa),
+          _0x5a99e9((_0x236d35) => {
+            const _0x5852ec = _0x2e341f;
+            var _0x1ce3ba;
+            return (
+              _0x236d35 ||
+              ((_0x1ce3ba =
+                _0x1853fa[-0x1f9d * 0x1 + 0x83 * -0xe + -0x1 * -0x26c7]) == null
+                ? void (0x1d16 + 0x15a3 + -0x32b9)
+                : _0x1ce3ba[_0x5852ec(0x215)]) ||
+              null
+            );
+          }));
+        const { data: _0x239682, error: _0x95bcd3 } = await _0x5ea00c[
+          _0x2e341f(0x1c6)
+        ](_0x2e341f(0x16d))
+          [_0x2e341f(0x2fa)](_0x2e341f(0x136))
+          ["eq"](_0x2e341f(0x1b8), _0x2e341f(0x144))
+          ["order"](_0x2e341f(0x126), {
+            ascending: !(0x9d5 + -0xbde + 0x12 * 0x1d),
+          })
+          [_0x2e341f(0x1e6)](0x4a2 * -0x7 + 0x26c3 * 0x1 + -0x605);
+        if (_0x95bcd3) throw _0x95bcd3;
+        _0x94c21b(_0x239682 || []);
+      } catch {
+        alert(_0x2e341f(0x16b));
+      } finally {
+        _0x147c47(!(0x172b + -0x12b + -0x15ff));
+      }
+    };
+    (_0x3a5a53[_0x261390(0x1df)](() => {
+      _0x44410f && _0x571456 === "activation" && _0x18887f();
+    }, [_0x44410f, _0x571456]),
+      _0x3a5a53[_0x261390(0x1df)](() => {
+        const _0x1c9cdf = _0x261390;
+        _0x44410f &&
+          _0x571456 === _0x1c9cdf(0x147) &&
+          _0x558180 &&
+          _0x4342ba(_0x558180, _0x3ce9f8);
+      }, [_0x44410f, _0x571456, _0x558180, _0x3ce9f8]));
+    const _0x17c8f3 = async () => {
+      const _0x153dc6 = _0x261390;
+      _0x47ee63(!(-0x427 + 0xb * 0x265 + -0x1630 * 0x1));
+      try {
+        const { data: _0x20b95d, error: _0x247aab } = await _0x5ea00c[
+          _0x153dc6(0x186)
+        ](_0x153dc6(0x2a5), { p_limit: _0x331507, p_offset: 0x0 });
+        if (_0x247aab) throw _0x247aab;
+        _0x204909(Array["isArray"](_0x20b95d) ? _0x20b95d : []);
+      } catch {
+        alert(_0x153dc6(0x195));
+      } finally {
+        _0x47ee63(!(-0x108b + 0x1 * -0x3df + -0x146b * -0x1));
+      }
+    };
+    _0x3a5a53[_0x261390(0x1df)](() => {
+      _0x44410f && _0x571456 === "audit" && _0x17c8f3();
+    }, [_0x44410f, _0x571456, _0x331507]);
+    const _0x266371 = _0x3a5a53[_0x261390(0x152)](() => {
+        const _0x33050a = _0x261390;
+        let _0x30e1b0 = _0x23a211 || [];
+        _0x3e76ed !== _0x33050a(0x265) &&
+          (_0x30e1b0 = _0x30e1b0[_0x33050a(0x137)](
+            (_0x2def25) => _0x2def25[_0x33050a(0x1b8)] === _0x3e76ed,
+          ));
+        const _0x29035d = _0x4d6c34["trim"]()[_0x33050a(0x2b6)]();
+        return (
+          _0x29035d &&
+            (_0x30e1b0 = _0x30e1b0["filter"]((_0x484f1b) => {
+              const _0x3dba52 = _0x33050a,
+                _0x270fb4 = _0x484f1b[_0x3dba52(0x148)]
+                  ? String(_0x484f1b["code_suffix"])[_0x3dba52(0x2b6)]()
+                  : "",
+                _0x25103e = _0x484f1b[_0x3dba52(0x219)]
+                  ? String(_0x484f1b[_0x3dba52(0x219)])[_0x3dba52(0x2b6)]()
+                  : "",
+                _0x246f82 = _0x484f1b[_0x3dba52(0x1a6)]
+                  ? String(_0x484f1b[_0x3dba52(0x1a6)])[_0x3dba52(0x2b6)]()
+                  : "";
+              return (
+                _0x270fb4[_0x3dba52(0x2b0)](_0x29035d) ||
+                _0x25103e["includes"](_0x29035d) ||
+                _0x246f82[_0x3dba52(0x2b0)](_0x29035d)
+              );
+            })),
+          _0x30e1b0
+        );
+      }, [_0x23a211, _0x3e76ed, _0x4d6c34]),
+      _0x1bfab9 = _0x3a5a53[_0x261390(0x152)](() => {
+        const _0x14e259 = _0x261390,
+          _0x89fc37 = () => ({
+            unused: 0x0,
+            used: 0x0,
+            voided: 0x0,
+            total: 0x0,
+          }),
+          _0x5e4a7e = { initial: _0x89fc37(), followup: _0x89fc37() };
+        for (const _0x359eba of _0x4e03be) {
+          const _0x58a760 =
+            _0x359eba[_0x14e259(0x24d)] === _0x14e259(0x22e)
+              ? _0x5e4a7e["initial"]
+              : _0x359eba[_0x14e259(0x24d)] === "followup"
+                ? _0x5e4a7e[_0x14e259(0x324)]
+                : null;
+          _0x58a760 &&
+            ((_0x58a760[_0x14e259(0x1c8)] +=
+              _0x359eba[_0x14e259(0x1c8)] || 0x906 + 0x11 * -0x104 + 0x83e),
+            (_0x58a760[_0x14e259(0x343)] +=
+              _0x359eba["unused_count"] || 0xb * 0x7 + -0x148 + 0xfb),
+            (_0x58a760[_0x14e259(0x144)] +=
+              _0x359eba[_0x14e259(0x23b)] || -0x1b26 + -0x792 + 0x22b8),
+            (_0x58a760["voided"] +=
+              _0x359eba[_0x14e259(0x27b)] || -0xc7 * -0x25 + 0x259a + -0x425d));
+        }
+        return _0x5e4a7e;
+      }, [_0x4e03be]),
+      _0x4f30ca = _0x3a5a53["useMemo"](
+        () =>
+          [..._0x4e03be]
+            [
+              _0x261390(0x18e)
+            ]((_0x2a3804) => ({ id: _0x2a3804["batch_id"], category: _0x2a3804[_0x261390(0x24d)], voided_at: _0x2a3804[_0x261390(0x185)], created_at: _0x2a3804[_0x261390(0x328)], note: _0x2a3804["note"], unused: _0x2a3804[_0x261390(0x2c0)], used: _0x2a3804[_0x261390(0x23b)], voided: _0x2a3804[_0x261390(0x27b)], total: _0x2a3804[_0x261390(0x1c8)] }))
+            [
+              "sort"
+            ]((_0x38e8a1, _0x173aae) => new Date(_0x173aae[_0x261390(0x328)]) - new Date(_0x38e8a1["created_at"])),
+        [_0x4e03be],
+      ),
+      _0x404bee = _0x3a5a53[_0x261390(0x152)](
+        () =>
+          (_0x558180 &&
+            _0x4f30ca[_0x261390(0x1b5)](
+              (_0x55add9) => _0x55add9["id"] === _0x558180,
+            )) ||
+          null,
+        [_0x4f30ca, _0x558180],
+      ),
+      _0x2247de = _0x3a5a53[_0x261390(0x152)](
+        () =>
+          _0x5a6b74
+            ? _0x4f30ca[_0x261390(0x137)]((_0x32fd52) => {
+                const _0x23b80e = _0x261390,
+                  _0x556f12 =
+                    _0x32fd52["unused"] ||
+                    0x1 * -0x3c7 + -0x2695 + -0x4 * -0xa97,
+                  _0x5916ea =
+                    _0x32fd52[_0x23b80e(0x1de)] ||
+                    0x1ebb * -0x1 + -0x99 * 0x25 + 0x2 * 0x1a6c;
+                return !(
+                  _0x32fd52[_0x23b80e(0x185)] &&
+                  _0x556f12 === -0x9d5 + 0x11 * 0x1ec + -0x1 * 0x16d7 &&
+                  _0x5916ea === 0x2078 + 0x9 * 0x53 + -0x2363
+                );
+              })
+            : _0x4f30ca,
+        [_0x4f30ca, _0x5a6b74],
+      ),
+      _0x31beea = (_0x19c5cb) => {
+        const _0x111dc5 = _0x261390;
+        if (_0x19c5cb == null) return null;
+        if (
+          typeof _0x19c5cb == _0x111dc5(0x177) &&
+          !Array[_0x111dc5(0x1ea)](_0x19c5cb)
+        )
+          return _0x19c5cb;
+        if (typeof _0x19c5cb == _0x111dc5(0x331))
+          try {
+            return JSON["parse"](_0x19c5cb);
+          } catch {
+            return null;
+          }
+        return null;
+      },
+      _0x12e095 = (_0x56597f) =>
+        [
+          _0x56597f == null
+            ? void (0x1782 + -0xd * 0x22f + -0x4e1 * -0x1)
+            : _0x56597f[_0x261390(0x33d)],
+          _0x56597f == null
+            ? void (0xdfb + 0x202b + -0x2e26)
+            : _0x56597f[_0x261390(0x13e)],
+          _0x56597f == null
+            ? void (0x1e7d + -0xd35 + -0x1148)
+            : _0x56597f[_0x261390(0x32f)],
+        ]
+          [_0x261390(0x137)](Boolean)
+          [_0x261390(0x142)]("\x0a") || String(_0x56597f),
+      _0x4342ba = async (
+        _0xb4ce7b,
+        _0x5acbf5 = -0x2042 + -0x1 * -0x146b + -0x7 * -0x1b1,
+      ) => {
+        const _0x4d9f03 = _0x261390;
+        if (_0xb4ce7b) {
+          _0x37976b(!(0x75 * -0x21 + -0x1d14 + 0x23 * 0x143));
+          try {
+            const { data: _0x263587, error: _0x4eb647 } = await _0x5ea00c[
+              _0x4d9f03(0x186)
+            ](_0x4d9f03(0x216), {
+              p_batch_id: _0xb4ce7b,
+              p_limit: _0x295947,
+              p_offset: _0x5acbf5,
+            });
+            if (_0x4eb647) throw _0x4eb647;
+            _0x459bb4(Array[_0x4d9f03(0x1ea)](_0x263587) ? _0x263587 : []);
+            const { data: _0x143358, error: _0x5cb362 } = await _0x5ea00c[
+              "rpc"
+            ](_0x4d9f03(0x149), { p_batch_id: _0xb4ce7b });
+            if (_0x5cb362) throw _0x5cb362;
+            _0x3f4dac(
+              typeof _0x143358 == _0x4d9f03(0x1c1)
+                ? _0x143358
+                : Number(_0x143358) || -0x1 * 0x2686 + -0x3 * -0x5ea + 0x14c8,
+            );
+          } catch {
+            alert("加载激活码明细失败");
+          } finally {
+            _0x37976b(!(0x257f + 0x10b * 0x22 + -0x48f4));
+          }
+        }
+      },
+      _0x5a6dad = async (_0x2fa188) => {
+        const _0x24e6c1 = _0x261390,
+          _0x574cad = Math[_0x24e6c1(0x28c)](
+            Math["min"](
+              0x63b + -0x4bd + 0x652,
+              Math[_0x24e6c1(0x227)](
+                0xd00 + -0x1d5e + 0x105f,
+                Number(_0x19b8b9) || 0x1ce7 * 0x1 + 0x1 * -0xf6f + -0xb84,
+              ),
+            ),
+          );
+        if (!_0x92177f[_0x24e6c1(0x1bf)]()) {
+          alert(_0x24e6c1(0x232));
+          return;
+        }
+        _0x4519f3(!(0x1b5 + -0x26 * -0xc4 + 0x19f * -0x13));
+        try {
+          const { data: _0x41c703, error: _0x5a5889 } = await _0x5ea00c[
+            _0x24e6c1(0x186)
+          ](_0x24e6c1(0x20f), {
+            p_category: _0x2fa188,
+            p_count: _0x574cad,
+            p_secret: _0x92177f[_0x24e6c1(0x1bf)](),
+            p_note:
+              (_0x1b4c9f || "")[_0x24e6c1(0x1bf)]() ||
+              (_0x2fa188 === _0x24e6c1(0x22e) ? "初次" : "后续"),
+          });
+          if (_0x5a5889) {
+            alert(_0x24e6c1(0x221) + _0x12e095(_0x5a5889));
+            return;
+          }
+          const _0x1f0f56 = _0x31beea(_0x41c703) || _0x41c703;
+          if (!_0x1f0f56 || typeof _0x1f0f56 != "object") {
+            alert(
+              "生成失败：返回数据异常，请打开控制台查看\x20Network\x20里\x20rpc\x20响应。\x0a原始：" +
+                String(_0x41c703)[_0x24e6c1(0x29e)](
+                  0x1d77 * 0x1 + -0x1f14 + 0x19d,
+                  -0xa1f * -0x1 + 0x1126 + 0x1a7d * -0x1,
+                ),
+            );
+            return;
+          }
+          if (!_0x1f0f56["ok"]) {
+            alert(
+              _0x1f0f56[_0x24e6c1(0x21d)] === "unauthorized"
+                ? _0x24e6c1(0x327)
+                : _0x24e6c1(0x27d) +
+                    (_0x1f0f56[_0x24e6c1(0x21d)] || _0x24e6c1(0x1c2)),
+            );
+            return;
+          }
+          const _0x5b8d1f = _0x1f0f56[_0x24e6c1(0x337)],
+            _0x193bb2 = Array[_0x24e6c1(0x1ea)](_0x5b8d1f)
+              ? _0x5b8d1f[_0x24e6c1(0x142)]("\x0a")
+              : String(_0x5b8d1f || "");
+          (_0x172bae(_0x193bb2),
+            await _0x18887f(),
+            _0x558180 && (await _0x4342ba(_0x558180, _0x3ce9f8)),
+            alert(
+              _0x24e6c1(0x33c) +
+                _0x574cad +
+                _0x24e6c1(0x2c5) +
+                (_0x1f0f56[_0x24e6c1(0x215)] || "") +
+                "。请从下方文本框复制保存（仅本次展示明文）。",
+            ));
+        } catch (_0x4d2543) {
+          alert("生成失败\x0a" + _0x12e095(_0x4d2543));
+        } finally {
+          _0x4519f3(!(-0x61 * -0x7 + 0x227b + -0x2521));
+        }
+      },
+      _0x16254e = async () => {
+        const _0x51569c = _0x261390,
+          _0x4226f9 = (_0x4fc45a || "")[_0x51569c(0x1bf)]();
+        if (!_0x4226f9) {
+          alert(_0x51569c(0x32d));
+          return;
+        }
+        try {
+          (await navigator["clipboard"]["writeText"](_0x4226f9),
+            alert(_0x51569c(0x1f8)));
+          return;
+        } catch {
+          try {
+            const _0x948f71 = document[_0x51569c(0x294)]("textarea");
+            ((_0x948f71[_0x51569c(0x13f)] = _0x4226f9),
+              (_0x948f71[_0x51569c(0x1c5)][_0x51569c(0x154)] =
+                _0x51569c(0x133)),
+              (_0x948f71["style"][_0x51569c(0x304)] = _0x51569c(0x1d8)),
+              (_0x948f71["style"][_0x51569c(0x220)] = _0x51569c(0x1d8)),
+              document["body"][_0x51569c(0x345)](_0x948f71),
+              _0x948f71[_0x51569c(0x2c2)](),
+              _0x948f71[_0x51569c(0x2fa)](),
+              document[_0x51569c(0x2f2)](_0x51569c(0x223)),
+              document[_0x51569c(0x143)][_0x51569c(0x285)](_0x948f71),
+              alert(_0x51569c(0x1f8)));
+          } catch {
+            alert(_0x51569c(0x242));
+          }
+        }
+      },
+      _0x1c656b = async (_0x52fc33) => {
+        const _0x223c4c = _0x261390;
+        if (!_0x92177f[_0x223c4c(0x1bf)]()) {
+          alert(_0x223c4c(0x146));
+          return;
+        }
+        if (
+          confirm(_0x223c4c(0x317) + (_0x153fa1 ? _0x223c4c(0x22f) : "") + "。")
+        )
+          try {
+            const { data: _0x2b69df, error: _0x4d1000 } = await _0x5ea00c[
+              "rpc"
+            ](_0x223c4c(0x2b3), {
+              p_batch_id: _0x52fc33,
+              p_secret: _0x92177f[_0x223c4c(0x1bf)](),
+              p_delete_unused: _0x153fa1,
+            });
+            if (_0x4d1000) {
+              alert(_0x223c4c(0x159) + _0x12e095(_0x4d1000));
+              return;
+            }
+            const _0x32caae = _0x31beea(_0x2b69df) || _0x2b69df;
+            if (!(_0x32caae != null && _0x32caae["ok"])) {
+              alert(
+                (_0x32caae == null
+                  ? void (-0x17b * -0x3 + 0xebc + 0x1 * -0x132d)
+                  : _0x32caae[_0x223c4c(0x21d)]) === _0x223c4c(0x22b)
+                  ? "密钥错误"
+                  : _0x223c4c(0x334),
+              );
+              return;
+            }
+            (await _0x18887f(),
+              _0x558180 && (await _0x4342ba(_0x558180, _0x3ce9f8)));
+          } catch (_0x899097) {
+            alert(_0x223c4c(0x159) + _0x12e095(_0x899097));
+          }
+      },
+      _0x3bc3e3 = async (_0x3184e3) => {
+        const _0x150adb = _0x261390;
+        if (!_0x92177f[_0x150adb(0x1bf)]()) {
+          alert(_0x150adb(0x146));
+          return;
+        }
+        if (_0x3184e3 && confirm(_0x150adb(0x1a7)))
+          try {
+            const { data: _0x39139d, error: _0x1095e6 } = await _0x5ea00c[
+              _0x150adb(0x186)
+            ](_0x150adb(0x29c), {
+              p_code_id: _0x3184e3,
+              p_secret: _0x92177f["trim"](),
+            });
+            if (_0x1095e6) throw _0x1095e6;
+            const _0x5a0a81 = _0x31beea(_0x39139d) || _0x39139d;
+            if (!(_0x5a0a81 != null && _0x5a0a81["ok"])) {
+              alert(
+                "作废失败：" +
+                  ((_0x5a0a81 == null
+                    ? void (-0x2491 + 0xa09 + 0x8d8 * 0x3)
+                    : _0x5a0a81["error"]) || _0x150adb(0x1c2)),
+              );
+              return;
+            }
+            (_0x558180 && (await _0x4342ba(_0x558180, _0x3ce9f8)),
+              await _0x18887f());
+          } catch (_0xda62ef) {
+            alert(_0x150adb(0x159) + _0x12e095(_0xda62ef));
+          }
+      },
+      _0x2e4d36 = (_0x3f3eba) => {
+        const _0x11364f = _0x261390;
+        (_0x3f3eba[_0x11364f(0x2b2)](),
+          _0x1b70f9 === _0x54ade7
+            ? _0x2815d6(!(0x565 + 0x228f + 0x1 * -0x27f4))
+            : alert(_0x11364f(0x2e6)));
+      },
+      _0x56ae2a = async (_0x295563, _0x2f3327, _0x22ccdd = "") => {
+        const _0x29d541 = _0x261390;
+        try {
+          const _0x19df49 = _0x2c6d10[_0x29d541(0x1b5)](
+              (_0x5026bf) => _0x5026bf["id"] === _0x295563,
+            ),
+            _0x23cfac = {
+              action: _0x2f3327,
+              time: new Date()["toISOString"](),
+            },
+            _0x4a7f98 = [...(_0x19df49[_0x29d541(0x18d)] || []), _0x23cfac],
+            _0x154a86 = {
+              status: _0x2f3327,
+              history: _0x4a7f98,
+              updated_at: new Date()["toISOString"](),
+            };
+          (_0x2f3327 === _0x29d541(0x166) || _0x2f3327 === "revoked") &&
+            (_0x154a86["reject_reason"] = _0x22ccdd || null);
+          const { error: _0x56e321 } = await _0x5ea00c[_0x29d541(0x1c6)](
+            _0x29d541(0x2c1),
+          )
+            [_0x29d541(0x2f3)](_0x154a86)
+            ["eq"]("id", _0x295563);
+          if (_0x56e321) throw _0x56e321;
+          _0x37d88a();
+        } catch {
+          alert(_0x29d541(0x314));
+        }
+      },
+      _0x2860cd = (_0x3d921a, _0xc423df) => {
+        const _0x1588be = _0x261390,
+          _0x2926da = window["prompt"](
+            _0xc423df === "revoked" ? _0x1588be(0x28b) : _0x1588be(0x2df),
+            "",
+          );
+        _0x2926da !== null && _0x56ae2a(_0x3d921a, _0xc423df, _0x2926da || "");
+      },
+      _0x54fae0 = async (_0x17881e) => {
+        const _0xfe1179 = _0x261390;
+        var _0x447160;
+        try {
+          if (_0x17881e[_0xfe1179(0x336)](_0xfe1179(0x14b))) {
+            const _0x4480f1 = _0x17881e[_0xfe1179(0x29e)](
+                -0x1a7e * 0x1 + -0x1 * -0x15ad + 0x4d6,
+              ),
+              _0x3a4c60 = _0x35c958[_0xfe1179(0x1b5)](
+                (_0x2cd8fa) => _0x2cd8fa["email"] === _0x4480f1,
+              );
+            if (!_0x3a4c60) return;
+            const { error: _0x22033d } = await _0x5ea00c[_0xfe1179(0x1c6)](
+              "gate_user_access",
+            )
+              [_0xfe1179(0x2f3)]({
+                is_pinned: !_0x3a4c60[_0xfe1179(0x2e2)],
+                updated_at: new Date()["toISOString"](),
+              })
+              ["eq"](_0xfe1179(0x2f6), _0x3a4c60[_0xfe1179(0x2f6)]);
+            if (_0x22033d) throw _0x22033d;
+            _0x37d88a();
+            return;
+          }
+          const _0x3dea38 = _0x142254[_0x17881e];
+          if (
+            !(
+              (_0x447160 =
+                _0x3dea38 == null
+                  ? void (0x1105 + 0x1ac + -0x37 * 0x57)
+                  : _0x3dea38[_0xfe1179(0x32e)]) != null && _0x447160["length"]
+            )
+          )
+            return;
+          const _0x3819ea = _0x3dea38[_0xfe1179(0x32e)]["some"](
+            (_0x3c57e5) => _0x3c57e5[_0xfe1179(0x2e2)],
+          );
+          for (const _0x6acbe2 of _0x3dea38[_0xfe1179(0x32e)]) {
+            const { error: _0x577820 } = await _0x5ea00c[_0xfe1179(0x1c6)](
+              _0xfe1179(0x2c1),
+            )
+              [_0xfe1179(0x2f3)]({
+                is_pinned: !_0x3819ea,
+                updated_at: new Date()[_0xfe1179(0x25a)](),
+              })
+              ["eq"]("id", _0x6acbe2["id"]);
+            if (_0x577820) throw _0x577820;
+          }
+          _0x37d88a();
+        } catch {
+          alert("置顶操作失败");
+        }
+      },
+      _0x27f2fe = async (_0x516b97) => {
+        const _0x27f72b = _0x261390;
+        var _0x4b142d;
+        try {
+          if (_0x516b97[_0x27f72b(0x336)](_0x27f72b(0x14b))) {
+            const _0x3e1a79 = _0x516b97[_0x27f72b(0x29e)](
+                -0x88d + -0x1 * 0xb96 + 0x204 * 0xa,
+              ),
+              _0xc25cfc = _0x35c958["find"](
+                (_0x4b6be8) => _0x4b6be8[_0x27f72b(0x145)] === _0x3e1a79,
+              );
+            if (!_0xc25cfc) return;
+            const { error: _0x45b582 } = await _0x5ea00c[_0x27f72b(0x1c6)](
+              _0x27f72b(0x1ff),
+            )
+              ["update"]({
+                is_favorite: !_0xc25cfc[_0x27f72b(0x189)],
+                updated_at: new Date()[_0x27f72b(0x25a)](),
+              })
+              ["eq"](_0x27f72b(0x2f6), _0xc25cfc[_0x27f72b(0x2f6)]);
+            if (_0x45b582) throw _0x45b582;
+            _0x37d88a();
+            return;
+          }
+          const _0x13763b = _0x142254[_0x516b97];
+          if (
+            !(
+              (_0x4b142d =
+                _0x13763b == null
+                  ? void (0x1 * -0x1bca + 0x1d5 + -0x1bb * -0xf)
+                  : _0x13763b[_0x27f72b(0x32e)]) != null &&
+              _0x4b142d[_0x27f72b(0x19b)]
+            )
+          )
+            return;
+          const _0x2214b2 = _0x13763b["devices"][_0x27f72b(0x340)](
+            (_0x3a650f) => _0x3a650f["is_favorite"],
+          );
+          for (const _0x1acd4b of _0x13763b[_0x27f72b(0x32e)]) {
+            const { error: _0xff62f0 } = await _0x5ea00c["from"](
+              "access_requests",
+            )
+              [_0x27f72b(0x2f3)]({
+                is_favorite: !_0x2214b2,
+                updated_at: new Date()["toISOString"](),
+              })
+              ["eq"]("id", _0x1acd4b["id"]);
+            if (_0xff62f0) throw _0xff62f0;
+          }
+          _0x37d88a();
+        } catch {
+          alert(_0x27f72b(0x2a2));
+        }
+      },
+      _0x4d35a8 = async (_0x423d44, _0xecff27) => {
+        const _0x3e9073 = _0x261390;
+        var _0x5862f3;
+        try {
+          if (_0x423d44[_0x3e9073(0x336)](_0x3e9073(0x14b))) {
+            const _0x1bdc20 = _0x423d44[_0x3e9073(0x29e)](
+                -0x825 + -0x92f + 0x1159 * 0x1,
+              ),
+              _0x68dc5c = _0x35c958[_0x3e9073(0x1b5)](
+                (_0x181709) => _0x181709[_0x3e9073(0x145)] === _0x1bdc20,
+              );
+            if (!_0x68dc5c) return;
+            const _0x17801f = Array["isArray"](_0xecff27) ? _0xecff27 : [],
+              { error: _0x2c4799 } = await _0x5ea00c[_0x3e9073(0x1c6)](
+                "gate_user_access",
+              )
+                [_0x3e9073(0x2f3)]({
+                  tags: _0x17801f,
+                  updated_at: new Date()[_0x3e9073(0x25a)](),
+                })
+                ["eq"](_0x3e9073(0x2f6), _0x68dc5c[_0x3e9073(0x2f6)]);
+            if (_0x2c4799) throw _0x2c4799;
+            (_0x44a9f3(null), _0x224154(""), _0x37d88a());
+            return;
+          }
+          const _0x3e7d0a = _0x142254[_0x423d44];
+          if (
+            !(
+              (_0x5862f3 =
+                _0x3e7d0a == null
+                  ? void (0x2 * 0x60a + 0x209c + -0x68 * 0x6e)
+                  : _0x3e7d0a[_0x3e9073(0x32e)]) != null &&
+              _0x5862f3[_0x3e9073(0x19b)]
+            )
+          )
+            return;
+          const _0x10de84 = Array[_0x3e9073(0x1ea)](_0xecff27) ? _0xecff27 : [];
+          for (const _0x283073 of _0x3e7d0a[_0x3e9073(0x32e)]) {
+            const { error: _0x1a643a } = await _0x5ea00c["from"](
+              _0x3e9073(0x2c1),
+            )
+              [_0x3e9073(0x2f3)]({
+                tags: _0x10de84,
+                updated_at: new Date()[_0x3e9073(0x25a)](),
+              })
+              ["eq"]("id", _0x283073["id"]);
+            if (_0x1a643a) throw _0x1a643a;
+          }
+          (_0x44a9f3(null), _0x224154(""), _0x37d88a());
+        } catch {
+          alert("保存标签失败");
+        }
+      },
+      _0x2bb1b1 = (_0x30f7a3) => {
+        _0x2e8326((_0x3f463b) => {
+          const _0xf7dd02 = _0xf632,
+            _0x45b9b6 = new Set(_0x3f463b);
+          return (
+            _0x45b9b6[_0xf7dd02(0x12d)](_0x30f7a3)
+              ? _0x45b9b6[_0xf7dd02(0x30d)](_0x30f7a3)
+              : _0x45b9b6[_0xf7dd02(0x267)](_0x30f7a3),
+            _0x45b9b6
+          );
+        });
+      },
+      _0x11123d = (_0x59748c) => {
+        _0x49784f((_0x5e224e) => {
+          const _0x322ddc = _0xf632,
+            _0x51ed2b = new Set(_0x5e224e);
+          return (
+            _0x51ed2b["has"](_0x59748c)
+              ? _0x51ed2b[_0x322ddc(0x30d)](_0x59748c)
+              : _0x51ed2b[_0x322ddc(0x267)](_0x59748c),
+            _0x51ed2b
+          );
+        });
+      },
+      _0x42486c = () => {
+        const _0x590ef0 = _0x261390;
+        _0x2e8326(
+          new Set(_0x581b1a["map"]((_0x2f6ea5) => _0x2f6ea5[_0x590ef0(0x1d9)])),
+        );
+      },
+      _0x577c66 = () => {
+        (_0x2e8326(new Set()), _0x49784f(new Set()));
+      },
+      _0x59fdee = _0x3a5a53[_0x261390(0x152)](
+        () =>
+          new Set(
+            (_0x2c6d10 || [])[_0x261390(0x18e)]((_0x38d8ba) => _0x38d8ba["id"]),
+          ),
+        [_0x2c6d10],
+      ),
+      _0x5f1344 = () => {
+        const _0x30f96a = _0x261390,
+          _0x37a54c = [..._0x2d9ce5]["flatMap"]((_0x5ec003) => {
+            const _0x144026 = _0xf632;
+            var _0xb30fe5;
+            return _0x5ec003["startsWith"](_0x144026(0x14b))
+              ? []
+              : (((_0xb30fe5 = _0x142254[_0x5ec003]) == null
+                  ? void (-0x15a5 + 0xb10 + 0xa95)
+                  : _0xb30fe5[_0x144026(0x32e)]) || [])[_0x144026(0x18e)](
+                  (_0x234983) => _0x234983["id"],
+                );
+          }),
+          _0x56ad23 = [..._0x200eb0][_0x30f96a(0x137)]((_0x38baed) =>
+            _0x59fdee[_0x30f96a(0x12d)](_0x38baed),
+          );
+        return [...new Set([..._0x37a54c, ..._0x56ad23])];
+      },
+      _0x33d89c = async (
+        _0x45d6bc,
+        _0x30efb6 = !(0x94d * 0x1 + 0x1 * 0x9d3 + -0x131f),
+      ) => {
+        const _0x3b85ac = _0x261390,
+          _0x53a0be = _0x5f1344();
+        if (
+          _0x53a0be[_0x3b85ac(0x19b)] ===
+          -0x86 * 0x2 + -0xe4b + -0x231 * -0x7
+        ) {
+          alert("请先勾选要操作的用户或设备");
+          return;
+        }
+        let _0x45becd = _0x53a0be;
+        if (
+          (_0x30efb6 &&
+            _0x45d6bc === _0x3b85ac(0x1ac) &&
+            (_0x45becd = _0x53a0be[_0x3b85ac(0x137)]((_0x4ea5b2) => {
+              const _0x3cb8c5 = _0x3b85ac;
+              var _0x10e029;
+              return (
+                ((_0x10e029 = _0x2c6d10[_0x3cb8c5(0x1b5)](
+                  (_0x271fcb) => _0x271fcb["id"] === _0x4ea5b2,
+                )) == null
+                  ? void (0x1d3c + 0x2d7 * 0x1 + -0x2013)
+                  : _0x10e029[_0x3cb8c5(0x1b8)]) === _0x3cb8c5(0x26b)
+              );
+            })),
+          _0x45becd[_0x3b85ac(0x19b)] === 0x25fc + -0xfc2 * 0x1 + -0x1 * 0x163a)
+        ) {
+          alert(_0x3b85ac(0x303));
+          return;
+        }
+        try {
+          for (const _0x47632f of _0x45becd) {
+            const _0xf9cb84 = _0x2c6d10["find"](
+              (_0x12cf63) => _0x12cf63["id"] === _0x47632f,
+            );
+            if (
+              !_0xf9cb84 ||
+              (_0x30efb6 && _0xf9cb84[_0x3b85ac(0x1b8)] !== _0x3b85ac(0x26b))
+            )
+              continue;
+            const _0x337432 = [
+                ...(_0xf9cb84[_0x3b85ac(0x18d)] || []),
+                { action: _0x45d6bc, time: new Date()[_0x3b85ac(0x25a)]() },
+              ],
+              _0x239e1c = {
+                status: _0x45d6bc,
+                history: _0x337432,
+                updated_at: new Date()[_0x3b85ac(0x25a)](),
+              };
+            (_0x45d6bc === _0x3b85ac(0x166) ||
+              _0x45d6bc === _0x3b85ac(0x257)) &&
+              (_0x239e1c[_0x3b85ac(0x237)] = "");
+            const { error: _0x2408ba } = await _0x5ea00c[_0x3b85ac(0x1c6)](
+              "access_requests",
+            )
+              [_0x3b85ac(0x2f3)](_0x239e1c)
+              ["eq"]("id", _0x47632f);
+            if (_0x2408ba) throw _0x2408ba;
+          }
+          (_0x577c66(), _0x37d88a());
+        } catch {
+          alert("批量操作失败");
+        }
+      },
+      _0x353bc3 = async (_0x1466a7) => {
+        const _0x19245b = _0x261390,
+          _0x6804df = _0x5f1344();
+        if (
+          _0x6804df["length"] ===
+          -0x1 * 0x2415 + 0x24ed * -0x1 + 0x59 * 0xd2
+        ) {
+          alert("请先勾选要操作的用户或设备");
+          return;
+        }
+        try {
+          const { error: _0x557472 } = await _0x5ea00c["from"](_0x19245b(0x2c1))
+            ["update"]({
+              is_pinned: _0x1466a7,
+              updated_at: new Date()[_0x19245b(0x25a)](),
+            })
+            ["in"]("id", [..._0x6804df]);
+          if (_0x557472) throw _0x557472;
+          (_0x577c66(), _0x37d88a());
+        } catch {
+          alert(_0x19245b(0x1f0));
+        }
+      },
+      _0x58b1d5 = async (_0x111c86) => {
+        const _0x238534 = _0x261390,
+          _0x11408f = _0x5f1344();
+        if (_0x11408f[_0x238534(0x19b)] === -0x1d0 + -0xfd9 + -0x3 * -0x5e3) {
+          alert(_0x238534(0x167));
+          return;
+        }
+        try {
+          const { error: _0x1f29e5 } = await _0x5ea00c[_0x238534(0x1c6)](
+            _0x238534(0x2c1),
+          )
+            ["update"]({
+              is_favorite: _0x111c86,
+              updated_at: new Date()[_0x238534(0x25a)](),
+            })
+            ["in"]("id", [..._0x11408f]);
+          if (_0x1f29e5) throw _0x1f29e5;
+          (_0x577c66(), _0x37d88a());
+        } catch {
+          alert("批量收藏操作失败");
+        }
+      },
+      _0x371444 = async () => {
+        const _0x31a448 = _0x261390,
+          _0x1fbb9f = _0x5f1344();
+        if (_0x1fbb9f[_0x31a448(0x19b)] === 0x23a7 + -0x17f8 + 0x3 * -0x3e5) {
+          alert(_0x31a448(0x342));
+          return;
+        }
+        if (
+          confirm(
+            _0x31a448(0x26f) + _0x1fbb9f[_0x31a448(0x19b)] + _0x31a448(0x1b2),
+          )
+        )
+          try {
+            const { error: _0x2b915a } = await _0x5ea00c[_0x31a448(0x1c6)](
+              _0x31a448(0x2c1),
+            )
+              ["delete"]()
+              ["in"]("id", [..._0x1fbb9f]);
+            if (_0x2b915a) throw _0x2b915a;
+            (_0x577c66(), _0x37d88a());
+          } catch {
+            alert(_0x31a448(0x288));
+          }
+      },
+      _0x5cf98b = () => {
+        const _0xf35937 = _0x261390,
+          _0x12f171 = _0x581b1a[_0xf35937(0x196)]((_0x210c1c) => {
+            const _0x546251 = _0xf35937;
+            var _0x53fa25;
+            if (_0x210c1c["kind"] === _0x546251(0x302)) {
+              const _0xf0ceda = _0x210c1c[_0x546251(0x295)];
+              return (
+                (_0x53fa25 = _0x210c1c[_0x546251(0x32e)]) != null &&
+                _0x53fa25[_0x546251(0x19b)]
+                  ? _0x210c1c[_0x546251(0x32e)]
+                  : [null]
+              )["map"]((_0x5d20f8) => ({
+                用户:
+                  _0xf0ceda[_0x546251(0x23c)] +
+                  "\x20(" +
+                  _0xf0ceda["email"] +
+                  ")",
+                设备ID:
+                  _0x5d20f8 != null && _0x5d20f8[_0x546251(0x2e1)]
+                    ? String(_0x5d20f8["device_id"])[_0x546251(0x29e)](
+                        -0x1e * 0xab + -0xbd0 + 0x38a * 0x9,
+                        -0x1f37 + -0x143 * 0xc + -0x1 * -0x2e67,
+                      )
+                    : "—",
+                状态: _0xf0ceda[_0x546251(0x1b8)],
+                申请理由: "",
+                备注: _0xf0ceda[_0x546251(0x127)] || "",
+                过期时间: _0xf0ceda[_0x546251(0x254)]
+                  ? new Date(_0xf0ceda["expires_at"])[_0x546251(0x2c7)]()
+                  : "",
+                最后活跃:
+                  _0x5d20f8 != null && _0x5d20f8[_0x546251(0x282)]
+                    ? new Date(_0x5d20f8[_0x546251(0x282)])[_0x546251(0x1cf)]()
+                    : _0xf0ceda["last_active_at"]
+                      ? new Date(_0xf0ceda[_0x546251(0x132)])[
+                          "toLocaleString"
+                        ]()
+                      : "",
+                申请时间: _0xf0ceda[_0x546251(0x328)]
+                  ? new Date(_0xf0ceda[_0x546251(0x328)])[_0x546251(0x1cf)]()
+                  : "",
+                标签: (_0xf0ceda[_0x546251(0x1ce)] || [])["join"](","),
+                IP:
+                  (_0x5d20f8 == null
+                    ? void (-0x1e3f + -0x26e3 + 0x4522)
+                    : _0x5d20f8[_0x546251(0x269)]) || "",
+                型号UA:
+                  (_0x5d20f8 == null
+                    ? void (0x192 * -0x9 + -0x3 * 0x50d + -0x9c3 * -0x3)
+                    : _0x5d20f8["user_agent"]) || "",
+              }));
+            }
+            return _0x210c1c[_0x546251(0x32e)][_0x546251(0x18e)](
+              (_0x3820c8) => {
+                const _0x32ffb6 = _0x546251;
+                var _0x32b1b1;
+                return {
+                  用户: _0x210c1c[_0x32ffb6(0x1d9)],
+                  设备ID:
+                    ((_0x32b1b1 = _0x3820c8[_0x32ffb6(0x2e1)]) == null
+                      ? void (-0x1 * 0x643 + 0x1751 + 0x4a * -0x3b)
+                      : _0x32b1b1[_0x32ffb6(0x29e)](
+                          0x1d63 + -0x7e9 * 0x3 + -0xb5 * 0x8,
+                          0x2216 * 0x1 + -0x1357 + -0xeb7 * 0x1,
+                        )) || "",
+                  状态: _0x3820c8[_0x32ffb6(0x1b8)],
+                  申请理由: _0x3820c8["reason"] || "",
+                  备注: _0x3820c8[_0x32ffb6(0x127)] || "",
+                  过期时间: _0x3820c8[_0x32ffb6(0x254)]
+                    ? new Date(_0x3820c8[_0x32ffb6(0x254)])[_0x32ffb6(0x2c7)]()
+                    : "",
+                  最后活跃: _0x3820c8[_0x32ffb6(0x132)]
+                    ? new Date(_0x3820c8[_0x32ffb6(0x132)])["toLocaleString"]()
+                    : "",
+                  申请时间: _0x3820c8[_0x32ffb6(0x328)]
+                    ? new Date(_0x3820c8[_0x32ffb6(0x328)])[_0x32ffb6(0x1cf)]()
+                    : "",
+                  标签: (_0x3820c8[_0x32ffb6(0x1ce)] || [])[_0x32ffb6(0x142)](
+                    ",",
+                  ),
+                  IP: _0x3820c8[_0x32ffb6(0x2a4)] || "",
+                  型号UA: _0x3820c8["user_agent"] || "",
+                };
+              },
+            );
+          }),
+          _0x4f8c20 = [
+            "用户",
+            "设备ID",
+            "状态",
+            _0xf35937(0x1ef),
+            "备注",
+            "过期时间",
+            _0xf35937(0x156),
+            _0xf35937(0x256),
+            "标签",
+            "IP",
+            _0xf35937(0x266),
+          ],
+          _0x86f908 = [
+            _0x4f8c20[_0xf35937(0x142)](","),
+            ..._0x12f171["map"]((_0x2d1514) =>
+              _0x4f8c20[_0xf35937(0x18e)](
+                (_0xe25132) =>
+                  "\x22" +
+                  String(_0x2d1514[_0xe25132] ?? "")["replace"](
+                    /"/g,
+                    "\x22\x22",
+                  ) +
+                  "\x22",
+              )["join"](","),
+            ),
+          ][_0xf35937(0x142)]("\x0a"),
+          _0x2dd698 = new Blob(["\ufeff" + _0x86f908], {
+            type: _0xf35937(0x23e),
+          }),
+          _0x34cf97 = document["createElement"]("a");
+        ((_0x34cf97[_0xf35937(0x277)] = URL[_0xf35937(0x2ee)](_0x2dd698)),
+          (_0x34cf97["download"] =
+            _0xf35937(0x311) +
+            new Date()
+              [_0xf35937(0x25a)]()
+              [
+                _0xf35937(0x29e)
+              ](-0x2 * -0x950 + 0x5e2 + -0x1882, -0x1127 + 0x2b * -0xba + 0x306f) +
+            _0xf35937(0x268)),
+          _0x34cf97[_0xf35937(0x14d)](),
+          URL[_0xf35937(0x1b6)](_0x34cf97["href"]));
+      },
+      _0x41767b = async (_0x1ff116) => {
+        const _0x3417ed = _0x261390;
+        if (confirm(_0x3417ed(0x125)))
+          try {
+            const { error: _0x4a7425 } = await _0x5ea00c["from"](
+              _0x3417ed(0x2c1),
+            )
+              [_0x3417ed(0x30d)]()
+              ["eq"]("id", _0x1ff116);
+            if (_0x4a7425) throw _0x4a7425;
+            _0x37d88a();
+          } catch (_0xdc541) {
+            alert(_0x3417ed(0x17c) + (_0xdc541["message"] || _0x3417ed(0x2c4)));
+          }
+      },
+      _0x599941 = async (_0x1d8f48, _0x448f27) => {
+        const _0x29d7c5 = _0x261390;
+        if (
+          !(
+            _0x448f27 &&
+            !confirm(_0x29d7c5(0x160) + _0x1d8f48 + _0x29d7c5(0x287))
+          )
+        )
+          try {
+            const { error: _0x2d5f9e } = await _0x5ea00c[_0x29d7c5(0x1c6)](
+              _0x29d7c5(0x2c1),
+            )
+              [_0x29d7c5(0x2f3)]({ is_banned: _0x448f27 })
+              ["eq"]("name", _0x1d8f48);
+            if (_0x2d5f9e) throw _0x2d5f9e;
+            _0x37d88a();
+          } catch {
+            alert("操作失败");
+          }
+      },
+      _0x3a7702 = async (_0x57360a, _0x1e23a1) => {
+        const _0x1ba982 = _0x261390;
+        if (!(_0x1e23a1 && !confirm(_0x1ba982(0x24c))))
+          try {
+            const { error: _0x45aa4d } = await _0x5ea00c[_0x1ba982(0x1c6)](
+              _0x1ba982(0x1ff),
+            )
+              ["update"]({ is_banned: _0x1e23a1 })
+              ["eq"](_0x1ba982(0x2f6), _0x57360a);
+            if (_0x45aa4d) throw _0x45aa4d;
+            _0x37d88a();
+          } catch {
+            alert(_0x1ba982(0x314));
+          }
+      },
+      _0x587c4f = async (_0x4def30, _0x488f75) => {
+        const _0x5e138d = _0x261390;
+        try {
+          const { error: _0x1524f8 } = await _0x5ea00c[_0x5e138d(0x1c6)](
+            _0x5e138d(0x1ff),
+          )
+            [_0x5e138d(0x2f3)]({
+              note: _0x488f75,
+              updated_at: new Date()[_0x5e138d(0x25a)](),
+            })
+            ["eq"](_0x5e138d(0x2f6), _0x4def30);
+          if (_0x1524f8) throw _0x1524f8;
+          (_0x388a25(null), _0x37d88a());
+        } catch {
+          alert("保存备注失败");
+        }
+      },
+      _0x5aed66 = async (_0xc7e879, _0x48a76) => {
+        const _0x1d76ba = _0x261390;
+        try {
+          const { error: _0x2f917e } = await _0x5ea00c[_0x1d76ba(0x1c6)](
+            "gate_user_access",
+          )
+            ["update"]({
+              expires_at: _0x48a76
+                ? new Date(_0x48a76)[_0x1d76ba(0x25a)]()
+                : null,
+              updated_at: new Date()[_0x1d76ba(0x25a)](),
+            })
+            ["eq"](_0x1d76ba(0x2f6), _0xc7e879);
+          if (_0x2f917e) throw _0x2f917e;
+          (_0x62ad04(null), _0x37d88a());
+        } catch {
+          alert(_0x1d76ba(0x292));
+        }
+      },
+      _0x57c52b = async (_0x216718, _0x54e13f, _0x153dc1) => {
+        const _0x1b4fcb = _0x261390;
+        if (
+          confirm(
+            "从该账号移除此设备并禁止该设备再次自动登记，直至你在后台「解除限制」。用户端将提示无法访问，直至解除或换机。",
+          )
+        )
+          try {
+            const { error: _0x20a4cb } = await _0x5ea00c[_0x1b4fcb(0x1c6)](
+              "gate_device_blocked",
+            )["upsert"](
+              { user_id: _0x54e13f, device_id: _0x153dc1 },
+              { onConflict: "user_id,device_id" },
+            );
+            if (_0x20a4cb) throw _0x20a4cb;
+            const { error: _0x184a2c } = await _0x5ea00c[_0x1b4fcb(0x1c6)](
+              _0x1b4fcb(0x198),
+            )
+              [_0x1b4fcb(0x30d)]()
+              ["eq"]("id", _0x216718);
+            if (_0x184a2c) throw _0x184a2c;
+            _0x37d88a();
+          } catch (_0x28e907) {
+            alert("移除失败：" + (_0x28e907["message"] || _0x1b4fcb(0x20e)));
+          }
+      },
+      _0x4f3705 = async (_0x678967, _0x35db1e) => {
+        const _0x13537e = _0x261390;
+        if (confirm(_0x13537e(0x290)))
+          try {
+            const { error: _0x55a002 } = await _0x5ea00c[_0x13537e(0x1c6)](
+              _0x13537e(0x1e9),
+            )
+              [_0x13537e(0x30d)]()
+              ["eq"](_0x13537e(0x2f6), _0x678967)
+              ["eq"](_0x13537e(0x2e1), _0x35db1e);
+            if (_0x55a002) throw _0x55a002;
+            _0x37d88a();
+          } catch {
+            alert(_0x13537e(0x1cc));
+          }
+      },
+      _0x420513 = async (_0x298e2a, _0x45db58) => {
+        const _0x2dcba5 = _0x261390;
+        try {
+          const { error: _0x171663 } = await _0x5ea00c["from"](_0x2dcba5(0x2c1))
+            [_0x2dcba5(0x2f3)]({ note: _0x45db58 })
+            ["eq"]("id", _0x298e2a);
+          if (_0x171663) throw _0x171663;
+          (_0x66c64a(null), _0x37d88a());
+        } catch {
+          alert(_0x2dcba5(0x1d2));
+        }
+      },
+      _0x272b61 = async (_0x550a7d, _0x385e7e) => {
+        const _0x402ed8 = _0x261390;
+        try {
+          const { error: _0x4ec9c3 } = await _0x5ea00c["from"](
+            "access_requests",
+          )
+            [_0x402ed8(0x2f3)]({
+              expires_at: _0x385e7e
+                ? new Date(_0x385e7e)["toISOString"]()
+                : null,
+            })
+            ["eq"]("id", _0x550a7d);
+          if (_0x4ec9c3) throw _0x4ec9c3;
+          (_0x22a6a7(null), _0x37d88a());
+        } catch {
+          alert(_0x402ed8(0x292));
+        }
+      },
+      _0x44663b = async () => {
+        const _0xeddc20 = _0x261390;
+        _0x1375eb(!(0x2090 + 0x7db + -0x286b));
+        try {
+          const { error: _0x55843c } = await _0x5ea00c[_0xeddc20(0x1c6)](
+            _0xeddc20(0x161),
+          )[_0xeddc20(0x203)]({
+            id: 0x1,
+            announcement: _0x465d7d,
+            updated_at: new Date()[_0xeddc20(0x25a)](),
+          });
+          if (_0x55843c) throw _0x55843c;
+          alert("公告已更新");
+        } catch {
+          alert(_0xeddc20(0x2b4));
+        } finally {
+          _0x1375eb(!(0x44f * -0x9 + 0x265 * -0x4 + 0x305c));
+        }
+      },
+      _0x1ceb3f = _0x3a5a53[_0x261390(0x152)](
+        () =>
+          (_0x35c958 || [])["map"]((_0x1843e4) => {
+            const _0x361693 = _0x261390,
+              _0xc8d34b = _0x1843e4[_0x361693(0x1b8)] || _0x361693(0x1c2),
+              _0xb8827d = _0x1843e4[_0x361693(0x32e)] || [],
+              _0x5efc14 = {
+                total: _0xb8827d[_0x361693(0x19b)],
+                pending:
+                  _0xc8d34b === "pending"
+                    ? -0xc73 + 0x9d + 0xbd7
+                    : 0x11ca + -0x73c + -0xa8e,
+                approved:
+                  _0xc8d34b === _0x361693(0x1ac)
+                    ? 0x2 * -0x566 + 0xd5 * -0x10 + 0x181d
+                    : 0x110c + -0x1111 + 0x5 * 0x1,
+                rejected:
+                  _0xc8d34b === _0x361693(0x166)
+                    ? 0xa * 0x15d + -0x2de * 0x2 + -0x2b * 0x2f
+                    : 0x7b5 + -0x141e + 0xc69,
+                revoked:
+                  _0xc8d34b === _0x361693(0x257)
+                    ? 0x1aa1 + 0xd * -0x2b4 + -0x4 * -0x221
+                    : 0x54 * 0x9 + -0x1127 + 0x2d7 * 0x5,
+              },
+              _0xd7e15f = _0x1843e4[_0x361693(0x31b)] || _0x361693(0x2db);
+            return {
+              kind: _0x361693(0x302),
+              name: _0x361693(0x14b) + _0x1843e4["email"],
+              gateAccess: _0x1843e4,
+              devices: _0xb8827d,
+              stats: _0x5efc14,
+              lastActive:
+                _0x1843e4[_0x361693(0x132)] || _0x1843e4["updated_at"],
+              createdAt: _0x1843e4["created_at"],
+              isBanned: _0x1843e4[_0x361693(0x140)],
+              isPinned: _0x1843e4[_0x361693(0x2e2)],
+              isFavorite: _0x1843e4["is_favorite"],
+              tags: _0x1843e4[_0x361693(0x1ce)] || [],
+              accessSourceCounts: {
+                [_0xd7e15f]: -0x895 * 0x3 + -0xda * -0x26 + 0x69c * -0x1,
+              },
+            };
+          }),
+        [_0x35c958],
+      ),
+      _0x1ede45 = _0x3a5a53[_0x261390(0x152)](
+        () =>
+          [
+            ...new Set([
+              ...Object["values"](_0x142254)[_0x261390(0x196)](
+                (_0x4f1719) => _0x4f1719[_0x261390(0x1ce)] || [],
+              ),
+              ...(_0x35c958 || [])[_0x261390(0x196)](
+                (_0x59e2fd) => _0x59e2fd[_0x261390(0x1ce)] || [],
+              ),
+            ]),
+          ]
+            [_0x261390(0x137)](Boolean)
+            [_0x261390(0x1b7)](),
+        [_0x142254, _0x35c958],
+      ),
+      _0x581b1a = _0x3a5a53[_0x261390(0x152)](() => {
+        const _0x182ad5 = _0x261390,
+          _0x43f672 = Object[_0x182ad5(0x2a9)](_0x142254),
+          _0x497298 = [..._0x1ceb3f, ..._0x43f672],
+          _0x7f2ad8 = _0xdf3b40[_0x182ad5(0x1bf)]()[_0x182ad5(0x2b6)]();
+        return _0x497298[_0x182ad5(0x137)]((_0x22b753) => {
+          const _0x24d892 = _0x182ad5;
+          var _0x169023;
+          const _0x9ee0c0 = _0x7f2ad8
+            ? _0x22b753[_0x24d892(0x260)] === _0x24d892(0x302)
+              ? (() => {
+                  const _0x385442 = _0x24d892,
+                    _0x5b8bd1 = _0x22b753["gateAccess"];
+                  return (
+                    (_0x5b8bd1[_0x385442(0x145)] &&
+                      _0x5b8bd1[_0x385442(0x145)]
+                        [_0x385442(0x2b6)]()
+                        [_0x385442(0x2b0)](_0x7f2ad8)) ||
+                    (_0x5b8bd1["display_name"] &&
+                      String(_0x5b8bd1[_0x385442(0x23c)])
+                        [_0x385442(0x2b6)]()
+                        ["includes"](_0x7f2ad8))
+                  );
+                })()
+              : _0x22b753[_0x24d892(0x1d9)]
+                  ["toLowerCase"]()
+                  [_0x24d892(0x2b0)](_0x7f2ad8)
+            : !(0xd10 + -0xea + 0x613 * -0x2);
+          return _0x571456 === _0x24d892(0x1f2)
+            ? _0x9ee0c0 &&
+                _0x22b753[_0x24d892(0x239)][_0x24d892(0x26b)] >
+                  -0xa86 + 0xe4a + -0x1 * 0x3c4
+            : (_0x5abbb6 &&
+                  (_0x22b753["stats"][_0x5abbb6] ||
+                    0x1 * 0x20b3 + -0x9 * -0xf7 + 0x2 * -0x14b1) ===
+                    0x848 + -0x1 * -0x25bd + -0x2e05) ||
+                (_0x4bfdee &&
+                  (((_0x169023 = _0x22b753[_0x24d892(0x15e)]) == null
+                    ? void (0x2636 * -0x1 + 0x1911 + 0x2a1 * 0x5)
+                    : _0x169023[_0x4bfdee]) ||
+                    0x14c2 + 0x4 * -0x595 + -0x43 * -0x6) ===
+                    -0x17f0 + -0x14 * 0xf0 + -0x1558 * -0x2) ||
+                (_0x2d1a36 && !_0x22b753["isPinned"]) ||
+                (_0x5b028c && !_0x22b753[_0x24d892(0x1e4)]) ||
+                (_0xcb3483 &&
+                  !(_0x22b753[_0x24d892(0x1ce)] || [])[_0x24d892(0x2b0)](
+                    _0xcb3483,
+                  ))
+              ? !(0x264 + -0x885 + 0x622)
+              : _0x9ee0c0;
+        })[_0x182ad5(0x1b7)]((_0x486519, _0x56be53) =>
+          _0x486519["isPinned"] && !_0x56be53[_0x182ad5(0x29a)]
+            ? -(-0x25dd + 0x1b5f + 0xa7f)
+            : !_0x486519[_0x182ad5(0x29a)] && _0x56be53[_0x182ad5(0x29a)]
+              ? -0x5e2 + -0x1fa7 + -0x258a * -0x1
+              : _0x486519["isFavorite"] && !_0x56be53[_0x182ad5(0x1e4)]
+                ? -(-0x218e + 0x1292 + 0xefd)
+                : !_0x486519[_0x182ad5(0x1e4)] && _0x56be53[_0x182ad5(0x1e4)]
+                  ? 0xfb0 * 0x2 + 0x6d * 0x1f + -0x2c92
+                  : _0x486519["stats"][_0x182ad5(0x26b)] >
+                        0x1be * -0x1 + 0x47 * -0x49 + 0x15fd &&
+                      _0x56be53[_0x182ad5(0x239)][_0x182ad5(0x26b)] ===
+                        0x26a8 + 0x10 * -0x238 + -0x328
+                    ? -(-0x852 + -0x95c * 0x1 + 0x11af * 0x1)
+                    : _0x486519[_0x182ad5(0x239)][_0x182ad5(0x26b)] ===
+                          -0x8 * 0x1d0 + 0xc33 + 0x24d &&
+                        _0x56be53[_0x182ad5(0x239)]["pending"] >
+                          -0x1 * -0x10a1 + 0x874 + -0x1915
+                      ? -0xde7 + 0x161a + 0x832 * -0x1
+                      : _0x3be73b === _0x182ad5(0x1d9)
+                        ? (_0x486519[_0x182ad5(0x1d9)] || "")["localeCompare"](
+                            _0x56be53[_0x182ad5(0x1d9)] || "",
+                          )
+                        : _0x3be73b === _0x182ad5(0x1eb)
+                          ? new Date(
+                              _0x486519["createdAt"] ||
+                                -0x54d * 0x5 + -0x22c5 + 0x1f * 0x1fa,
+                            ) -
+                            new Date(
+                              _0x56be53[_0x182ad5(0x1eb)] ||
+                                0x4 * 0x7ea + 0x2682 + 0x503 * -0xe,
+                            )
+                          : new Date(
+                              _0x56be53[_0x182ad5(0x170)] ||
+                                -0x2254 + 0x10d + 0x2147,
+                            ) -
+                            new Date(
+                              _0x486519[_0x182ad5(0x170)] ||
+                                0x13 * -0x170 + -0x1 * 0x1909 + 0x3459,
+                            ),
+        );
+      }, [
+        _0x1ceb3f,
+        _0x142254,
+        _0xdf3b40,
+        _0x571456,
+        _0x5abbb6,
+        _0x4bfdee,
+        _0x2d1a36,
+        _0x5b028c,
+        _0xcb3483,
+        _0x3be73b,
+      ]),
+      _0x2fc658 = Math[_0x261390(0x227)](
+        0x1 * 0x1307 + -0x60f + -0x1 * 0xcf7,
+        Math[_0x261390(0x27c)](_0x581b1a[_0x261390(0x19b)] / se),
+      ),
+      _0x174a09 = _0x581b1a[_0x261390(0x29e)](
+        (_0x5e2804 - (0x47 * -0x1d + 0xca0 + -0x2 * 0x24a)) * se,
+        _0x5e2804 * se,
+      ),
+      _0x23719c =
+        _0x2d9ce5["size"] > 0x1b3f + 0xe7a + -0x29b9 ||
+        _0x200eb0["size"] > -0x2078 * -0x1 + -0x1 * 0x41e + 0x13 * -0x17e;
+    return _0x44410f
+      ? _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+          className:
+            "fixed\x20inset-0\x20z-[10000]\x20bg-slate-50\x20text-slate-800\x20flex\x20flex-col",
+          children: [
+            _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+              className: _0x261390(0x1bd),
+              children: [
+                _0x332f06["jsxs"](_0x261390(0x16c), {
+                  className: _0x261390(0x175),
+                  children: [
+                    _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                      className: "flex\x20items-center\x20gap-3",
+                      children: [
+                        _0x332f06["jsx"](_0x261390(0x158), {
+                          onClick: _0x59fbc3,
+                          className:
+                            "p-2\x20-ml-2\x20rounded-full\x20hover:bg-slate-100\x20transition-colors\x20text-slate-600",
+                          children: _0x332f06["jsx"](_0x438a88, { size: 0x18 }),
+                        }),
+                        _0x332f06[_0x261390(0x20b)]("h1", {
+                          className: _0x261390(0x1e8),
+                          children: "User\x20Management",
+                        }),
+                      ],
+                    }),
+                    _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                      className: _0x261390(0x280),
+                      children: [
+                        _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                          className: _0x261390(0x1db),
+                          children: [
+                            "Total\x20Users:\x20",
+                            _0x332f06[_0x261390(0x20b)](_0x261390(0x275), {
+                              className: _0x261390(0x348),
+                              children: _0xc61065[_0x261390(0x193)],
+                            }),
+                          ],
+                        }),
+                        _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                          onClick: _0x37d88a,
+                          className:
+                            "p-2\x20rounded-full\x20hover:bg-slate-100\x20transition-all\x20text-slate-600\x20" +
+                            (_0x292708 ? _0x261390(0x27f) : ""),
+                          children: _0x332f06[_0x261390(0x20b)](_0x3fcd26, {
+                            size: 0x14,
+                          }),
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+                _0x332f06["jsxs"]("div", {
+                  className: _0x261390(0x289),
+                  children: [
+                    _0x332f06[_0x261390(0x20b)](_0x35a2a7, {
+                      size: 0x12,
+                      className:
+                        "absolute\x20left-3\x20top-1/2\x20-translate-y-1/2\x20text-slate-400",
+                    }),
+                    _0x332f06[_0x261390(0x20b)](_0x261390(0x28d), {
+                      type: "text",
+                      value: _0xdf3b40,
+                      onChange: (_0xd170d6) =>
+                        _0x2db632(
+                          _0xd170d6[_0x261390(0x14c)][_0x261390(0x13f)],
+                        ),
+                      placeholder: "搜索用户...",
+                      className: _0x261390(0x293),
+                    }),
+                  ],
+                }),
+                _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                  className: "flex\x20flex-wrap\x20gap-2\x20items-center",
+                  children: [
+                    _0x332f06[_0x261390(0x309)]("select", {
+                      value: _0x5abbb6,
+                      onChange: (_0x284c94) =>
+                        _0x465688(_0x284c94[_0x261390(0x14c)]["value"]),
+                      className: _0x261390(0x12e),
+                      children: [
+                        _0x332f06[_0x261390(0x20b)](_0x261390(0x1d3), {
+                          value: "",
+                          children: _0x261390(0x1d0),
+                        }),
+                        _0x332f06["jsx"](_0x261390(0x1d3), {
+                          value: _0x261390(0x26b),
+                          children: _0x261390(0x262),
+                        }),
+                        _0x332f06[_0x261390(0x20b)](_0x261390(0x1d3), {
+                          value: _0x261390(0x1ac),
+                          children: _0x261390(0x1b9),
+                        }),
+                        _0x332f06["jsx"]("option", {
+                          value: "rejected",
+                          children: _0x261390(0x233),
+                        }),
+                        _0x332f06["jsx"]("option", {
+                          value: _0x261390(0x257),
+                          children: "已撤销",
+                        }),
+                      ],
+                    }),
+                    _0x332f06["jsxs"](_0x261390(0x2fa), {
+                      value: _0x4bfdee,
+                      onChange: (_0x167137) =>
+                        _0x43cc25(_0x167137["target"][_0x261390(0x13f)]),
+                      className: _0x261390(0x12e),
+                      children: [
+                        _0x332f06[_0x261390(0x20b)](_0x261390(0x1d3), {
+                          value: "",
+                          children: _0x261390(0x1d7),
+                        }),
+                        _0x332f06[_0x261390(0x20b)](_0x261390(0x1d3), {
+                          value: _0x261390(0x183),
+                          children: _0x261390(0x155),
+                        }),
+                        _0x332f06[_0x261390(0x20b)](_0x261390(0x1d3), {
+                          value: "code",
+                          children: _0x261390(0x1b1),
+                        }),
+                        _0x332f06["jsx"](_0x261390(0x1d3), {
+                          value: _0x261390(0x2db),
+                          children: _0x261390(0x1e2),
+                        }),
+                      ],
+                    }),
+                    _0x332f06["jsxs"](_0x261390(0x25f), {
+                      className: _0x261390(0x2bd),
+                      children: [
+                        _0x332f06[_0x261390(0x20b)]("input", {
+                          type: "checkbox",
+                          checked: _0x2d1a36,
+                          onChange: (_0x534def) =>
+                            _0x1bb529(_0x534def["target"][_0x261390(0x2ec)]),
+                          className: _0x261390(0x273),
+                        }),
+                        _0x261390(0x188),
+                      ],
+                    }),
+                    _0x332f06[_0x261390(0x309)]("label", {
+                      className:
+                        "flex\x20items-center\x20gap-1.5\x20text-sm\x20text-slate-600\x20cursor-pointer",
+                      children: [
+                        _0x332f06[_0x261390(0x20b)]("input", {
+                          type: _0x261390(0x300),
+                          checked: _0x5b028c,
+                          onChange: (_0x15826a) =>
+                            _0x751f80(
+                              _0x15826a[_0x261390(0x14c)][_0x261390(0x2ec)],
+                            ),
+                          className: "rounded",
+                        }),
+                        _0x261390(0x305),
+                      ],
+                    }),
+                    _0x1ede45[_0x261390(0x19b)] >
+                      0x180f + 0x491 * 0x7 + 0x2 * -0x1c03 &&
+                      _0x332f06[_0x261390(0x309)](_0x261390(0x2fa), {
+                        value: _0xcb3483,
+                        onChange: (_0x33de7f) =>
+                          _0x3396d2(_0x33de7f["target"]["value"]),
+                        className: _0x261390(0x12e),
+                        children: [
+                          _0x332f06[_0x261390(0x20b)]("option", {
+                            value: "",
+                            children: _0x261390(0x32c),
+                          }),
+                          _0x1ede45[_0x261390(0x18e)]((_0x7fd2e4) =>
+                            _0x332f06[_0x261390(0x20b)](
+                              _0x261390(0x1d3),
+                              { value: _0x7fd2e4, children: _0x7fd2e4 },
+                              _0x7fd2e4,
+                            ),
+                          ),
+                        ],
+                      }),
+                    _0x332f06[_0x261390(0x309)]("select", {
+                      value: _0x3be73b,
+                      onChange: (_0x2a6096) =>
+                        _0x5e6590(_0x2a6096["target"][_0x261390(0x13f)]),
+                      className: _0x261390(0x12e),
+                      children: [
+                        _0x332f06[_0x261390(0x20b)]("option", {
+                          value: _0x261390(0x170),
+                          children: _0x261390(0x156),
+                        }),
+                        _0x332f06[_0x261390(0x20b)](_0x261390(0x1d3), {
+                          value: _0x261390(0x1eb),
+                          children: _0x261390(0x256),
+                        }),
+                        _0x332f06[_0x261390(0x20b)]("option", {
+                          value: "name",
+                          children: _0x261390(0x2c9),
+                        }),
+                      ],
+                    }),
+                    _0x332f06["jsxs"](_0x261390(0x158), {
+                      type: _0x261390(0x158),
+                      onClick: _0x5cf98b,
+                      className: _0x261390(0x21a),
+                      children: [
+                        _0x332f06["jsx"](_0x57c93a, { size: 0x10 }),
+                        _0x261390(0x2d1),
+                      ],
+                    }),
+                  ],
+                }),
+                _0x23719c &&
+                  _0x332f06[_0x261390(0x309)]("div", {
+                    className: _0x261390(0x33f),
+                    children: [
+                      _0x332f06[_0x261390(0x309)](_0x261390(0x275), {
+                        className: _0x261390(0x176),
+                        children: [
+                          _0x261390(0x26e),
+                          _0x2d9ce5[_0x261390(0x31d)] >
+                          -0x1e61 + -0x200a + 0x3e6b * 0x1
+                            ? _0x2d9ce5["size"] + "\x20组"
+                            : "",
+                          "\x20",
+                          _0x200eb0[_0x261390(0x31d)] >
+                          0x1a7d * 0x1 + -0x49 * -0x1 + -0x1ac6
+                            ? _0x200eb0[_0x261390(0x31d)] + _0x261390(0x1cb)
+                            : "",
+                        ],
+                      }),
+                      _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                        type: _0x261390(0x158),
+                        onClick: _0x577c66,
+                        className: _0x261390(0x1aa),
+                        children: _0x261390(0x30b),
+                      }),
+                      _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                        type: _0x261390(0x158),
+                        onClick: () =>
+                          _0x33d89c(
+                            _0x261390(0x1ac),
+                            !(-0x1e87 + -0x2013 + 0x3e9a),
+                          ),
+                        className: _0x261390(0x24f),
+                        children: _0x261390(0x1c9),
+                      }),
+                      _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                        type: _0x261390(0x158),
+                        onClick: () => _0x33d89c(_0x261390(0x166)),
+                        className: _0x261390(0x1cd),
+                        children: _0x261390(0x1c4),
+                      }),
+                      _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                        type: _0x261390(0x158),
+                        onClick: () =>
+                          _0x353bc3(!(0x149e + 0xb96 + -0x1ca * 0x12)),
+                        className:
+                          "px-2\x20py-1.5\x20bg-amber-100\x20text-amber-800\x20text-xs\x20rounded-lg\x20hover:bg-amber-200",
+                        children: _0x261390(0x1dc),
+                      }),
+                      _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                        type: "button",
+                        onClick: () =>
+                          _0x353bc3(!(0x2bd * -0x1 + 0x2ad * -0xb + 0x202d)),
+                        className:
+                          "px-2\x20py-1.5\x20bg-slate-100\x20text-slate-600\x20text-xs\x20rounded-lg\x20hover:bg-slate-200",
+                        children: "取消置顶",
+                      }),
+                      _0x332f06["jsx"](_0x261390(0x158), {
+                        type: _0x261390(0x158),
+                        onClick: () =>
+                          _0x58b1d5(!(-0xdfa * 0x1 + -0x710 + 0x150a * 0x1)),
+                        className: _0x261390(0x13c),
+                        children: _0x261390(0x22d),
+                      }),
+                      _0x332f06["jsx"](_0x261390(0x158), {
+                        type: _0x261390(0x158),
+                        onClick: () =>
+                          _0x58b1d5(!(-0x2637 + -0x1 * -0x1dff + 0x839)),
+                        className: _0x261390(0x33a),
+                        children: _0x261390(0x2fe),
+                      }),
+                      _0x332f06["jsx"](_0x261390(0x158), {
+                        type: _0x261390(0x158),
+                        onClick: _0x371444,
+                        className:
+                          "px-2\x20py-1.5\x20bg-rose-50\x20text-rose-600\x20text-xs\x20rounded-lg\x20hover:bg-rose-100",
+                        children: _0x261390(0x1f1),
+                      }),
+                    ],
+                  }),
+                _0x332f06[_0x261390(0x309)]("div", {
+                  className: "flex\x20flex-wrap\x20gap-2",
+                  children: [
+                    _0x332f06["jsx"](_0x261390(0x158), {
+                      onClick: () => _0x14b910(_0x261390(0x265)),
+                      className:
+                        "flex-1\x20min-w-[100px]\x20py-2\x20rounded-lg\x20text-sm\x20font-medium\x20transition-all\x20" +
+                        (_0x571456 === _0x261390(0x265)
+                          ? "bg-slate-900\x20text-white"
+                          : "bg-slate-100\x20text-slate-500\x20hover:bg-slate-200"),
+                      children: _0x261390(0x259),
+                    }),
+                    _0x332f06[_0x261390(0x309)]("button", {
+                      onClick: () => _0x14b910("pending_users"),
+                      className:
+                        "flex-1\x20min-w-[100px]\x20py-2\x20rounded-lg\x20text-sm\x20font-medium\x20transition-all\x20flex\x20items-center\x20justify-center\x20gap-2\x20" +
+                        (_0x571456 === _0x261390(0x1f2)
+                          ? _0x261390(0x1ba)
+                          : _0x261390(0x200)),
+                      children: [
+                        _0x261390(0x291),
+                        _0xc61065[_0x261390(0x26b)] >
+                          0x21ce + -0xa4f + 0xf * -0x191 &&
+                          _0x332f06[_0x261390(0x20b)](_0x261390(0x275), {
+                            className: _0x261390(0x162),
+                            children: _0xc61065[_0x261390(0x26b)],
+                          }),
+                      ],
+                    }),
+                    _0x332f06[_0x261390(0x309)](_0x261390(0x158), {
+                      onClick: () => _0x14b910(_0x261390(0x147)),
+                      className:
+                        _0x261390(0x1e0) +
+                        (_0x571456 === _0x261390(0x147)
+                          ? _0x261390(0x318)
+                          : _0x261390(0x29b)),
+                      children: [
+                        _0x332f06[_0x261390(0x20b)](_0x141a92, { size: 0x10 }),
+                        "激活码",
+                      ],
+                    }),
+                    _0x332f06[_0x261390(0x309)](_0x261390(0x158), {
+                      onClick: () => _0x14b910(_0x261390(0x15c)),
+                      className:
+                        "flex-1\x20min-w-[100px]\x20py-2\x20rounded-lg\x20text-sm\x20font-medium\x20transition-all\x20flex\x20items-center\x20justify-center\x20gap-2\x20" +
+                        (_0x571456 === "audit"
+                          ? _0x261390(0x2ae)
+                          : "bg-slate-100\x20text-slate-500\x20hover:bg-slate-200"),
+                      children: [
+                        _0x332f06[_0x261390(0x20b)](_0x2d1992, { size: 0x10 }),
+                        _0x261390(0x320),
+                      ],
+                    }),
+                    _0x332f06["jsx"](_0x261390(0x158), {
+                      onClick: () => _0x14b910(_0x261390(0x2bf)),
+                      className:
+                        _0x261390(0x1e0) +
+                        (_0x571456 === _0x261390(0x2bf)
+                          ? _0x261390(0x2ae)
+                          : _0x261390(0x19a)),
+                      children: "Settings",
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            _0x332f06[_0x261390(0x20b)](_0x261390(0x16c), {
+              className:
+                "flex-1\x20overflow-y-auto\x20px-4\x20py-4\x20bg-slate-50",
+              children:
+                _0x571456 === _0x261390(0x2bf)
+                  ? _0x332f06[_0x261390(0x20b)](_0x261390(0x16c), {
+                      className: _0x261390(0x2f0),
+                      children: _0x332f06["jsxs"](_0x261390(0x16c), {
+                        className: _0x261390(0x2a8),
+                        children: [
+                          _0x332f06[_0x261390(0x309)]("h3", {
+                            className: _0x261390(0x2d8),
+                            children: [
+                              _0x332f06[_0x261390(0x20b)](_0x4b502d, {
+                                size: 0x12,
+                              }),
+                              "System\x20Announcement",
+                            ],
+                          }),
+                          _0x332f06[_0x261390(0x20b)]("p", {
+                            className: _0x261390(0x172),
+                            children: _0x261390(0x1fd),
+                          }),
+                          _0x332f06["jsx"](_0x261390(0x2a6), {
+                            value: _0x465d7d,
+                            onChange: (_0x2b5201) =>
+                              _0x1b284c(
+                                _0x2b5201[_0x261390(0x14c)][_0x261390(0x13f)],
+                              ),
+                            placeholder: _0x261390(0x258),
+                            className: _0x261390(0x134),
+                          }),
+                          _0x332f06[_0x261390(0x20b)](_0x261390(0x16c), {
+                            className: "flex\x20justify-end",
+                            children: _0x332f06["jsxs"](_0x261390(0x158), {
+                              onClick: _0x44663b,
+                              disabled: _0x926cc6,
+                              className: _0x261390(0x1b4),
+                              children: [
+                                _0x926cc6
+                                  ? _0x332f06[_0x261390(0x20b)](_0x3fcd26, {
+                                      size: 0x10,
+                                      className: "animate-spin",
+                                    })
+                                  : _0x332f06[_0x261390(0x20b)](_0x128f46, {
+                                      size: 0x10,
+                                    }),
+                                _0x261390(0x25e),
+                              ],
+                            }),
+                          }),
+                        ],
+                      }),
+                    })
+                  : _0x571456 === "activation"
+                    ? _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                        className: _0x261390(0x2f0),
+                        children: [
+                          _0x332f06["jsxs"]("div", {
+                            className:
+                              "bg-white\x20p-5\x20rounded-2xl\x20border\x20border-slate-100\x20shadow-sm",
+                            children: [
+                              _0x332f06[_0x261390(0x309)]("div", {
+                                className: _0x261390(0x2d4),
+                                children: [
+                                  _0x332f06[_0x261390(0x309)]("h3", {
+                                    className:
+                                      "font-semibold\x20text-slate-900\x20flex\x20items-center\x20gap-2",
+                                    children: [
+                                      _0x332f06[_0x261390(0x20b)](_0x141a92, {
+                                        size: 0x12,
+                                      }),
+                                      _0x261390(0x234),
+                                    ],
+                                  }),
+                                  _0x332f06[_0x261390(0x20b)](
+                                    _0x261390(0x158),
+                                    {
+                                      type: _0x261390(0x158),
+                                      onClick: _0x18887f,
+                                      disabled: _0x5b7abd,
+                                      className:
+                                        _0x261390(0x23d) +
+                                        (_0x5b7abd ? _0x261390(0x27f) : ""),
+                                      children: _0x332f06["jsx"](_0x3fcd26, {
+                                        size: 0x12,
+                                      }),
+                                    },
+                                  ),
+                                ],
+                              }),
+                              _0x332f06["jsxs"]("p", {
+                                className: _0x261390(0x19e),
+                                children: [
+                                  _0x261390(0x2eb),
+                                  _0x332f06["jsx"](_0x261390(0x13a), {
+                                    className: "text-slate-700",
+                                    children: _0x261390(0x17a),
+                                  }),
+                                  "\x20的",
+                                  "\x20",
+                                  _0x332f06[_0x261390(0x20b)]("code", {
+                                    className: _0x261390(0x296),
+                                    children: _0x261390(0x1f5),
+                                  }),
+                                  _0x261390(0x247),
+                                ],
+                              }),
+                              _0x332f06[_0x261390(0x20b)](_0x261390(0x25f), {
+                                className: _0x261390(0x1c7),
+                                children: "激活码生成密钥",
+                              }),
+                              _0x332f06[_0x261390(0x20b)](_0x261390(0x28d), {
+                                type: _0x261390(0x1a3),
+                                value: _0x92177f,
+                                onChange: (_0x11d982) =>
+                                  _0x2c66ef(
+                                    _0x11d982["target"][_0x261390(0x13f)],
+                                  ),
+                                placeholder: _0x261390(0x338),
+                                className:
+                                  "w-full\x20bg-slate-50\x20border\x20border-slate-200\x20rounded-xl\x20px-3\x20py-2\x20text-sm\x20mb-3",
+                              }),
+                              _0x332f06["jsx"](_0x261390(0x25f), {
+                                className:
+                                  "block\x20text-xs\x20text-slate-500\x20mb-1",
+                                children: "本批生成数量（1–2000）",
+                              }),
+                              _0x332f06[_0x261390(0x20b)](_0x261390(0x28d), {
+                                type: _0x261390(0x1c1),
+                                min: 0x1,
+                                max: 0x7d0,
+                                value: _0x19b8b9,
+                                onChange: (_0x5ee329) =>
+                                  _0x15ba72(
+                                    Number(
+                                      _0x5ee329[_0x261390(0x14c)][
+                                        _0x261390(0x13f)
+                                      ],
+                                    ),
+                                  ),
+                                className: _0x261390(0x228),
+                              }),
+                              _0x332f06["jsx"](_0x261390(0x25f), {
+                                className: _0x261390(0x1c7),
+                                children: _0x261390(0x249),
+                              }),
+                              _0x332f06["jsx"](_0x261390(0x28d), {
+                                type: "text",
+                                value: _0x1b4c9f,
+                                onChange: (_0x3f7fc7) =>
+                                  _0x3c50b9(
+                                    _0x3f7fc7[_0x261390(0x14c)][
+                                      _0x261390(0x13f)
+                                    ],
+                                  ),
+                                placeholder: _0x261390(0x235),
+                                className: _0x261390(0x228),
+                              }),
+                              _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                                className: _0x261390(0x31a),
+                                children: [
+                                  _0x332f06[_0x261390(0x20b)]("button", {
+                                    type: "button",
+                                    disabled: _0x515afb,
+                                    onClick: () => _0x5a6dad(_0x261390(0x22e)),
+                                    className: _0x261390(0x131),
+                                    children: _0x261390(0x301),
+                                  }),
+                                  _0x332f06[_0x261390(0x20b)]("button", {
+                                    type: _0x261390(0x158),
+                                    disabled: _0x515afb,
+                                    onClick: () => _0x5a6dad(_0x261390(0x324)),
+                                    className: _0x261390(0x1fb),
+                                    children: _0x261390(0x138),
+                                  }),
+                                ],
+                              }),
+                              _0x332f06["jsx"](_0x261390(0x25f), {
+                                className: _0x261390(0x1c7),
+                                children: _0x261390(0x16a),
+                              }),
+                              _0x332f06[_0x261390(0x20b)]("textarea", {
+                                readOnly: !(
+                                  0x12e3 +
+                                  -0x11 * 0x55 +
+                                  0x2 * -0x69f
+                                ),
+                                value: _0x4fc45a,
+                                placeholder: "生成成功后显示于此",
+                                className: _0x261390(0x323),
+                              }),
+                              _0x332f06[_0x261390(0x20b)](_0x261390(0x16c), {
+                                className: _0x261390(0x325),
+                                children: _0x332f06[_0x261390(0x20b)](
+                                  _0x261390(0x158),
+                                  {
+                                    type: _0x261390(0x158),
+                                    onClick: _0x16254e,
+                                    className:
+                                      "px-4\x20py-2\x20bg-slate-900\x20text-white\x20text-sm\x20font-medium\x20rounded-xl\x20hover:bg-slate-800\x20disabled:opacity-50\x20disabled:cursor-not-allowed",
+                                    disabled:
+                                      !_0x4fc45a ||
+                                      !_0x4fc45a[_0x261390(0x1bf)](),
+                                    children: _0x261390(0x212),
+                                  },
+                                ),
+                              }),
+                            ],
+                          }),
+                          _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                            className: _0x261390(0x283),
+                            children: [
+                              _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                                className: _0x261390(0x31f),
+                                children: [
+                                  _0x332f06["jsx"]("h4", {
+                                    className: _0x261390(0x246),
+                                    children: _0x261390(0x28a),
+                                  }),
+                                  _0x332f06[_0x261390(0x309)]("p", {
+                                    className: "text-xs\x20text-slate-500",
+                                    children: [
+                                      _0x261390(0x157),
+                                      _0x1bfab9["initial"][_0x261390(0x1c8)],
+                                      "\x20·\x20未用\x20",
+                                      _0x1bfab9[_0x261390(0x22e)][
+                                        _0x261390(0x343)
+                                      ],
+                                      _0x261390(0x278),
+                                      "\x20",
+                                      _0x1bfab9["initial"][_0x261390(0x144)],
+                                      _0x261390(0x26c),
+                                      _0x1bfab9["initial"]["voided"],
+                                    ],
+                                  }),
+                                ],
+                              }),
+                              _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                                className:
+                                  "bg-white\x20p-4\x20rounded-2xl\x20border\x20border-slate-100",
+                                children: [
+                                  _0x332f06["jsx"]("h4", {
+                                    className: _0x261390(0x246),
+                                    children: _0x261390(0x1e7),
+                                  }),
+                                  _0x332f06[_0x261390(0x309)]("p", {
+                                    className: _0x261390(0x2a3),
+                                    children: [
+                                      "总计\x20",
+                                      _0x1bfab9[_0x261390(0x324)][
+                                        _0x261390(0x1c8)
+                                      ],
+                                      _0x261390(0x2da),
+                                      _0x1bfab9[_0x261390(0x324)][
+                                        _0x261390(0x343)
+                                      ],
+                                      _0x261390(0x278),
+                                      "\x20",
+                                      _0x1bfab9[_0x261390(0x324)]["used"],
+                                      "\x20·\x20作废\x20",
+                                      _0x1bfab9[_0x261390(0x324)][
+                                        _0x261390(0x1de)
+                                      ],
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                          _0x332f06["jsxs"](_0x261390(0x16c), {
+                            className:
+                              "bg-white\x20p-5\x20rounded-2xl\x20border\x20border-slate-100\x20shadow-sm",
+                            children: [
+                              _0x332f06["jsx"]("h4", {
+                                className: _0x261390(0x2ba),
+                                children: "批次列表",
+                              }),
+                              _0x332f06[_0x261390(0x309)]("label", {
+                                className: _0x261390(0x236),
+                                children: [
+                                  _0x332f06[_0x261390(0x20b)](
+                                    _0x261390(0x28d),
+                                    {
+                                      type: _0x261390(0x300),
+                                      checked: _0x153fa1,
+                                      onChange: (_0x2285a6) =>
+                                        _0x1499d8(
+                                          _0x2285a6[_0x261390(0x14c)][
+                                            "checked"
+                                          ],
+                                        ),
+                                      className: _0x261390(0x273),
+                                    },
+                                  ),
+                                  _0x261390(0x2af),
+                                ],
+                              }),
+                              _0x332f06["jsxs"]("label", {
+                                className: _0x261390(0x236),
+                                children: [
+                                  _0x332f06[_0x261390(0x20b)](
+                                    _0x261390(0x28d),
+                                    {
+                                      type: "checkbox",
+                                      checked: _0x5a6b74,
+                                      onChange: (_0x23a18f) =>
+                                        _0x382fe1(
+                                          _0x23a18f[_0x261390(0x14c)][
+                                            _0x261390(0x2ec)
+                                          ],
+                                        ),
+                                      className: _0x261390(0x273),
+                                    },
+                                  ),
+                                  "隐藏“已清空未用/已作废明细”的作废批次（仅保留\x20used\x20审计）",
+                                ],
+                              }),
+                              _0x332f06[_0x261390(0x20b)](_0x261390(0x16c), {
+                                className: _0x261390(0x32a),
+                                children:
+                                  _0x4f30ca["length"] ===
+                                  -0x1 * -0x1689 + 0x1762 + -0x2deb
+                                    ? _0x332f06[_0x261390(0x20b)]("p", {
+                                        className: _0x261390(0x1a1),
+                                        children: _0x261390(0x18f),
+                                      })
+                                    : _0x2247de[_0x261390(0x18e)]((_0x1a86ec) =>
+                                        _0x332f06[_0x261390(0x309)](
+                                          _0x261390(0x16c),
+                                          {
+                                            className:
+                                              _0x261390(0x230) +
+                                              (_0x558180 === _0x1a86ec["id"]
+                                                ? _0x261390(0x168)
+                                                : ""),
+                                            children: [
+                                              _0x332f06[_0x261390(0x309)](
+                                                _0x261390(0x16c),
+                                                {
+                                                  children: [
+                                                    _0x1a86ec[_0x261390(0x127)]
+                                                      ? _0x332f06["jsx"](
+                                                          "span",
+                                                          {
+                                                            className:
+                                                              _0x261390(0x244),
+                                                            children:
+                                                              _0x1a86ec[
+                                                                _0x261390(0x127)
+                                                              ],
+                                                          },
+                                                        )
+                                                      : _0x332f06[
+                                                          _0x261390(0x309)
+                                                        ](_0x261390(0x275), {
+                                                          className:
+                                                            _0x261390(0x2fc),
+                                                          children: [
+                                                            String(
+                                                              _0x1a86ec["id"],
+                                                            )["slice"](
+                                                              0x1f26 +
+                                                                -0x6e * -0x3a +
+                                                                0x2 * -0x1c09,
+                                                              0x6e6 +
+                                                                -0x32 * 0x3b +
+                                                                0x4a8,
+                                                            ),
+                                                            "…",
+                                                          ],
+                                                        }),
+                                                    _0x332f06[_0x261390(0x20b)](
+                                                      _0x261390(0x275),
+                                                      {
+                                                        className:
+                                                          _0x261390(0x25c),
+                                                        children: "|",
+                                                      },
+                                                    ),
+                                                    _0x332f06[_0x261390(0x20b)](
+                                                      _0x261390(0x275),
+                                                      {
+                                                        className:
+                                                          _0x1a86ec[
+                                                            _0x261390(0x24d)
+                                                          ] === "initial"
+                                                            ? _0x261390(0x1a5)
+                                                            : _0x261390(0x2ff),
+                                                        children:
+                                                          _0x1a86ec[
+                                                            "category"
+                                                          ] === "initial"
+                                                            ? "初次"
+                                                            : "后续",
+                                                      },
+                                                    ),
+                                                    _0x1a86ec[_0x261390(0x127)]
+                                                      ? _0x332f06["jsxs"](
+                                                          "div",
+                                                          {
+                                                            className:
+                                                              "text-[0.6875rem]\x20text-slate-500\x20mt-0.5",
+                                                            children: [
+                                                              "批次ID：",
+                                                              String(
+                                                                _0x1a86ec["id"],
+                                                              )[
+                                                                _0x261390(0x29e)
+                                                              ](
+                                                                0xb13 +
+                                                                  -0x84 *
+                                                                    -0x11 +
+                                                                  0x13d7 * -0x1,
+                                                                0x1c9d * -0x1 +
+                                                                  0x750 * -0x1 +
+                                                                  0x23f5,
+                                                              ),
+                                                              "…",
+                                                            ],
+                                                          },
+                                                        )
+                                                      : null,
+                                                    _0x1a86ec[
+                                                      _0x261390(0x185)
+                                                    ] &&
+                                                      _0x332f06[
+                                                        _0x261390(0x20b)
+                                                      ]("span", {
+                                                        className:
+                                                          _0x261390(0x306),
+                                                        children:
+                                                          _0x261390(0x16e),
+                                                      }),
+                                                    _0x332f06["jsxs"](
+                                                      _0x261390(0x16c),
+                                                      {
+                                                        className:
+                                                          _0x261390(0x141),
+                                                        children: [
+                                                          "共\x20",
+                                                          _0x1a86ec[
+                                                            _0x261390(0x1c8)
+                                                          ],
+                                                          _0x261390(0x2da),
+                                                          _0x1a86ec[
+                                                            _0x261390(0x343)
+                                                          ],
+                                                          _0x261390(0x209),
+                                                          _0x1a86ec[
+                                                            _0x261390(0x144)
+                                                          ],
+                                                          _0x261390(0x26c),
+                                                          _0x1a86ec["voided"],
+                                                        ],
+                                                      },
+                                                    ),
+                                                    _0x332f06[_0x261390(0x20b)](
+                                                      "div",
+                                                      {
+                                                        className:
+                                                          _0x261390(0x2d2),
+                                                        children: _0x1a86ec[
+                                                          "created_at"
+                                                        ]
+                                                          ? new Date(
+                                                              _0x1a86ec[
+                                                                _0x261390(0x328)
+                                                              ],
+                                                            )[
+                                                              _0x261390(0x1cf)
+                                                            ]()
+                                                          : "",
+                                                      },
+                                                    ),
+                                                  ],
+                                                },
+                                              ),
+                                              _0x332f06[_0x261390(0x309)](
+                                                _0x261390(0x16c),
+                                                {
+                                                  className: _0x261390(0x1fa),
+                                                  children: [
+                                                    _0x332f06[_0x261390(0x20b)](
+                                                      "button",
+                                                      {
+                                                        type: _0x261390(0x158),
+                                                        onClick: () => {
+                                                          (_0x5a99e9(
+                                                            _0x1a86ec["id"],
+                                                          ),
+                                                            _0xd0456b(
+                                                              -0x4 * -0x2a2 +
+                                                                0x5f8 * 0x6 +
+                                                                -0x2e58,
+                                                            ),
+                                                            _0x33f384("all"),
+                                                            _0x22974a(""));
+                                                        },
+                                                        className:
+                                                          _0x261390(0x322) +
+                                                          (_0x558180 ===
+                                                          _0x1a86ec["id"]
+                                                            ? _0x261390(0x180)
+                                                            : "bg-slate-100\x20text-slate-700\x20hover:bg-slate-200"),
+                                                        children:
+                                                          _0x558180 ===
+                                                          _0x1a86ec["id"]
+                                                            ? _0x261390(0x26d)
+                                                            : _0x261390(0x333),
+                                                      },
+                                                    ),
+                                                    !_0x1a86ec["voided_at"] &&
+                                                      _0x1a86ec[
+                                                        _0x261390(0x343)
+                                                      ] >
+                                                        -0x91 * -0x27 +
+                                                          -0x1a1d +
+                                                          0x406 &&
+                                                      _0x332f06[
+                                                        _0x261390(0x20b)
+                                                      ]("button", {
+                                                        type: _0x261390(0x158),
+                                                        onClick: () =>
+                                                          _0x1c656b(
+                                                            _0x1a86ec["id"],
+                                                          ),
+                                                        className:
+                                                          _0x261390(0x1a9),
+                                                        children:
+                                                          _0x261390(0x28f),
+                                                      }),
+                                                  ],
+                                                },
+                                              ),
+                                            ],
+                                          },
+                                          _0x1a86ec["id"],
+                                        ),
+                                      ),
+                              }),
+                            ],
+                          }),
+                          _0x332f06[_0x261390(0x309)]("div", {
+                            className: _0x261390(0x2a8),
+                            children: [
+                              _0x332f06["jsx"]("h4", {
+                                className: _0x261390(0x2ba),
+                                children: _0x261390(0x2ca),
+                              }),
+                              _0x558180
+                                ? _0x332f06[_0x261390(0x309)](
+                                    _0x332f06[_0x261390(0x310)],
+                                    {
+                                      children: [
+                                        _0x332f06["jsxs"](_0x261390(0x16c), {
+                                          className: _0x261390(0x349),
+                                          children: [
+                                            _0x332f06[_0x261390(0x309)](
+                                              _0x261390(0x16c),
+                                              {
+                                                children: [
+                                                  _0x261390(0x1af),
+                                                  (_0x404bee == null
+                                                    ? void (
+                                                        -0x612 * 0x1 +
+                                                        -0x1 * 0x1ab4 +
+                                                        0x20c6
+                                                      )
+                                                    : _0x404bee[
+                                                        _0x261390(0x127)
+                                                      ]) ||
+                                                    (_0x558180
+                                                      ? String(_0x558180)[
+                                                          _0x261390(0x29e)
+                                                        ](
+                                                          0x2d8 +
+                                                            0x7ce +
+                                                            0x2 * -0x553,
+                                                          -0x2 * -0x81b +
+                                                            -0x5 * 0x38b +
+                                                            0x189,
+                                                        ) + "…"
+                                                      : ""),
+                                                ],
+                                              },
+                                            ),
+                                            _0x332f06[_0x261390(0x20b)]("div", {
+                                              className: _0x261390(0x14a),
+                                              children:
+                                                _0x12c333 >
+                                                -0x53 * -0x67 + 0x1498 + -0x35fd
+                                                  ? _0x332f06["jsxs"](
+                                                      _0x332f06["Fragment"],
+                                                      {
+                                                        children: [
+                                                          _0x261390(0x123),
+                                                          _0x3ce9f8 +
+                                                            (0x24ee * 0x1 +
+                                                              -0x2da +
+                                                              0x8f * -0x3d),
+                                                          "-",
+                                                          Math[
+                                                            _0x261390(0x182)
+                                                          ](
+                                                            _0x3ce9f8 +
+                                                              _0x295947,
+                                                            _0x12c333,
+                                                          ),
+                                                          "\x20/",
+                                                          "\x20",
+                                                          _0x12c333,
+                                                        ],
+                                                      },
+                                                    )
+                                                  : _0x261390(0x179),
+                                            }),
+                                          ],
+                                        }),
+                                        _0x332f06["jsxs"](_0x261390(0x16c), {
+                                          className: _0x261390(0x31c),
+                                          children: [
+                                            _0x332f06["jsxs"](
+                                              _0x261390(0x16c),
+                                              {
+                                                className: _0x261390(0x272),
+                                                children: [
+                                                  _0x332f06[_0x261390(0x309)](
+                                                    "select",
+                                                    {
+                                                      value: _0x3e76ed,
+                                                      onChange: (_0x5d7dec) =>
+                                                        _0x33f384(
+                                                          _0x5d7dec[
+                                                            _0x261390(0x14c)
+                                                          ][_0x261390(0x13f)],
+                                                        ),
+                                                      className:
+                                                        _0x261390(0x12e),
+                                                      children: [
+                                                        _0x332f06["jsx"](
+                                                          "option",
+                                                          {
+                                                            value:
+                                                              _0x261390(0x265),
+                                                            children:
+                                                              _0x261390(0x1d0),
+                                                          },
+                                                        ),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ](_0x261390(0x1d3), {
+                                                          value:
+                                                            _0x261390(0x343),
+                                                          children: "未用",
+                                                        }),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ](_0x261390(0x1d3), {
+                                                          value:
+                                                            _0x261390(0x144),
+                                                          children: "已用",
+                                                        }),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ](_0x261390(0x1d3), {
+                                                          value:
+                                                            _0x261390(0x1de),
+                                                          children: "作废",
+                                                        }),
+                                                      ],
+                                                    },
+                                                  ),
+                                                  _0x332f06[_0x261390(0x20b)](
+                                                    _0x261390(0x28d),
+                                                    {
+                                                      value: _0x4d6c34,
+                                                      onChange: (_0x3e719b) =>
+                                                        _0x22974a(
+                                                          _0x3e719b[
+                                                            _0x261390(0x14c)
+                                                          ][_0x261390(0x13f)],
+                                                        ),
+                                                      placeholder:
+                                                        _0x261390(0x191),
+                                                      className:
+                                                        _0x261390(0x238),
+                                                    },
+                                                  ),
+                                                ],
+                                              },
+                                            ),
+                                            _0x332f06[_0x261390(0x20b)]("div", {
+                                              className: _0x261390(0x280),
+                                              children: _0x332f06["jsx"](
+                                                "button",
+                                                {
+                                                  type: _0x261390(0x158),
+                                                  disabled:
+                                                    !_0x558180 || _0x46b49b,
+                                                  onClick: () =>
+                                                    _0x4342ba(
+                                                      _0x558180,
+                                                      -0x90e +
+                                                        -0x84 * 0x18 +
+                                                        0x1 * 0x156e,
+                                                    ),
+                                                  className:
+                                                    "px-3\x20py-2\x20rounded-lg\x20bg-slate-100\x20text-slate-700\x20text-xs\x20font-medium\x20hover:bg-slate-200\x20disabled:opacity-50\x20disabled:cursor-not-allowed",
+                                                  children: "刷新",
+                                                },
+                                              ),
+                                            }),
+                                          ],
+                                        }),
+                                        _0x332f06[_0x261390(0x20b)](
+                                          _0x261390(0x16c),
+                                          {
+                                            className: _0x261390(0x23f),
+                                            children: _0x46b49b
+                                              ? _0x332f06[_0x261390(0x20b)](
+                                                  "div",
+                                                  {
+                                                    className: _0x261390(0x1a1),
+                                                    children: _0x261390(0x2aa),
+                                                  },
+                                                )
+                                              : _0x23a211[_0x261390(0x19b)] ===
+                                                  -0xfb4 + 0x1dae + -0x2 * 0x6fd
+                                                ? _0x332f06["jsx"](
+                                                    _0x261390(0x16c),
+                                                    {
+                                                      className:
+                                                        _0x261390(0x1a1),
+                                                      children:
+                                                        _0x261390(0x14e),
+                                                    },
+                                                  )
+                                                : _0x266371["length"] ===
+                                                    -0x14f * -0x1 +
+                                                      -0x1819 +
+                                                      0xb65 * 0x2
+                                                  ? _0x332f06[_0x261390(0x20b)](
+                                                      _0x261390(0x16c),
+                                                      {
+                                                        className:
+                                                          "text-xs\x20text-slate-400",
+                                                        children:
+                                                          _0x261390(0x313),
+                                                      },
+                                                    )
+                                                  : _0x332f06[_0x261390(0x309)](
+                                                      _0x261390(0x1da),
+                                                      {
+                                                        className:
+                                                          "w-full\x20text-xs",
+                                                        children: [
+                                                          _0x332f06[
+                                                            _0x261390(0x20b)
+                                                          ](_0x261390(0x224), {
+                                                            children: _0x332f06[
+                                                              _0x261390(0x309)
+                                                            ]("tr", {
+                                                              className:
+                                                                "text-left\x20text-slate-500",
+                                                              children: [
+                                                                _0x332f06[
+                                                                  "jsx"
+                                                                ]("th", {
+                                                                  className:
+                                                                    _0x261390(
+                                                                      0x1c0,
+                                                                    ),
+                                                                  children:
+                                                                    _0x261390(
+                                                                      0x199,
+                                                                    ),
+                                                                }),
+                                                                _0x332f06[
+                                                                  _0x261390(
+                                                                    0x20b,
+                                                                  )
+                                                                ]("th", {
+                                                                  className:
+                                                                    _0x261390(
+                                                                      0x1c0,
+                                                                    ),
+                                                                  children:
+                                                                    "状态",
+                                                                }),
+                                                                _0x332f06[
+                                                                  _0x261390(
+                                                                    0x20b,
+                                                                  )
+                                                                ]("th", {
+                                                                  className:
+                                                                    _0x261390(
+                                                                      0x1c0,
+                                                                    ),
+                                                                  children:
+                                                                    "使用时间",
+                                                                }),
+                                                                _0x332f06[
+                                                                  _0x261390(
+                                                                    0x20b,
+                                                                  )
+                                                                ]("th", {
+                                                                  className:
+                                                                    _0x261390(
+                                                                      0x1c0,
+                                                                    ),
+                                                                  children:
+                                                                    "使用者",
+                                                                }),
+                                                                _0x332f06[
+                                                                  "jsx"
+                                                                ]("th", {
+                                                                  className:
+                                                                    _0x261390(
+                                                                      0x1c0,
+                                                                    ),
+                                                                  children:
+                                                                    _0x261390(
+                                                                      0x339,
+                                                                    ),
+                                                                }),
+                                                                _0x332f06[
+                                                                  _0x261390(
+                                                                    0x20b,
+                                                                  )
+                                                                ]("th", {
+                                                                  className:
+                                                                    "py-2",
+                                                                  children:
+                                                                    "操作",
+                                                                }),
+                                                              ],
+                                                            }),
+                                                          }),
+                                                          _0x332f06[
+                                                            _0x261390(0x20b)
+                                                          ]("tbody", {
+                                                            children: _0x266371[
+                                                              "map"
+                                                            ]((_0x14b529) =>
+                                                              _0x332f06[
+                                                                _0x261390(0x309)
+                                                              ](
+                                                                "tr",
+                                                                {
+                                                                  className:
+                                                                    _0x261390(
+                                                                      0x286,
+                                                                    ),
+                                                                  children: [
+                                                                    _0x332f06[
+                                                                      _0x261390(
+                                                                        0x309,
+                                                                      )
+                                                                    ]("td", {
+                                                                      className:
+                                                                        _0x261390(
+                                                                          0x213,
+                                                                        ),
+                                                                      children:
+                                                                        [
+                                                                          "…",
+                                                                          _0x14b529[
+                                                                            "code_suffix"
+                                                                          ],
+                                                                        ],
+                                                                    }),
+                                                                    _0x332f06[
+                                                                      _0x261390(
+                                                                        0x20b,
+                                                                      )
+                                                                    ]("td", {
+                                                                      className:
+                                                                        "py-2\x20pr-2",
+                                                                      children:
+                                                                        _0x14b529[
+                                                                          _0x261390(
+                                                                            0x1b8,
+                                                                          )
+                                                                        ] ===
+                                                                        _0x261390(
+                                                                          0x343,
+                                                                        )
+                                                                          ? _0x332f06[
+                                                                              _0x261390(
+                                                                                0x20b,
+                                                                              )
+                                                                            ](
+                                                                              _0x261390(
+                                                                                0x275,
+                                                                              ),
+                                                                              {
+                                                                                className:
+                                                                                  _0x261390(
+                                                                                    0x217,
+                                                                                  ),
+                                                                                children:
+                                                                                  "未用",
+                                                                              },
+                                                                            )
+                                                                          : _0x14b529[
+                                                                                _0x261390(
+                                                                                  0x1b8,
+                                                                                )
+                                                                              ] ===
+                                                                              _0x261390(
+                                                                                0x144,
+                                                                              )
+                                                                            ? _0x332f06[
+                                                                                _0x261390(
+                                                                                  0x20b,
+                                                                                )
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x275,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    _0x261390(
+                                                                                      0x1f7,
+                                                                                    ),
+                                                                                  children:
+                                                                                    "已用",
+                                                                                },
+                                                                              )
+                                                                            : _0x332f06[
+                                                                                _0x261390(
+                                                                                  0x20b,
+                                                                                )
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x275,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    "text-rose-700\x20bg-rose-50\x20px-2\x20py-0.5\x20rounded",
+                                                                                  children:
+                                                                                    "作废",
+                                                                                },
+                                                                              ),
+                                                                    }),
+                                                                    _0x332f06[
+                                                                      _0x261390(
+                                                                        0x20b,
+                                                                      )
+                                                                    ]("td", {
+                                                                      className:
+                                                                        "py-2\x20pr-2\x20text-slate-600",
+                                                                      children:
+                                                                        _0x14b529[
+                                                                          _0x261390(
+                                                                            0x126,
+                                                                          )
+                                                                        ]
+                                                                          ? new Date(
+                                                                              _0x14b529[
+                                                                                _0x261390(
+                                                                                  0x126,
+                                                                                )
+                                                                              ],
+                                                                            )[
+                                                                              _0x261390(
+                                                                                0x1cf,
+                                                                              )
+                                                                            ]()
+                                                                          : "—",
+                                                                    }),
+                                                                    _0x332f06[
+                                                                      _0x261390(
+                                                                        0x20b,
+                                                                      )
+                                                                    ]("td", {
+                                                                      className:
+                                                                        _0x261390(
+                                                                          0x2e9,
+                                                                        ),
+                                                                      children:
+                                                                        _0x14b529[
+                                                                          _0x261390(
+                                                                            0x219,
+                                                                          )
+                                                                        ] ||
+                                                                        "—",
+                                                                    }),
+                                                                    _0x332f06[
+                                                                      _0x261390(
+                                                                        0x20b,
+                                                                      )
+                                                                    ]("td", {
+                                                                      className:
+                                                                        _0x261390(
+                                                                          0x2e9,
+                                                                        ),
+                                                                      children:
+                                                                        _0x14b529[
+                                                                          _0x261390(
+                                                                            0x1a6,
+                                                                          )
+                                                                        ]
+                                                                          ? _0x14b529[
+                                                                              _0x261390(
+                                                                                0x1a6,
+                                                                              )
+                                                                            ][
+                                                                              "slice"
+                                                                            ](
+                                                                              -0x848 +
+                                                                                -0x1a80 +
+                                                                                -0x35 *
+                                                                                  -0xa8,
+                                                                              0xf *
+                                                                                0x1a5 +
+                                                                                0x1409 *
+                                                                                  -0x1 +
+                                                                                0x26 *
+                                                                                  -0x1f,
+                                                                            ) +
+                                                                            "…"
+                                                                          : "—",
+                                                                    }),
+                                                                    _0x332f06[
+                                                                      _0x261390(
+                                                                        0x20b,
+                                                                      )
+                                                                    ]("td", {
+                                                                      className:
+                                                                        "py-2",
+                                                                      children:
+                                                                        _0x14b529[
+                                                                          _0x261390(
+                                                                            0x1b8,
+                                                                          )
+                                                                        ] ===
+                                                                        _0x261390(
+                                                                          0x343,
+                                                                        )
+                                                                          ? _0x332f06[
+                                                                              _0x261390(
+                                                                                0x20b,
+                                                                              )
+                                                                            ](
+                                                                              _0x261390(
+                                                                                0x158,
+                                                                              ),
+                                                                              {
+                                                                                type: _0x261390(
+                                                                                  0x158,
+                                                                                ),
+                                                                                onClick:
+                                                                                  () =>
+                                                                                    _0x3bc3e3(
+                                                                                      _0x14b529[
+                                                                                        "id"
+                                                                                      ],
+                                                                                    ),
+                                                                                className:
+                                                                                  _0x261390(
+                                                                                    0x1a9,
+                                                                                  ),
+                                                                                children:
+                                                                                  _0x261390(
+                                                                                    0x22a,
+                                                                                  ),
+                                                                              },
+                                                                            )
+                                                                          : _0x332f06[
+                                                                              _0x261390(
+                                                                                0x20b,
+                                                                              )
+                                                                            ](
+                                                                              _0x261390(
+                                                                                0x275,
+                                                                              ),
+                                                                              {
+                                                                                className:
+                                                                                  _0x261390(
+                                                                                    0x1a1,
+                                                                                  ),
+                                                                                children:
+                                                                                  "—",
+                                                                              },
+                                                                            ),
+                                                                    }),
+                                                                  ],
+                                                                },
+                                                                _0x14b529["id"],
+                                                              ),
+                                                            ),
+                                                          }),
+                                                        ],
+                                                      },
+                                                    ),
+                                          },
+                                        ),
+                                        _0x332f06["jsxs"](_0x261390(0x16c), {
+                                          className:
+                                            "flex\x20flex-wrap\x20items-center\x20justify-between\x20gap-2\x20mt-4",
+                                          children: [
+                                            _0x332f06["jsx"](_0x261390(0x158), {
+                                              type: _0x261390(0x158),
+                                              disabled:
+                                                _0x3ce9f8 <=
+                                                  -0x1c89 +
+                                                    -0x1b * -0x10 +
+                                                    0x1ad9 || _0x46b49b,
+                                              onClick: () =>
+                                                _0xd0456b((_0x31d908) =>
+                                                  Math[_0x261390(0x227)](
+                                                    0x132c +
+                                                      -0x1b7 * -0x4 +
+                                                      -0x31 * 0x88,
+                                                    _0x31d908 - _0x295947,
+                                                  ),
+                                                ),
+                                              className: _0x261390(0x210),
+                                              children: _0x261390(0x27a),
+                                            }),
+                                            _0x332f06[_0x261390(0x20b)](
+                                              _0x261390(0x158),
+                                              {
+                                                type: _0x261390(0x158),
+                                                disabled:
+                                                  _0x46b49b ||
+                                                  _0x12c333 <=
+                                                    0xe2c + -0xb28 + -0x304 ||
+                                                  _0x3ce9f8 + _0x295947 >=
+                                                    _0x12c333,
+                                                onClick: () =>
+                                                  _0xd0456b(
+                                                    (_0x338e63) =>
+                                                      _0x338e63 + _0x295947,
+                                                  ),
+                                                className: _0x261390(0x24b),
+                                                children: _0x261390(0x20d),
+                                              },
+                                            ),
+                                          ],
+                                        }),
+                                      ],
+                                    },
+                                  )
+                                : _0x332f06[_0x261390(0x20b)]("p", {
+                                    className: _0x261390(0x1a1),
+                                    children: _0x261390(0x316),
+                                  }),
+                            ],
+                          }),
+                          _0x332f06[_0x261390(0x309)]("div", {
+                            className: _0x261390(0x2a8),
+                            children: [
+                              _0x332f06["jsx"]("h4", {
+                                className: _0x261390(0x2ba),
+                                children: _0x261390(0x2b9),
+                              }),
+                              _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                                className:
+                                  "space-y-2\x20max-h-72\x20overflow-y-auto\x20text-xs",
+                                children: [
+                                  _0x15945f[_0x261390(0x137)](
+                                    (_0xce5104) =>
+                                      _0xce5104[_0x261390(0x1b8)] === "used",
+                                  )
+                                    [_0x261390(0x29e)](
+                                      -0xf0f + 0x3 * -0x513 + 0x1e48,
+                                      0x2202 + 0x446 * -0x9 + 0x4c4,
+                                    )
+                                    ["map"]((_0x56eae5) => {
+                                      const _0x431da7 = _0x261390;
+                                      var _0x5e50bc, _0x28e526;
+                                      return _0x332f06[_0x431da7(0x309)](
+                                        _0x431da7(0x16c),
+                                        {
+                                          className:
+                                            "border-b\x20border-slate-100\x20pb-2",
+                                          children: [
+                                            _0x332f06["jsxs"](
+                                              _0x431da7(0x275),
+                                              {
+                                                className:
+                                                  "font-mono\x20text-slate-600",
+                                                children: [
+                                                  "…",
+                                                  _0x56eae5[_0x431da7(0x148)],
+                                                ],
+                                              },
+                                            ),
+                                            _0x332f06[_0x431da7(0x20b)](
+                                              _0x431da7(0x275),
+                                              {
+                                                className: _0x431da7(0x26a),
+                                                children:
+                                                  ((_0x5e50bc =
+                                                    _0x56eae5[
+                                                      "activation_code_batches"
+                                                    ]) == null
+                                                    ? void (
+                                                        -0x16dc +
+                                                        -0xa7c +
+                                                        0x2158
+                                                      )
+                                                    : _0x5e50bc[
+                                                        _0x431da7(0x24d)
+                                                      ]) === _0x431da7(0x22e)
+                                                    ? "初次"
+                                                    : "后续",
+                                              },
+                                            ),
+                                            _0x56eae5[_0x431da7(0x126)] &&
+                                              _0x332f06[_0x431da7(0x20b)](
+                                                _0x431da7(0x275),
+                                                {
+                                                  className: _0x431da7(0x14a),
+                                                  children: new Date(
+                                                    _0x56eae5[_0x431da7(0x126)],
+                                                  )["toLocaleString"](),
+                                                },
+                                              ),
+                                            _0x332f06[_0x431da7(0x309)]("div", {
+                                              className: _0x431da7(0x344),
+                                              children: [
+                                                _0x56eae5[_0x431da7(0x219)] ||
+                                                  "—",
+                                                _0x431da7(0x2f9),
+                                                ((_0x28e526 =
+                                                  _0x56eae5[
+                                                    _0x431da7(0x1a6)
+                                                  ]) == null
+                                                  ? void (
+                                                      0x69 * -0x4e +
+                                                      -0x19a9 * 0x1 +
+                                                      0x1 * 0x39a7
+                                                    )
+                                                  : _0x28e526[_0x431da7(0x29e)](
+                                                      -0x641 * -0x1 +
+                                                        -0xe3b * 0x1 +
+                                                        0x7fa,
+                                                      -0x2 * -0x89 +
+                                                        -0xa * 0x10 +
+                                                        -0x1 * 0x6a,
+                                                    )) || "—",
+                                                "…",
+                                              ],
+                                            }),
+                                          ],
+                                        },
+                                        _0x56eae5["id"],
+                                      );
+                                    }),
+                                  _0x15945f["filter"](
+                                    (_0x208789) =>
+                                      _0x208789[_0x261390(0x1b8)] === "used",
+                                  )[_0x261390(0x19b)] ===
+                                    -0x1b82 + -0x10ac * -0x1 + 0xad6 &&
+                                    _0x332f06["jsx"]("p", {
+                                      className: _0x261390(0x130),
+                                      children: "暂无",
+                                    }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      })
+                    : _0x571456 === _0x261390(0x15c)
+                      ? _0x332f06["jsx"](_0x261390(0x16c), {
+                          className: _0x261390(0x2f0),
+                          children: _0x332f06[_0x261390(0x309)](
+                            _0x261390(0x16c),
+                            {
+                              className: _0x261390(0x2a8),
+                              children: [
+                                _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                                  className: _0x261390(0x225),
+                                  children: [
+                                    _0x332f06[_0x261390(0x309)]("h3", {
+                                      className: _0x261390(0x2ed),
+                                      children: [
+                                        _0x332f06[_0x261390(0x20b)](_0x2d1992, {
+                                          size: 0x12,
+                                        }),
+                                        _0x261390(0x241),
+                                      ],
+                                    }),
+                                    _0x332f06[_0x261390(0x20b)](
+                                      _0x261390(0x16c),
+                                      {
+                                        className: _0x261390(0x280),
+                                        children: _0x332f06[_0x261390(0x20b)](
+                                          _0x261390(0x158),
+                                          {
+                                            type: "button",
+                                            onClick: _0x17c8f3,
+                                            disabled: _0x5e116b,
+                                            className:
+                                              _0x261390(0x23d) +
+                                              (_0x5e116b ? "animate-spin" : ""),
+                                            children: _0x332f06[
+                                              _0x261390(0x20b)
+                                            ](_0x3fcd26, { size: 0x12 }),
+                                          },
+                                        ),
+                                      },
+                                    ),
+                                  ],
+                                }),
+                                _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                                  className: _0x261390(0x163),
+                                  children: [
+                                    _0x332f06[_0x261390(0x20b)]("label", {
+                                      className: _0x261390(0x2a3),
+                                      children: _0x261390(0x347),
+                                    }),
+                                    _0x332f06[_0x261390(0x20b)](
+                                      _0x261390(0x28d),
+                                      {
+                                        type: "number",
+                                        min: 0xa,
+                                        max: 0x1f4,
+                                        value: _0x331507,
+                                        onChange: (_0x147fa8) =>
+                                          _0x5adad2(
+                                            Number(
+                                              _0x147fa8["target"][
+                                                _0x261390(0x13f)
+                                              ],
+                                            ),
+                                          ),
+                                        className:
+                                          "w-24\x20bg-slate-50\x20border\x20border-slate-200\x20rounded-lg\x20px-3\x20py-2\x20text-sm\x20text-slate-700",
+                                      },
+                                    ),
+                                    _0x332f06[_0x261390(0x20b)](
+                                      _0x261390(0x158),
+                                      {
+                                        type: _0x261390(0x158),
+                                        onClick: _0x17c8f3,
+                                        disabled: _0x5e116b,
+                                        className: _0x261390(0x218),
+                                        children: "刷新",
+                                      },
+                                    ),
+                                  ],
+                                }),
+                                _0x332f06[_0x261390(0x20b)](_0x261390(0x16c), {
+                                  className: _0x261390(0x23f),
+                                  children: _0x5e116b
+                                    ? _0x332f06[_0x261390(0x20b)](
+                                        _0x261390(0x16c),
+                                        {
+                                          className: _0x261390(0x1a1),
+                                          children: _0x261390(0x2aa),
+                                        },
+                                      )
+                                    : _0x40006c[_0x261390(0x19b)] ===
+                                        -0x1 * 0x1105 + 0xeea * -0x1 + 0x1fef
+                                      ? _0x332f06[_0x261390(0x20b)]("div", {
+                                          className: _0x261390(0x1a1),
+                                          children: "暂无审计记录。",
+                                        })
+                                      : _0x332f06[_0x261390(0x309)](
+                                          _0x261390(0x1da),
+                                          {
+                                            className: _0x261390(0x14f),
+                                            children: [
+                                              _0x332f06[_0x261390(0x20b)](
+                                                "thead",
+                                                {
+                                                  children: _0x332f06["jsxs"](
+                                                    "tr",
+                                                    {
+                                                      className:
+                                                        "text-left\x20text-slate-500",
+                                                      children: [
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ]("th", {
+                                                          className:
+                                                            _0x261390(0x1c0),
+                                                          children: "时间",
+                                                        }),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ]("th", {
+                                                          className:
+                                                            _0x261390(0x1c0),
+                                                          children: "行为",
+                                                        }),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ]("th", {
+                                                          className:
+                                                            "py-2\x20pr-2",
+                                                          children: "类型",
+                                                        }),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ]("th", {
+                                                          className:
+                                                            _0x261390(0x1c0),
+                                                          children:
+                                                            _0x261390(0x1ae),
+                                                        }),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ]("th", {
+                                                          className:
+                                                            _0x261390(0x1c0),
+                                                          children: "码ID",
+                                                        }),
+                                                        _0x332f06["jsx"]("th", {
+                                                          className:
+                                                            _0x261390(0x1c0),
+                                                          children:
+                                                            _0x261390(0x2e5),
+                                                        }),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ]("th", {
+                                                          className:
+                                                            _0x261390(0x21c),
+                                                          children: "数量",
+                                                        }),
+                                                      ],
+                                                    },
+                                                  ),
+                                                },
+                                              ),
+                                              _0x332f06[_0x261390(0x20b)](
+                                                _0x261390(0x21e),
+                                                {
+                                                  children: _0x40006c[
+                                                    _0x261390(0x18e)
+                                                  ]((_0x69fdff) =>
+                                                    _0x332f06["jsxs"](
+                                                      "tr",
+                                                      {
+                                                        className:
+                                                          _0x261390(0x286),
+                                                        children: [
+                                                          _0x332f06["jsx"](
+                                                            "td",
+                                                            {
+                                                              className:
+                                                                _0x261390(
+                                                                  0x2e9,
+                                                                ),
+                                                              children:
+                                                                _0x69fdff[
+                                                                  _0x261390(
+                                                                    0x328,
+                                                                  )
+                                                                ]
+                                                                  ? new Date(
+                                                                      _0x69fdff[
+                                                                        _0x261390(
+                                                                          0x328,
+                                                                        )
+                                                                      ],
+                                                                    )[
+                                                                      _0x261390(
+                                                                        0x1cf,
+                                                                      )
+                                                                    ]()
+                                                                  : "—",
+                                                            },
+                                                          ),
+                                                          _0x332f06[
+                                                            _0x261390(0x20b)
+                                                          ]("td", {
+                                                            className:
+                                                              _0x261390(0x2e9),
+                                                            children:
+                                                              _0x69fdff[
+                                                                _0x261390(0x1e3)
+                                                              ] || "—",
+                                                          }),
+                                                          _0x332f06[
+                                                            _0x261390(0x20b)
+                                                          ]("td", {
+                                                            className:
+                                                              "py-2\x20pr-2\x20text-slate-600",
+                                                            children:
+                                                              _0x69fdff[
+                                                                _0x261390(0x24d)
+                                                              ] || "—",
+                                                          }),
+                                                          _0x332f06["jsx"](
+                                                            "td",
+                                                            {
+                                                              className:
+                                                                _0x261390(
+                                                                  0x2e9,
+                                                                ),
+                                                              children:
+                                                                _0x69fdff[
+                                                                  _0x261390(
+                                                                    0x261,
+                                                                  )
+                                                                ]
+                                                                  ? _0x69fdff[
+                                                                      _0x261390(
+                                                                        0x261,
+                                                                      )
+                                                                    ]
+                                                                  : _0x69fdff[
+                                                                        _0x261390(
+                                                                          0x215,
+                                                                        )
+                                                                      ]
+                                                                    ? String(
+                                                                        _0x69fdff[
+                                                                          _0x261390(
+                                                                            0x215,
+                                                                          )
+                                                                        ],
+                                                                      )[
+                                                                        "slice"
+                                                                      ](
+                                                                        -0x1 *
+                                                                          -0x26b +
+                                                                          0x199 *
+                                                                            -0x5 +
+                                                                          0x2 *
+                                                                            0x2c9,
+                                                                        0x69 *
+                                                                          0xb +
+                                                                          -0xb9e +
+                                                                          0x723,
+                                                                      ) + "…"
+                                                                    : "—",
+                                                            },
+                                                          ),
+                                                          _0x332f06[
+                                                            _0x261390(0x20b)
+                                                          ]("td", {
+                                                            className:
+                                                              _0x261390(0x2e9),
+                                                            children: _0x69fdff[
+                                                              "code_id"
+                                                            ]
+                                                              ? String(
+                                                                  _0x69fdff[
+                                                                    "code_id"
+                                                                  ],
+                                                                )[
+                                                                  _0x261390(
+                                                                    0x29e,
+                                                                  )
+                                                                ](
+                                                                  -0xf6d +
+                                                                    0x2 *
+                                                                      -0xe14 +
+                                                                    -0x3 *
+                                                                      -0xe87,
+                                                                  -0x12b0 +
+                                                                    -0x22ae +
+                                                                    -0x2 *
+                                                                      -0x1ab3,
+                                                                ) + "…"
+                                                              : "—",
+                                                          }),
+                                                          _0x332f06["jsx"](
+                                                            "td",
+                                                            {
+                                                              className:
+                                                                "py-2\x20pr-2\x20text-slate-600",
+                                                              children:
+                                                                typeof _0x69fdff[
+                                                                  _0x261390(
+                                                                    0x192,
+                                                                  )
+                                                                ] == "boolean"
+                                                                  ? _0x69fdff[
+                                                                      _0x261390(
+                                                                        0x192,
+                                                                      )
+                                                                    ]
+                                                                    ? "是"
+                                                                    : "否"
+                                                                  : "—",
+                                                            },
+                                                          ),
+                                                          _0x332f06[
+                                                            _0x261390(0x20b)
+                                                          ]("td", {
+                                                            className:
+                                                              _0x261390(0x169),
+                                                            children:
+                                                              _0x69fdff[
+                                                                _0x261390(0x2e0)
+                                                              ] ?? "—",
+                                                          }),
+                                                        ],
+                                                      },
+                                                      _0x69fdff["id"],
+                                                    ),
+                                                  ),
+                                                },
+                                              ),
+                                            ],
+                                          },
+                                        ),
+                                }),
+                              ],
+                            },
+                          ),
+                        })
+                      : _0x332f06["jsx"](_0x261390(0x16c), {
+                          className: _0x261390(0x1a8),
+                          children:
+                            _0x581b1a[_0x261390(0x19b)] ===
+                            0x92b * -0x3 + -0x619 + 0x219a
+                              ? _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                                  className:
+                                    "text-center\x20text-slate-400\x20py-20\x20flex\x20flex-col\x20items-center\x20gap-3",
+                                  children: [
+                                    _0x332f06["jsx"](_0x261390(0x16c), {
+                                      className: _0x261390(0x2b5),
+                                      children: _0x332f06["jsx"](_0x1d2a78, {
+                                        size: 0x20,
+                                        className: _0x261390(0x279),
+                                      }),
+                                    }),
+                                    _0x332f06[_0x261390(0x20b)]("p", {
+                                      className: _0x261390(0x13b),
+                                      children: _0x261390(0x1d4),
+                                    }),
+                                  ],
+                                })
+                              : _0x332f06["jsxs"](_0x332f06["Fragment"], {
+                                  children: [
+                                    _0x332f06[_0x261390(0x309)](
+                                      _0x261390(0x16c),
+                                      {
+                                        className: _0x261390(0x129),
+                                        children: [
+                                          _0x332f06["jsxs"](_0x261390(0x275), {
+                                            children: [
+                                              "已加载最多\x20",
+                                              mt,
+                                              _0x261390(0x197),
+                                              _0x581b1a[_0x261390(0x19b)],
+                                              "\x20组",
+                                            ],
+                                          }),
+                                          _0x581b1a[_0x261390(0x19b)] > se &&
+                                            _0x332f06[_0x261390(0x20b)](
+                                              _0x261390(0x158),
+                                              {
+                                                type: _0x261390(0x158),
+                                                onClick: _0x42486c,
+                                                className: _0x261390(0x1f3),
+                                                children: _0x261390(0x2cb),
+                                              },
+                                            ),
+                                        ],
+                                      },
+                                    ),
+                                    _0x174a09[_0x261390(0x18e)]((_0x4cf5c4) =>
+                                      _0x332f06["jsxs"](
+                                        _0x502d1c[_0x261390(0x16c)],
+                                        {
+                                          layout: !(
+                                            0x3ad * -0x9 +
+                                            -0x19a5 +
+                                            0x3aba
+                                          ),
+                                          initial: { opacity: 0x0, y: 0xa },
+                                          animate: { opacity: 0x1, y: 0x0 },
+                                          className:
+                                            "bg-white\x20rounded-2xl\x20border\x20shadow-sm\x20overflow-hidden\x20" +
+                                            (_0x4cf5c4["isBanned"]
+                                              ? _0x261390(0x17f)
+                                              : _0x4cf5c4[_0x261390(0x260)] ===
+                                                  _0x261390(0x302)
+                                                ? _0x261390(0x178)
+                                                : _0x261390(0x2f8)),
+                                          children: [
+                                            _0x332f06[_0x261390(0x309)](
+                                              _0x261390(0x16c),
+                                              {
+                                                className:
+                                                  "p-4\x20flex\x20justify-between\x20items-center\x20cursor-pointer\x20hover:bg-slate-50\x20transition-colors",
+                                                onClick: () =>
+                                                  _0x2e9a9b(
+                                                    _0x5e5db9 ===
+                                                      _0x4cf5c4[
+                                                        _0x261390(0x1d9)
+                                                      ]
+                                                      ? null
+                                                      : _0x4cf5c4[
+                                                          _0x261390(0x1d9)
+                                                        ],
+                                                  ),
+                                                children: [
+                                                  _0x332f06[_0x261390(0x309)](
+                                                    _0x261390(0x16c),
+                                                    {
+                                                      className:
+                                                        _0x261390(0x2d7),
+                                                      children: [
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ](_0x261390(0x28d), {
+                                                          type: _0x261390(
+                                                            0x300,
+                                                          ),
+                                                          checked: _0x2d9ce5[
+                                                            _0x261390(0x12d)
+                                                          ](
+                                                            _0x4cf5c4[
+                                                              _0x261390(0x1d9)
+                                                            ],
+                                                          ),
+                                                          onChange: (
+                                                            _0x3e47af,
+                                                          ) => {
+                                                            const _0x1a8aa9 =
+                                                              _0x261390;
+                                                            (_0x3e47af[
+                                                              _0x1a8aa9(0x208)
+                                                            ](),
+                                                              _0x2bb1b1(
+                                                                _0x4cf5c4[
+                                                                  "name"
+                                                                ],
+                                                              ));
+                                                          },
+                                                          onClick: (
+                                                            _0x5e5405,
+                                                          ) =>
+                                                            _0x5e5405[
+                                                              _0x261390(0x208)
+                                                            ](),
+                                                          className:
+                                                            "rounded\x20flex-shrink-0",
+                                                        }),
+                                                        _0x332f06["jsx"](
+                                                          _0x261390(0x16c),
+                                                          {
+                                                            className:
+                                                              "w-10\x20h-10\x20rounded-full\x20flex\x20items-center\x20justify-center\x20font-bold\x20text-lg\x20flex-shrink-0\x20" +
+                                                              (_0x4cf5c4[
+                                                                "isBanned"
+                                                              ]
+                                                                ? _0x261390(
+                                                                    0x1a2,
+                                                                  )
+                                                                : _0x4cf5c4[
+                                                                      _0x261390(
+                                                                        0x260,
+                                                                      )
+                                                                    ] ===
+                                                                    _0x261390(
+                                                                      0x302,
+                                                                    )
+                                                                  ? "bg-indigo-100\x20text-indigo-700"
+                                                                  : _0x261390(
+                                                                      0x184,
+                                                                    )),
+                                                            children:
+                                                              _0x4cf5c4[
+                                                                _0x261390(0x260)
+                                                              ] ===
+                                                              _0x261390(0x302)
+                                                                ? (_0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x295,
+                                                                    )
+                                                                  ][
+                                                                    "display_name"
+                                                                  ] || "?")
+                                                                    [
+                                                                      _0x261390(
+                                                                        0x18c,
+                                                                      )
+                                                                    ](
+                                                                      0x9 *
+                                                                        -0x49 +
+                                                                        0x22 *
+                                                                          0xa3 +
+                                                                        -0x1315 *
+                                                                          0x1,
+                                                                    )
+                                                                    [
+                                                                      _0x261390(
+                                                                        0x1f6,
+                                                                      )
+                                                                    ]()
+                                                                : _0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x1d9,
+                                                                    )
+                                                                  ]
+                                                                    ["charAt"](
+                                                                      -0x2200 +
+                                                                        0x180a *
+                                                                          0x1 +
+                                                                        0x9f6,
+                                                                    )
+                                                                    [
+                                                                      "toUpperCase"
+                                                                    ](),
+                                                          },
+                                                        ),
+                                                        _0x332f06[
+                                                          _0x261390(0x309)
+                                                        ]("div", {
+                                                          className:
+                                                            _0x261390(0x250),
+                                                          children: [
+                                                            _0x332f06[
+                                                              _0x261390(0x309)
+                                                            ]("div", {
+                                                              className:
+                                                                _0x261390(
+                                                                  0x272,
+                                                                ),
+                                                              children: [
+                                                                _0x332f06[
+                                                                  _0x261390(
+                                                                    0x20b,
+                                                                  )
+                                                                ]("h3", {
+                                                                  className:
+                                                                    _0x261390(
+                                                                      0x321,
+                                                                    ) +
+                                                                    (_0x4cf5c4[
+                                                                      _0x261390(
+                                                                        0x2e3,
+                                                                      )
+                                                                    ]
+                                                                      ? _0x261390(
+                                                                          0x326,
+                                                                        )
+                                                                      : _0x261390(
+                                                                          0x2e8,
+                                                                        )),
+                                                                  children:
+                                                                    _0x4cf5c4[
+                                                                      _0x261390(
+                                                                        0x260,
+                                                                      )
+                                                                    ] === "gate"
+                                                                      ? _0x4cf5c4[
+                                                                          _0x261390(
+                                                                            0x295,
+                                                                          )
+                                                                        ][
+                                                                          _0x261390(
+                                                                            0x23c,
+                                                                          )
+                                                                        ]
+                                                                      : _0x4cf5c4[
+                                                                          _0x261390(
+                                                                            0x1d9,
+                                                                          )
+                                                                        ],
+                                                                }),
+                                                                _0x4cf5c4[
+                                                                  _0x261390(
+                                                                    0x260,
+                                                                  )
+                                                                ] ===
+                                                                  _0x261390(
+                                                                    0x302,
+                                                                  ) &&
+                                                                  _0x332f06[
+                                                                    _0x261390(
+                                                                      0x309,
+                                                                    )
+                                                                  ](
+                                                                    _0x261390(
+                                                                      0x275,
+                                                                    ),
+                                                                    {
+                                                                      className:
+                                                                        _0x261390(
+                                                                          0x15a,
+                                                                        ),
+                                                                      children:
+                                                                        [
+                                                                          _0x332f06[
+                                                                            _0x261390(
+                                                                              0x20b,
+                                                                            )
+                                                                          ](
+                                                                            _0x4bf88a,
+                                                                            {
+                                                                              size: 0xa,
+                                                                            },
+                                                                          ),
+                                                                          "邮箱",
+                                                                        ],
+                                                                    },
+                                                                  ),
+                                                                _0x4cf5c4[
+                                                                  _0x261390(
+                                                                    0x2e3,
+                                                                  )
+                                                                ] &&
+                                                                  _0x332f06[
+                                                                    "jsx"
+                                                                  ](
+                                                                    _0x261390(
+                                                                      0x275,
+                                                                    ),
+                                                                    {
+                                                                      className:
+                                                                        "text-[0.625rem]\x20bg-rose-100\x20text-rose-600\x20px-1.5\x20py-0.5\x20rounded\x20font-bold",
+                                                                      children:
+                                                                        _0x261390(
+                                                                          0x18b,
+                                                                        ),
+                                                                    },
+                                                                  ),
+                                                              ],
+                                                            }),
+                                                            _0x332f06["jsx"](
+                                                              _0x261390(0x16c),
+                                                              {
+                                                                className:
+                                                                  _0x261390(
+                                                                    0x181,
+                                                                  ),
+                                                                children:
+                                                                  _0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x260,
+                                                                    )
+                                                                  ] ===
+                                                                  _0x261390(
+                                                                    0x302,
+                                                                  )
+                                                                    ? _0x332f06[
+                                                                        "jsxs"
+                                                                      ](
+                                                                        _0x332f06[
+                                                                          _0x261390(
+                                                                            0x310,
+                                                                          )
+                                                                        ],
+                                                                        {
+                                                                          children:
+                                                                            [
+                                                                              _0x332f06[
+                                                                                _0x261390(
+                                                                                  0x20b,
+                                                                                )
+                                                                              ](
+                                                                                "span",
+                                                                                {
+                                                                                  className:
+                                                                                    _0x261390(
+                                                                                      0x2cf,
+                                                                                    ),
+                                                                                  children:
+                                                                                    _0x4cf5c4[
+                                                                                      _0x261390(
+                                                                                        0x295,
+                                                                                      )
+                                                                                    ][
+                                                                                      "email"
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x332f06[
+                                                                                _0x261390(
+                                                                                  0x20b,
+                                                                                )
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x275,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    _0x261390(
+                                                                                      0x222,
+                                                                                    ),
+                                                                                  children:
+                                                                                    "·",
+                                                                                },
+                                                                              ),
+                                                                              _0x332f06[
+                                                                                "jsx"
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x275,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    _0x261390(
+                                                                                      0x2bb,
+                                                                                    ),
+                                                                                  children:
+                                                                                    _0x4cf5c4[
+                                                                                      _0x261390(
+                                                                                        0x295,
+                                                                                      )
+                                                                                    ][
+                                                                                      _0x261390(
+                                                                                        0x1b8,
+                                                                                      )
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x332f06[
+                                                                                _0x261390(
+                                                                                  0x309,
+                                                                                )
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x275,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    _0x261390(
+                                                                                      0x248,
+                                                                                    ),
+                                                                                  children:
+                                                                                    [
+                                                                                      _0x332f06[
+                                                                                        _0x261390(
+                                                                                          0x20b,
+                                                                                        )
+                                                                                      ](
+                                                                                        _0x27c9a7,
+                                                                                        {
+                                                                                          size: 0xc,
+                                                                                        },
+                                                                                      ),
+                                                                                      "\x20",
+                                                                                      _0x4cf5c4[
+                                                                                        _0x261390(
+                                                                                          0x239,
+                                                                                        )
+                                                                                      ][
+                                                                                        _0x261390(
+                                                                                          0x1c8,
+                                                                                        )
+                                                                                      ],
+                                                                                      _0x261390(
+                                                                                        0x20a,
+                                                                                      ),
+                                                                                      _0x4cf5c4[
+                                                                                        "gateAccess"
+                                                                                      ][
+                                                                                        _0x261390(
+                                                                                          0x1e5,
+                                                                                        )
+                                                                                      ] ??
+                                                                                        -0x2 *
+                                                                                          0x33e +
+                                                                                          0x53 *
+                                                                                            0x9 +
+                                                                                          0x394,
+                                                                                      "\x20台",
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x4cf5c4[
+                                                                                _0x261390(
+                                                                                  0x239,
+                                                                                )
+                                                                              ][
+                                                                                _0x261390(
+                                                                                  0x26b,
+                                                                                )
+                                                                              ] >
+                                                                                -0xc51 +
+                                                                                  0x3e *
+                                                                                    -0x1d +
+                                                                                  -0x1357 *
+                                                                                    -0x1 &&
+                                                                                _0x332f06[
+                                                                                  _0x261390(
+                                                                                    0x309,
+                                                                                  )
+                                                                                ](
+                                                                                  "span",
+                                                                                  {
+                                                                                    className:
+                                                                                      "text-amber-500\x20font-medium\x20flex\x20items-center\x20gap-1",
+                                                                                    children:
+                                                                                      [
+                                                                                        _0x332f06[
+                                                                                          _0x261390(
+                                                                                            0x20b,
+                                                                                          )
+                                                                                        ](
+                                                                                          _0x434324,
+                                                                                          {
+                                                                                            size: 0xc,
+                                                                                          },
+                                                                                        ),
+                                                                                        _0x261390(
+                                                                                          0x207,
+                                                                                        ),
+                                                                                      ],
+                                                                                  },
+                                                                                ),
+                                                                              (_0x4cf5c4[
+                                                                                "tags"
+                                                                              ] ||
+                                                                                [])[
+                                                                                "length"
+                                                                              ] >
+                                                                                -0xaf4 +
+                                                                                  -0xfb9 +
+                                                                                  0x1aad *
+                                                                                    0x1 &&
+                                                                                _0x332f06[
+                                                                                  _0x261390(
+                                                                                    0x309,
+                                                                                  )
+                                                                                ](
+                                                                                  _0x261390(
+                                                                                    0x275,
+                                                                                  ),
+                                                                                  {
+                                                                                    className:
+                                                                                      "flex\x20items-center\x20gap-1\x20text-slate-500",
+                                                                                    children:
+                                                                                      [
+                                                                                        _0x332f06[
+                                                                                          _0x261390(
+                                                                                            0x20b,
+                                                                                          )
+                                                                                        ](
+                                                                                          _0x2fc31c,
+                                                                                          {
+                                                                                            size: 0xc,
+                                                                                          },
+                                                                                        ),
+                                                                                        "\x20",
+                                                                                        (_0x4cf5c4[
+                                                                                          _0x261390(
+                                                                                            0x1ce,
+                                                                                          )
+                                                                                        ] ||
+                                                                                          [])[
+                                                                                          _0x261390(
+                                                                                            0x142,
+                                                                                          )
+                                                                                        ](
+                                                                                          ",\x20",
+                                                                                        ),
+                                                                                      ],
+                                                                                  },
+                                                                                ),
+                                                                            ],
+                                                                        },
+                                                                      )
+                                                                    : _0x332f06[
+                                                                        _0x261390(
+                                                                          0x309,
+                                                                        )
+                                                                      ](
+                                                                        _0x332f06[
+                                                                          _0x261390(
+                                                                            0x310,
+                                                                          )
+                                                                        ],
+                                                                        {
+                                                                          children:
+                                                                            [
+                                                                              _0x332f06[
+                                                                                "jsxs"
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x275,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    _0x261390(
+                                                                                      0x248,
+                                                                                    ),
+                                                                                  children:
+                                                                                    [
+                                                                                      _0x332f06[
+                                                                                        _0x261390(
+                                                                                          0x20b,
+                                                                                        )
+                                                                                      ](
+                                                                                        _0x27c9a7,
+                                                                                        {
+                                                                                          size: 0xc,
+                                                                                        },
+                                                                                      ),
+                                                                                      "\x20",
+                                                                                      _0x4cf5c4[
+                                                                                        _0x261390(
+                                                                                          0x239,
+                                                                                        )
+                                                                                      ][
+                                                                                        _0x261390(
+                                                                                          0x1c8,
+                                                                                        )
+                                                                                      ],
+                                                                                      _0x261390(
+                                                                                        0x315,
+                                                                                      ),
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x4cf5c4[
+                                                                                _0x261390(
+                                                                                  0x239,
+                                                                                )
+                                                                              ][
+                                                                                _0x261390(
+                                                                                  0x26b,
+                                                                                )
+                                                                              ] >
+                                                                                0x21 *
+                                                                                  0x13 +
+                                                                                  -0x1dde +
+                                                                                  -0x1 *
+                                                                                    -0x1b6b &&
+                                                                                _0x332f06[
+                                                                                  _0x261390(
+                                                                                    0x309,
+                                                                                  )
+                                                                                ](
+                                                                                  _0x261390(
+                                                                                    0x275,
+                                                                                  ),
+                                                                                  {
+                                                                                    className:
+                                                                                      _0x261390(
+                                                                                        0x2f1,
+                                                                                      ),
+                                                                                    children:
+                                                                                      [
+                                                                                        _0x332f06[
+                                                                                          "jsx"
+                                                                                        ](
+                                                                                          _0x434324,
+                                                                                          {
+                                                                                            size: 0xc,
+                                                                                          },
+                                                                                        ),
+                                                                                        "\x20",
+                                                                                        _0x4cf5c4[
+                                                                                          _0x261390(
+                                                                                            0x239,
+                                                                                          )
+                                                                                        ][
+                                                                                          _0x261390(
+                                                                                            0x26b,
+                                                                                          )
+                                                                                        ],
+                                                                                        _0x261390(
+                                                                                          0x207,
+                                                                                        ),
+                                                                                      ],
+                                                                                  },
+                                                                                ),
+                                                                              (_0x4cf5c4[
+                                                                                _0x261390(
+                                                                                  0x1ce,
+                                                                                )
+                                                                              ] ||
+                                                                                [])[
+                                                                                _0x261390(
+                                                                                  0x19b,
+                                                                                )
+                                                                              ] >
+                                                                                0xf3e +
+                                                                                  -0x5ab *
+                                                                                    0x1 +
+                                                                                  0x13 *
+                                                                                    -0x81 &&
+                                                                                _0x332f06[
+                                                                                  _0x261390(
+                                                                                    0x309,
+                                                                                  )
+                                                                                ](
+                                                                                  _0x261390(
+                                                                                    0x275,
+                                                                                  ),
+                                                                                  {
+                                                                                    className:
+                                                                                      _0x261390(
+                                                                                        0x2dd,
+                                                                                      ),
+                                                                                    children:
+                                                                                      [
+                                                                                        _0x332f06[
+                                                                                          _0x261390(
+                                                                                            0x20b,
+                                                                                          )
+                                                                                        ](
+                                                                                          _0x2fc31c,
+                                                                                          {
+                                                                                            size: 0xc,
+                                                                                          },
+                                                                                        ),
+                                                                                        "\x20",
+                                                                                        (_0x4cf5c4[
+                                                                                          _0x261390(
+                                                                                            0x1ce,
+                                                                                          )
+                                                                                        ] ||
+                                                                                          [])[
+                                                                                          _0x261390(
+                                                                                            0x142,
+                                                                                          )
+                                                                                        ](
+                                                                                          ",\x20",
+                                                                                        ),
+                                                                                      ],
+                                                                                  },
+                                                                                ),
+                                                                            ],
+                                                                        },
+                                                                      ),
+                                                              },
+                                                            ),
+                                                          ],
+                                                        }),
+                                                      ],
+                                                    },
+                                                  ),
+                                                  _0x332f06[_0x261390(0x309)](
+                                                    _0x261390(0x16c),
+                                                    {
+                                                      className:
+                                                        "flex\x20items-center\x20gap-2\x20flex-shrink-0",
+                                                      children: [
+                                                        _0x332f06["jsx"](
+                                                          _0x261390(0x158),
+                                                          {
+                                                            type: _0x261390(
+                                                              0x158,
+                                                            ),
+                                                            onClick: (
+                                                              _0x17a5a5,
+                                                            ) => {
+                                                              const _0x272f9f =
+                                                                _0x261390;
+                                                              (_0x17a5a5[
+                                                                _0x272f9f(0x208)
+                                                              ](),
+                                                                _0x54fae0(
+                                                                  _0x4cf5c4[
+                                                                    _0x272f9f(
+                                                                      0x1d9,
+                                                                    )
+                                                                  ],
+                                                                ));
+                                                            },
+                                                            className:
+                                                              _0x261390(0x2bc) +
+                                                              (_0x4cf5c4[
+                                                                _0x261390(0x29a)
+                                                              ]
+                                                                ? _0x261390(
+                                                                    0x128,
+                                                                  )
+                                                                : "text-slate-300\x20hover:text-amber-500\x20hover:bg-slate-100"),
+                                                            title: _0x4cf5c4[
+                                                              _0x261390(0x29a)
+                                                            ]
+                                                              ? _0x261390(0x2b7)
+                                                              : "置顶",
+                                                            children: _0x332f06[
+                                                              _0x261390(0x20b)
+                                                            ](_0x35a774, {
+                                                              size: 0x12,
+                                                              className:
+                                                                _0x4cf5c4[
+                                                                  _0x261390(
+                                                                    0x29a,
+                                                                  )
+                                                                ]
+                                                                  ? _0x261390(
+                                                                      0x231,
+                                                                    )
+                                                                  : "",
+                                                            }),
+                                                          },
+                                                        ),
+                                                        _0x332f06[
+                                                          _0x261390(0x20b)
+                                                        ](_0x261390(0x158), {
+                                                          type: _0x261390(
+                                                            0x158,
+                                                          ),
+                                                          onClick: (
+                                                            _0x2df76d,
+                                                          ) => {
+                                                            const _0xea3d94 =
+                                                              _0x261390;
+                                                            (_0x2df76d[
+                                                              _0xea3d94(0x208)
+                                                            ](),
+                                                              _0x27f2fe(
+                                                                _0x4cf5c4[
+                                                                  _0xea3d94(
+                                                                    0x1d9,
+                                                                  )
+                                                                ],
+                                                              ));
+                                                          },
+                                                          className:
+                                                            _0x261390(0x2bc) +
+                                                            (_0x4cf5c4[
+                                                              _0x261390(0x1e4)
+                                                            ]
+                                                              ? _0x261390(0x1ad)
+                                                              : _0x261390(
+                                                                  0x1ca,
+                                                                )),
+                                                          title: _0x4cf5c4[
+                                                            _0x261390(0x1e4)
+                                                          ]
+                                                            ? _0x261390(0x2fe)
+                                                            : "收藏",
+                                                          children: _0x332f06[
+                                                            _0x261390(0x20b)
+                                                          ](_0x1f64a7, {
+                                                            size: 0x12,
+                                                            className:
+                                                              _0x4cf5c4[
+                                                                _0x261390(0x1e4)
+                                                              ]
+                                                                ? "fill-current"
+                                                                : "",
+                                                          }),
+                                                        }),
+                                                        _0x4cf5c4[
+                                                          _0x261390(0x260)
+                                                        ] === _0x261390(0x302)
+                                                          ? _0x4cf5c4[
+                                                              _0x261390(0x239)
+                                                            ][
+                                                              _0x261390(0x1c8)
+                                                            ] >
+                                                              (_0x4cf5c4[
+                                                                "gateAccess"
+                                                              ][
+                                                                "max_devices"
+                                                              ] ??
+                                                                -0x19af +
+                                                                  0xd36 +
+                                                                  0xc7c) &&
+                                                            _0x332f06["jsxs"](
+                                                              _0x261390(0x16c),
+                                                              {
+                                                                className:
+                                                                  _0x261390(
+                                                                    0x341,
+                                                                  ),
+                                                                children: [
+                                                                  _0x332f06[
+                                                                    _0x261390(
+                                                                      0x20b,
+                                                                    )
+                                                                  ](_0x2eea83, {
+                                                                    size: 0xc,
+                                                                  }),
+                                                                  _0x261390(
+                                                                    0x229,
+                                                                  ),
+                                                                ],
+                                                              },
+                                                            )
+                                                          : _0x4cf5c4[
+                                                              _0x261390(0x239)
+                                                            ]["total"] >
+                                                              -0x1e29 * -0x1 +
+                                                                -0x18da +
+                                                                -0x54c &&
+                                                            _0x332f06["jsxs"](
+                                                              _0x261390(0x16c),
+                                                              {
+                                                                className:
+                                                                  "flex\x20items-center\x20gap-1\x20text-rose-500\x20text-xs\x20font-medium\x20bg-rose-50\x20px-2\x20py-1\x20rounded-full\x20mr-2",
+                                                                children: [
+                                                                  _0x332f06[
+                                                                    "jsx"
+                                                                  ](_0x2eea83, {
+                                                                    size: 0xc,
+                                                                  }),
+                                                                  _0x261390(
+                                                                    0x12c,
+                                                                  ),
+                                                                ],
+                                                              },
+                                                            ),
+                                                        _0x5e5db9 ===
+                                                        _0x4cf5c4[
+                                                          _0x261390(0x1d9)
+                                                        ]
+                                                          ? _0x332f06["jsx"](
+                                                              _0x11b6dd,
+                                                              {
+                                                                size: 0x14,
+                                                                className:
+                                                                  _0x261390(
+                                                                    0x130,
+                                                                  ),
+                                                              },
+                                                            )
+                                                          : _0x332f06[
+                                                              _0x261390(0x20b)
+                                                            ](_0x545049, {
+                                                              size: 0x14,
+                                                              className:
+                                                                "text-slate-400",
+                                                            }),
+                                                      ],
+                                                    },
+                                                  ),
+                                                ],
+                                              },
+                                            ),
+                                            _0x332f06[_0x261390(0x20b)](
+                                              _0x470e35,
+                                              {
+                                                children:
+                                                  _0x5e5db9 ===
+                                                    _0x4cf5c4[
+                                                      _0x261390(0x1d9)
+                                                    ] &&
+                                                  _0x332f06[_0x261390(0x309)](
+                                                    _0x502d1c[_0x261390(0x16c)],
+                                                    {
+                                                      initial: { height: 0x0 },
+                                                      animate: {
+                                                        height:
+                                                          _0x261390(0x139),
+                                                      },
+                                                      exit: { height: 0x0 },
+                                                      className:
+                                                        _0x261390(0x281),
+                                                      children: [
+                                                        _0x332f06[
+                                                          _0x261390(0x309)
+                                                        ](_0x261390(0x16c), {
+                                                          className:
+                                                            _0x261390(0x312),
+                                                          children: [
+                                                            _0x332f06[
+                                                              _0x261390(0x20b)
+                                                            ](
+                                                              _0x261390(0x16c),
+                                                              {
+                                                                className:
+                                                                  _0x261390(
+                                                                    0x12b,
+                                                                  ),
+                                                                children:
+                                                                  (_0x9f0437 ==
+                                                                  null
+                                                                    ? void (
+                                                                        0xdb0 +
+                                                                        -0x14c6 +
+                                                                        0x716
+                                                                      )
+                                                                    : _0x9f0437[
+                                                                        _0x261390(
+                                                                          0x1d9,
+                                                                        )
+                                                                      ]) ===
+                                                                  _0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x1d9,
+                                                                    )
+                                                                  ]
+                                                                    ? _0x332f06[
+                                                                        _0x261390(
+                                                                          0x309,
+                                                                        )
+                                                                      ]("div", {
+                                                                        className:
+                                                                          "flex\x20flex-col\x20gap-2",
+                                                                        children:
+                                                                          [
+                                                                            _0x332f06[
+                                                                              "jsxs"
+                                                                            ](
+                                                                              _0x261390(
+                                                                                0x16c,
+                                                                              ),
+                                                                              {
+                                                                                className:
+                                                                                  _0x261390(
+                                                                                    0x214,
+                                                                                  ),
+                                                                                children:
+                                                                                  [
+                                                                                    _0x332f06[
+                                                                                      _0x261390(
+                                                                                        0x20b,
+                                                                                      )
+                                                                                    ](
+                                                                                      _0x261390(
+                                                                                        0x275,
+                                                                                      ),
+                                                                                      {
+                                                                                        className:
+                                                                                          _0x261390(
+                                                                                            0x2a3,
+                                                                                          ),
+                                                                                        children:
+                                                                                          _0x261390(
+                                                                                            0x2d3,
+                                                                                          ),
+                                                                                      },
+                                                                                    ),
+                                                                                    _0x332f06[
+                                                                                      _0x261390(
+                                                                                        0x309,
+                                                                                      )
+                                                                                    ](
+                                                                                      _0x261390(
+                                                                                        0x158,
+                                                                                      ),
+                                                                                      {
+                                                                                        type: "button",
+                                                                                        onClick:
+                                                                                          () =>
+                                                                                            _0x44a9f3(
+                                                                                              (
+                                                                                                _0x4d5051,
+                                                                                              ) =>
+                                                                                                _0x4d5051
+                                                                                                  ? {
+                                                                                                      ..._0x4d5051,
+                                                                                                      tags: [
+                                                                                                        ..._0x1ede45,
+                                                                                                      ],
+                                                                                                    }
+                                                                                                  : null,
+                                                                                            ),
+                                                                                        className:
+                                                                                          _0x261390(
+                                                                                            0x1be,
+                                                                                          ),
+                                                                                        children:
+                                                                                          [
+                                                                                            _0x332f06[
+                                                                                              _0x261390(
+                                                                                                0x20b,
+                                                                                              )
+                                                                                            ](
+                                                                                              Fs,
+                                                                                              {
+                                                                                                size: 0xc,
+                                                                                              },
+                                                                                            ),
+                                                                                            "全选",
+                                                                                          ],
+                                                                                      },
+                                                                                    ),
+                                                                                    _0x332f06[
+                                                                                      _0x261390(
+                                                                                        0x309,
+                                                                                      )
+                                                                                    ](
+                                                                                      "button",
+                                                                                      {
+                                                                                        type: _0x261390(
+                                                                                          0x158,
+                                                                                        ),
+                                                                                        onClick:
+                                                                                          () =>
+                                                                                            _0x44a9f3(
+                                                                                              (
+                                                                                                _0x5540ef,
+                                                                                              ) =>
+                                                                                                _0x5540ef
+                                                                                                  ? {
+                                                                                                      ..._0x5540ef,
+                                                                                                      tags: [],
+                                                                                                    }
+                                                                                                  : null,
+                                                                                            ),
+                                                                                        className:
+                                                                                          _0x261390(
+                                                                                            0x1be,
+                                                                                          ),
+                                                                                        children:
+                                                                                          [
+                                                                                            _0x332f06[
+                                                                                              _0x261390(
+                                                                                                0x20b,
+                                                                                              )
+                                                                                            ](
+                                                                                              _0x3b699c,
+                                                                                              {
+                                                                                                size: 0xc,
+                                                                                              },
+                                                                                            ),
+                                                                                            "清空",
+                                                                                          ],
+                                                                                      },
+                                                                                    ),
+                                                                                  ],
+                                                                              },
+                                                                            ),
+                                                                            _0x332f06[
+                                                                              _0x261390(
+                                                                                0x20b,
+                                                                              )
+                                                                            ](
+                                                                              "div",
+                                                                              {
+                                                                                className:
+                                                                                  "flex\x20flex-wrap\x20gap-2\x20max-h-24\x20overflow-y-auto",
+                                                                                children:
+                                                                                  [
+                                                                                    ...new Set(
+                                                                                      [
+                                                                                        ..._0x1ede45,
+                                                                                        ...(_0x9f0437[
+                                                                                          _0x261390(
+                                                                                            0x1ce,
+                                                                                          )
+                                                                                        ] ||
+                                                                                          [])[
+                                                                                          _0x261390(
+                                                                                            0x137,
+                                                                                          )
+                                                                                        ](
+                                                                                          (
+                                                                                            _0x5801d6,
+                                                                                          ) =>
+                                                                                            !_0x1ede45[
+                                                                                              _0x261390(
+                                                                                                0x2b0,
+                                                                                              )
+                                                                                            ](
+                                                                                              _0x5801d6,
+                                                                                            ),
+                                                                                        ),
+                                                                                      ],
+                                                                                    ),
+                                                                                  ]
+                                                                                    [
+                                                                                      "filter"
+                                                                                    ](
+                                                                                      Boolean,
+                                                                                    )
+                                                                                    [
+                                                                                      _0x261390(
+                                                                                        0x1b7,
+                                                                                      )
+                                                                                    ]()
+                                                                                    [
+                                                                                      _0x261390(
+                                                                                        0x18e,
+                                                                                      )
+                                                                                    ](
+                                                                                      (
+                                                                                        _0x46f890,
+                                                                                      ) =>
+                                                                                        _0x332f06[
+                                                                                          "jsxs"
+                                                                                        ](
+                                                                                          _0x261390(
+                                                                                            0x25f,
+                                                                                          ),
+                                                                                          {
+                                                                                            className:
+                                                                                              _0x261390(
+                                                                                                0x2d0,
+                                                                                              ),
+                                                                                            children:
+                                                                                              [
+                                                                                                _0x332f06[
+                                                                                                  _0x261390(
+                                                                                                    0x20b,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  "input",
+                                                                                                  {
+                                                                                                    type: _0x261390(
+                                                                                                      0x300,
+                                                                                                    ),
+                                                                                                    checked:
+                                                                                                      (_0x9f0437[
+                                                                                                        "tags"
+                                                                                                      ] ||
+                                                                                                        [])[
+                                                                                                        _0x261390(
+                                                                                                          0x2b0,
+                                                                                                        )
+                                                                                                      ](
+                                                                                                        _0x46f890,
+                                                                                                      ),
+                                                                                                    onChange:
+                                                                                                      () => {
+                                                                                                        _0x44a9f3(
+                                                                                                          (
+                                                                                                            _0x148dcb,
+                                                                                                          ) => {
+                                                                                                            const _0x3dd4f7 =
+                                                                                                              _0xf632;
+                                                                                                            if (
+                                                                                                              !_0x148dcb
+                                                                                                            )
+                                                                                                              return _0x148dcb;
+                                                                                                            const _0x32031f =
+                                                                                                              _0x148dcb[
+                                                                                                                "tags"
+                                                                                                              ][
+                                                                                                                "includes"
+                                                                                                              ](
+                                                                                                                _0x46f890,
+                                                                                                              );
+                                                                                                            return {
+                                                                                                              ..._0x148dcb,
+                                                                                                              tags: _0x32031f
+                                                                                                                ? _0x148dcb[
+                                                                                                                    "tags"
+                                                                                                                  ][
+                                                                                                                    _0x3dd4f7(
+                                                                                                                      0x137,
+                                                                                                                    )
+                                                                                                                  ](
+                                                                                                                    (
+                                                                                                                      _0x4fd648,
+                                                                                                                    ) =>
+                                                                                                                      _0x4fd648 !==
+                                                                                                                      _0x46f890,
+                                                                                                                  )
+                                                                                                                : [
+                                                                                                                    ..._0x148dcb[
+                                                                                                                      _0x3dd4f7(
+                                                                                                                        0x1ce,
+                                                                                                                      )
+                                                                                                                    ],
+                                                                                                                    _0x46f890,
+                                                                                                                  ],
+                                                                                                            };
+                                                                                                          },
+                                                                                                        );
+                                                                                                      },
+                                                                                                    className:
+                                                                                                      _0x261390(
+                                                                                                        0x273,
+                                                                                                      ),
+                                                                                                  },
+                                                                                                ),
+                                                                                                _0x46f890,
+                                                                                              ],
+                                                                                          },
+                                                                                          _0x46f890,
+                                                                                        ),
+                                                                                    ),
+                                                                              },
+                                                                            ),
+                                                                            _0x332f06[
+                                                                              _0x261390(
+                                                                                0x309,
+                                                                              )
+                                                                            ](
+                                                                              _0x261390(
+                                                                                0x16c,
+                                                                              ),
+                                                                              {
+                                                                                className:
+                                                                                  _0x261390(
+                                                                                    0x272,
+                                                                                  ),
+                                                                                children:
+                                                                                  [
+                                                                                    _0x332f06[
+                                                                                      _0x261390(
+                                                                                        0x20b,
+                                                                                      )
+                                                                                    ](
+                                                                                      _0x261390(
+                                                                                        0x28d,
+                                                                                      ),
+                                                                                      {
+                                                                                        type: _0x261390(
+                                                                                          0x2fb,
+                                                                                        ),
+                                                                                        value:
+                                                                                          _0x3560c9,
+                                                                                        onChange:
+                                                                                          (
+                                                                                            _0x7d73a4,
+                                                                                          ) =>
+                                                                                            _0x224154(
+                                                                                              _0x7d73a4[
+                                                                                                _0x261390(
+                                                                                                  0x14c,
+                                                                                                )
+                                                                                              ][
+                                                                                                _0x261390(
+                                                                                                  0x13f,
+                                                                                                )
+                                                                                              ],
+                                                                                            ),
+                                                                                        placeholder:
+                                                                                          _0x261390(
+                                                                                            0x1d6,
+                                                                                          ),
+                                                                                        className:
+                                                                                          _0x261390(
+                                                                                            0x22c,
+                                                                                          ),
+                                                                                        onKeyDown:
+                                                                                          (
+                                                                                            _0x2dec2b,
+                                                                                          ) => {
+                                                                                            const _0x47c838 =
+                                                                                              _0x261390;
+                                                                                            if (
+                                                                                              _0x2dec2b[
+                                                                                                "key"
+                                                                                              ] ===
+                                                                                              _0x47c838(
+                                                                                                0x264,
+                                                                                              )
+                                                                                            ) {
+                                                                                              _0x2dec2b[
+                                                                                                "preventDefault"
+                                                                                              ]();
+                                                                                              const _0xb330e8 =
+                                                                                                _0x3560c9[
+                                                                                                  "trim"
+                                                                                                ]();
+                                                                                              _0xb330e8 &&
+                                                                                                !(_0x9f0437[
+                                                                                                  "tags"
+                                                                                                ] ||
+                                                                                                  [])[
+                                                                                                  _0x47c838(
+                                                                                                    0x2b0,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0xb330e8,
+                                                                                                ) &&
+                                                                                                (_0x44a9f3(
+                                                                                                  (
+                                                                                                    _0x29616a,
+                                                                                                  ) =>
+                                                                                                    _0x29616a
+                                                                                                      ? {
+                                                                                                          ..._0x29616a,
+                                                                                                          tags: [
+                                                                                                            ..._0x29616a[
+                                                                                                              _0x47c838(
+                                                                                                                0x1ce,
+                                                                                                              )
+                                                                                                            ],
+                                                                                                            _0xb330e8,
+                                                                                                          ],
+                                                                                                        }
+                                                                                                      : null,
+                                                                                                ),
+                                                                                                _0x224154(
+                                                                                                  "",
+                                                                                                ));
+                                                                                            }
+                                                                                          },
+                                                                                      },
+                                                                                    ),
+                                                                                    _0x332f06[
+                                                                                      _0x261390(
+                                                                                        0x20b,
+                                                                                      )
+                                                                                    ](
+                                                                                      "button",
+                                                                                      {
+                                                                                        type: _0x261390(
+                                                                                          0x158,
+                                                                                        ),
+                                                                                        onClick:
+                                                                                          () =>
+                                                                                            _0x4d35a8(
+                                                                                              _0x4cf5c4[
+                                                                                                _0x261390(
+                                                                                                  0x1d9,
+                                                                                                )
+                                                                                              ],
+                                                                                              _0x9f0437[
+                                                                                                _0x261390(
+                                                                                                  0x1ce,
+                                                                                                )
+                                                                                              ] ||
+                                                                                                [],
+                                                                                            ),
+                                                                                        className:
+                                                                                          _0x261390(
+                                                                                            0x204,
+                                                                                          ),
+                                                                                        children:
+                                                                                          "保存",
+                                                                                      },
+                                                                                    ),
+                                                                                    _0x332f06[
+                                                                                      _0x261390(
+                                                                                        0x20b,
+                                                                                      )
+                                                                                    ](
+                                                                                      "button",
+                                                                                      {
+                                                                                        type: _0x261390(
+                                                                                          0x158,
+                                                                                        ),
+                                                                                        onClick:
+                                                                                          () => {
+                                                                                            (_0x44a9f3(
+                                                                                              null,
+                                                                                            ),
+                                                                                              _0x224154(
+                                                                                                "",
+                                                                                              ));
+                                                                                          },
+                                                                                        className:
+                                                                                          _0x261390(
+                                                                                            0x17e,
+                                                                                          ),
+                                                                                        children:
+                                                                                          "取消",
+                                                                                      },
+                                                                                    ),
+                                                                                  ],
+                                                                              },
+                                                                            ),
+                                                                          ],
+                                                                      })
+                                                                    : _0x332f06[
+                                                                        _0x261390(
+                                                                          0x309,
+                                                                        )
+                                                                      ](
+                                                                        _0x332f06[
+                                                                          "Fragment"
+                                                                        ],
+                                                                        {
+                                                                          children:
+                                                                            [
+                                                                              _0x332f06[
+                                                                                _0x261390(
+                                                                                  0x309,
+                                                                                )
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x275,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    "text-xs\x20text-slate-500\x20flex\x20items-center\x20gap-1",
+                                                                                  children:
+                                                                                    [
+                                                                                      _0x332f06[
+                                                                                        _0x261390(
+                                                                                          0x20b,
+                                                                                        )
+                                                                                      ](
+                                                                                        _0x2fc31c,
+                                                                                        {
+                                                                                          size: 0xc,
+                                                                                        },
+                                                                                      ),
+                                                                                      (_0x4cf5c4[
+                                                                                        _0x261390(
+                                                                                          0x1ce,
+                                                                                        )
+                                                                                      ] ||
+                                                                                        [])[
+                                                                                        _0x261390(
+                                                                                          0x19b,
+                                                                                        )
+                                                                                      ] >
+                                                                                      0x11 *
+                                                                                        -0xbb +
+                                                                                        -0xca7 +
+                                                                                        0x1 *
+                                                                                          0x1912
+                                                                                        ? (_0x4cf5c4[
+                                                                                            _0x261390(
+                                                                                              0x1ce,
+                                                                                            )
+                                                                                          ] ||
+                                                                                            [])[
+                                                                                            _0x261390(
+                                                                                              0x142,
+                                                                                            )
+                                                                                          ](
+                                                                                            ",\x20",
+                                                                                          )
+                                                                                        : _0x261390(
+                                                                                            0x25d,
+                                                                                          ),
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x332f06[
+                                                                                _0x261390(
+                                                                                  0x20b,
+                                                                                )
+                                                                              ](
+                                                                                _0x261390(
+                                                                                  0x158,
+                                                                                ),
+                                                                                {
+                                                                                  type: _0x261390(
+                                                                                    0x158,
+                                                                                  ),
+                                                                                  onClick:
+                                                                                    (
+                                                                                      _0x4e9dda,
+                                                                                    ) => {
+                                                                                      const _0x1d72ec =
+                                                                                        _0x261390;
+                                                                                      (_0x4e9dda[
+                                                                                        _0x1d72ec(
+                                                                                          0x208,
+                                                                                        )
+                                                                                      ](),
+                                                                                        _0x44a9f3(
+                                                                                          {
+                                                                                            name: _0x4cf5c4[
+                                                                                              _0x1d72ec(
+                                                                                                0x1d9,
+                                                                                              )
+                                                                                            ],
+                                                                                            tags: [
+                                                                                              ...(_0x4cf5c4[
+                                                                                                _0x1d72ec(
+                                                                                                  0x1ce,
+                                                                                                )
+                                                                                              ] ||
+                                                                                                []),
+                                                                                            ],
+                                                                                          },
+                                                                                        ),
+                                                                                        _0x224154(
+                                                                                          "",
+                                                                                        ));
+                                                                                    },
+                                                                                  className:
+                                                                                    _0x261390(
+                                                                                      0x1aa,
+                                                                                    ),
+                                                                                  children:
+                                                                                    _0x261390(
+                                                                                      0x33b,
+                                                                                    ),
+                                                                                },
+                                                                              ),
+                                                                            ],
+                                                                        },
+                                                                      ),
+                                                              },
+                                                            ),
+                                                            _0x332f06["jsx"](
+                                                              _0x261390(0x158),
+                                                              {
+                                                                onClick: () =>
+                                                                  _0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x260,
+                                                                    )
+                                                                  ] ===
+                                                                  _0x261390(
+                                                                    0x302,
+                                                                  )
+                                                                    ? _0x3a7702(
+                                                                        _0x4cf5c4[
+                                                                          _0x261390(
+                                                                            0x295,
+                                                                          )
+                                                                        ][
+                                                                          _0x261390(
+                                                                            0x2f6,
+                                                                          )
+                                                                        ],
+                                                                        !_0x4cf5c4[
+                                                                          _0x261390(
+                                                                            0x295,
+                                                                          )
+                                                                        ][
+                                                                          _0x261390(
+                                                                            0x140,
+                                                                          )
+                                                                        ],
+                                                                      )
+                                                                    : _0x599941(
+                                                                        _0x4cf5c4[
+                                                                          "name"
+                                                                        ],
+                                                                        !_0x4cf5c4[
+                                                                          _0x261390(
+                                                                            0x2e3,
+                                                                          )
+                                                                        ],
+                                                                      ),
+                                                                className:
+                                                                  _0x261390(
+                                                                    0x2f4,
+                                                                  ) +
+                                                                  (_0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x2e3,
+                                                                    )
+                                                                  ]
+                                                                    ? "bg-white\x20border\x20border-slate-200\x20text-slate-600\x20hover:bg-slate-50"
+                                                                    : _0x261390(
+                                                                        0x2a0,
+                                                                      )),
+                                                                children:
+                                                                  _0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x2e3,
+                                                                    )
+                                                                  ]
+                                                                    ? _0x261390(
+                                                                        0x2d6,
+                                                                      )
+                                                                    : _0x261390(
+                                                                        0x33e,
+                                                                      ),
+                                                              },
+                                                            ),
+                                                          ],
+                                                        }),
+                                                        _0x4cf5c4[
+                                                          _0x261390(0x260)
+                                                        ] ===
+                                                          _0x261390(0x302) &&
+                                                          _0x332f06["jsxs"](
+                                                            "div",
+                                                            {
+                                                              className:
+                                                                _0x261390(
+                                                                  0x151,
+                                                                ),
+                                                              children: [
+                                                                _0x332f06[
+                                                                  "jsxs"
+                                                                ](
+                                                                  _0x261390(
+                                                                    0x16c,
+                                                                  ),
+                                                                  {
+                                                                    className:
+                                                                      "flex-1\x20min-w-[140px]",
+                                                                    children: [
+                                                                      _0x332f06[
+                                                                        _0x261390(
+                                                                          0x20b,
+                                                                        )
+                                                                      ](
+                                                                        _0x261390(
+                                                                          0x16c,
+                                                                        ),
+                                                                        {
+                                                                          className:
+                                                                            _0x261390(
+                                                                              0x28e,
+                                                                            ),
+                                                                          children:
+                                                                            "账号备注",
+                                                                        },
+                                                                      ),
+                                                                      (_0x4f4d64 ==
+                                                                      null
+                                                                        ? void (
+                                                                            -0x167 *
+                                                                              -0x12 +
+                                                                            0x1948 +
+                                                                            0x1943 *
+                                                                              -0x2
+                                                                          )
+                                                                        : _0x4f4d64[
+                                                                            _0x261390(
+                                                                              0x271,
+                                                                            )
+                                                                          ]) ===
+                                                                      _0x4cf5c4[
+                                                                        _0x261390(
+                                                                          0x295,
+                                                                        )
+                                                                      ][
+                                                                        _0x261390(
+                                                                          0x2f6,
+                                                                        )
+                                                                      ]
+                                                                        ? _0x332f06[
+                                                                            _0x261390(
+                                                                              0x20b,
+                                                                            )
+                                                                          ](
+                                                                            _0x261390(
+                                                                              0x28d,
+                                                                            ),
+                                                                            {
+                                                                              type: _0x261390(
+                                                                                0x2fb,
+                                                                              ),
+                                                                              defaultValue:
+                                                                                _0x4cf5c4[
+                                                                                  _0x261390(
+                                                                                    0x295,
+                                                                                  )
+                                                                                ][
+                                                                                  _0x261390(
+                                                                                    0x127,
+                                                                                  )
+                                                                                ] ||
+                                                                                "",
+                                                                              className:
+                                                                                _0x261390(
+                                                                                  0x2ab,
+                                                                                ),
+                                                                              autoFocus:
+                                                                                !(
+                                                                                  -0x1975 +
+                                                                                  -0x1 *
+                                                                                    -0x2419 +
+                                                                                  -0x3 *
+                                                                                    0x38c
+                                                                                ),
+                                                                              onKeyDown:
+                                                                                (
+                                                                                  _0xa3674b,
+                                                                                ) => {
+                                                                                  const _0x13e022 =
+                                                                                    _0x261390;
+                                                                                  _0xa3674b[
+                                                                                    _0x13e022(
+                                                                                      0x299,
+                                                                                    )
+                                                                                  ] ===
+                                                                                    "Enter" &&
+                                                                                    _0xa3674b[
+                                                                                      _0x13e022(
+                                                                                        0x14c,
+                                                                                      )
+                                                                                    ][
+                                                                                      _0x13e022(
+                                                                                        0x2e7,
+                                                                                      )
+                                                                                    ]();
+                                                                                },
+                                                                              onBlur:
+                                                                                (
+                                                                                  _0x5f4a0f,
+                                                                                ) =>
+                                                                                  _0x587c4f(
+                                                                                    _0x4cf5c4[
+                                                                                      _0x261390(
+                                                                                        0x295,
+                                                                                      )
+                                                                                    ][
+                                                                                      _0x261390(
+                                                                                        0x2f6,
+                                                                                      )
+                                                                                    ],
+                                                                                    _0x5f4a0f[
+                                                                                      _0x261390(
+                                                                                        0x14c,
+                                                                                      )
+                                                                                    ][
+                                                                                      _0x261390(
+                                                                                        0x13f,
+                                                                                      )
+                                                                                    ],
+                                                                                  ),
+                                                                            },
+                                                                          )
+                                                                        : _0x332f06[
+                                                                            "jsx"
+                                                                          ](
+                                                                            _0x261390(
+                                                                              0x158,
+                                                                            ),
+                                                                            {
+                                                                              type: _0x261390(
+                                                                                0x158,
+                                                                              ),
+                                                                              onClick:
+                                                                                () =>
+                                                                                  _0x388a25(
+                                                                                    {
+                                                                                      userId:
+                                                                                        _0x4cf5c4[
+                                                                                          _0x261390(
+                                                                                            0x295,
+                                                                                          )
+                                                                                        ][
+                                                                                          _0x261390(
+                                                                                            0x2f6,
+                                                                                          )
+                                                                                        ],
+                                                                                    },
+                                                                                  ),
+                                                                              className:
+                                                                                _0x261390(
+                                                                                  0x2e4,
+                                                                                ),
+                                                                              children:
+                                                                                _0x4cf5c4[
+                                                                                  _0x261390(
+                                                                                    0x295,
+                                                                                  )
+                                                                                ][
+                                                                                  _0x261390(
+                                                                                    0x127,
+                                                                                  )
+                                                                                ] ||
+                                                                                _0x261390(
+                                                                                  0x1bb,
+                                                                                ),
+                                                                            },
+                                                                          ),
+                                                                    ],
+                                                                  },
+                                                                ),
+                                                                _0x332f06[
+                                                                  _0x261390(
+                                                                    0x309,
+                                                                  )
+                                                                ]("div", {
+                                                                  children: [
+                                                                    _0x332f06[
+                                                                      "jsx"
+                                                                    ](
+                                                                      _0x261390(
+                                                                        0x16c,
+                                                                      ),
+                                                                      {
+                                                                        className:
+                                                                          _0x261390(
+                                                                            0x28e,
+                                                                          ),
+                                                                        children:
+                                                                          "账号有效期",
+                                                                      },
+                                                                    ),
+                                                                    (_0x1098ed ==
+                                                                    null
+                                                                      ? void (
+                                                                          0x912 +
+                                                                          -0x5fb *
+                                                                            -0x1 +
+                                                                          -0xf0d
+                                                                        )
+                                                                      : _0x1098ed[
+                                                                          _0x261390(
+                                                                            0x271,
+                                                                          )
+                                                                        ]) ===
+                                                                    _0x4cf5c4[
+                                                                      _0x261390(
+                                                                        0x295,
+                                                                      )
+                                                                    ][
+                                                                      _0x261390(
+                                                                        0x2f6,
+                                                                      )
+                                                                    ]
+                                                                      ? _0x332f06[
+                                                                          _0x261390(
+                                                                            0x20b,
+                                                                          )
+                                                                        ](
+                                                                          _0x261390(
+                                                                            0x28d,
+                                                                          ),
+                                                                          {
+                                                                            type: _0x261390(
+                                                                              0x153,
+                                                                            ),
+                                                                            className:
+                                                                              _0x261390(
+                                                                                0x329,
+                                                                              ),
+                                                                            defaultValue:
+                                                                              _0x4cf5c4[
+                                                                                _0x261390(
+                                                                                  0x295,
+                                                                                )
+                                                                              ][
+                                                                                _0x261390(
+                                                                                  0x254,
+                                                                                )
+                                                                              ]
+                                                                                ? new Date(
+                                                                                    _0x4cf5c4[
+                                                                                      "gateAccess"
+                                                                                    ][
+                                                                                      _0x261390(
+                                                                                        0x254,
+                                                                                      )
+                                                                                    ],
+                                                                                  )
+                                                                                    [
+                                                                                      _0x261390(
+                                                                                        0x25a,
+                                                                                      )
+                                                                                    ]()
+                                                                                    [
+                                                                                      _0x261390(
+                                                                                        0x29e,
+                                                                                      )
+                                                                                    ](
+                                                                                      0x1 *
+                                                                                        -0x723 +
+                                                                                        -0x17c8 +
+                                                                                        0x1eeb,
+                                                                                      0x2 *
+                                                                                        -0x893 +
+                                                                                        -0x2404 +
+                                                                                        0x3534,
+                                                                                    )
+                                                                                : "",
+                                                                            onChange:
+                                                                              (
+                                                                                _0x179931,
+                                                                              ) =>
+                                                                                _0x5aed66(
+                                                                                  _0x4cf5c4[
+                                                                                    "gateAccess"
+                                                                                  ][
+                                                                                    "user_id"
+                                                                                  ],
+                                                                                  _0x179931[
+                                                                                    "target"
+                                                                                  ][
+                                                                                    _0x261390(
+                                                                                      0x13f,
+                                                                                    )
+                                                                                  ],
+                                                                                ),
+                                                                            autoFocus:
+                                                                              !(
+                                                                                0x1d83 +
+                                                                                -0x20c0 +
+                                                                                -0x1 *
+                                                                                  -0x33d
+                                                                              ),
+                                                                          },
+                                                                        )
+                                                                      : _0x332f06[
+                                                                          "jsx"
+                                                                        ](
+                                                                          _0x261390(
+                                                                            0x158,
+                                                                          ),
+                                                                          {
+                                                                            type: _0x261390(
+                                                                              0x158,
+                                                                            ),
+                                                                            onClick:
+                                                                              () =>
+                                                                                _0x62ad04(
+                                                                                  {
+                                                                                    userId:
+                                                                                      _0x4cf5c4[
+                                                                                        "gateAccess"
+                                                                                      ][
+                                                                                        _0x261390(
+                                                                                          0x2f6,
+                                                                                        )
+                                                                                      ],
+                                                                                  },
+                                                                                ),
+                                                                            className:
+                                                                              _0x261390(
+                                                                                0x16f,
+                                                                              ) +
+                                                                              (_0x4cf5c4[
+                                                                                _0x261390(
+                                                                                  0x295,
+                                                                                )
+                                                                              ][
+                                                                                _0x261390(
+                                                                                  0x254,
+                                                                                )
+                                                                              ] &&
+                                                                              new Date(
+                                                                                _0x4cf5c4[
+                                                                                  _0x261390(
+                                                                                    0x295,
+                                                                                  )
+                                                                                ][
+                                                                                  _0x261390(
+                                                                                    0x254,
+                                                                                  )
+                                                                                ],
+                                                                              ) <
+                                                                                new Date()
+                                                                                ? _0x261390(
+                                                                                    0x1dd,
+                                                                                  )
+                                                                                : _0x261390(
+                                                                                    0x2bb,
+                                                                                  )),
+                                                                            children:
+                                                                              _0x4cf5c4[
+                                                                                _0x261390(
+                                                                                  0x295,
+                                                                                )
+                                                                              ][
+                                                                                _0x261390(
+                                                                                  0x254,
+                                                                                )
+                                                                              ]
+                                                                                ? new Date(
+                                                                                    _0x4cf5c4[
+                                                                                      "gateAccess"
+                                                                                    ][
+                                                                                      "expires_at"
+                                                                                    ],
+                                                                                  )[
+                                                                                    _0x261390(
+                                                                                      0x2c7,
+                                                                                    )
+                                                                                  ]()
+                                                                                : "未设置",
+                                                                          },
+                                                                        ),
+                                                                  ],
+                                                                }),
+                                                              ],
+                                                            },
+                                                          ),
+                                                        _0x332f06["jsx"](
+                                                          _0x261390(0x16c),
+                                                          {
+                                                            className:
+                                                              _0x261390(0x17d),
+                                                            children:
+                                                              _0x4cf5c4[
+                                                                _0x261390(0x260)
+                                                              ] ===
+                                                              _0x261390(0x302)
+                                                                ? (_0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x32e,
+                                                                    )
+                                                                  ] || [])[
+                                                                    "length"
+                                                                  ] ===
+                                                                    0x503 *
+                                                                      0x7 +
+                                                                      -0x11b *
+                                                                        0xb +
+                                                                      -0x24 *
+                                                                        0xa3 &&
+                                                                  !(_0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x295,
+                                                                    )
+                                                                  ][
+                                                                    "blockedDevices"
+                                                                  ] || [])[
+                                                                    "length"
+                                                                  ]
+                                                                  ? _0x332f06[
+                                                                      _0x261390(
+                                                                        0x20b,
+                                                                      )
+                                                                    ]("div", {
+                                                                      className:
+                                                                        "text-xs\x20text-slate-400\x20text-center\x20py-6\x20px-3",
+                                                                      children:
+                                                                        _0x261390(
+                                                                          0x2d5,
+                                                                        ),
+                                                                    })
+                                                                  : _0x332f06[
+                                                                      _0x261390(
+                                                                        0x309,
+                                                                      )
+                                                                    ](
+                                                                      _0x332f06[
+                                                                        _0x261390(
+                                                                          0x310,
+                                                                        )
+                                                                      ],
+                                                                      {
+                                                                        children:
+                                                                          [
+                                                                            (_0x4cf5c4[
+                                                                              _0x261390(
+                                                                                0x32e,
+                                                                              )
+                                                                            ] ||
+                                                                              [])[
+                                                                              "map"
+                                                                            ](
+                                                                              (
+                                                                                _0x2df853,
+                                                                              ) =>
+                                                                                _0x332f06[
+                                                                                  _0x261390(
+                                                                                    0x309,
+                                                                                  )
+                                                                                ](
+                                                                                  "div",
+                                                                                  {
+                                                                                    className:
+                                                                                      _0x261390(
+                                                                                        0x171,
+                                                                                      ),
+                                                                                    children:
+                                                                                      [
+                                                                                        _0x332f06[
+                                                                                          _0x261390(
+                                                                                            0x309,
+                                                                                          )
+                                                                                        ](
+                                                                                          _0x261390(
+                                                                                            0x16c,
+                                                                                          ),
+                                                                                          {
+                                                                                            className:
+                                                                                              _0x261390(
+                                                                                                0x251,
+                                                                                              ),
+                                                                                            children:
+                                                                                              [
+                                                                                                _0x332f06[
+                                                                                                  _0x261390(
+                                                                                                    0x309,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x261390(
+                                                                                                    0x16c,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x261390(
+                                                                                                        0x211,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      [
+                                                                                                        _0x332f06[
+                                                                                                          _0x261390(
+                                                                                                            0x309,
+                                                                                                          )
+                                                                                                        ](
+                                                                                                          _0x261390(
+                                                                                                            0x16c,
+                                                                                                          ),
+                                                                                                          {
+                                                                                                            className:
+                                                                                                              _0x261390(
+                                                                                                                0x272,
+                                                                                                              ),
+                                                                                                            children:
+                                                                                                              [
+                                                                                                                _0x332f06[
+                                                                                                                  _0x261390(
+                                                                                                                    0x20b,
+                                                                                                                  )
+                                                                                                                ](
+                                                                                                                  "span",
+                                                                                                                  {
+                                                                                                                    className:
+                                                                                                                      _0x261390(
+                                                                                                                        0x2a1,
+                                                                                                                      ),
+                                                                                                                  },
+                                                                                                                ),
+                                                                                                                _0x332f06[
+                                                                                                                  _0x261390(
+                                                                                                                    0x309,
+                                                                                                                  )
+                                                                                                                ](
+                                                                                                                  _0x261390(
+                                                                                                                    0x275,
+                                                                                                                  ),
+                                                                                                                  {
+                                                                                                                    className:
+                                                                                                                      _0x261390(
+                                                                                                                        0x30c,
+                                                                                                                      ),
+                                                                                                                    children:
+                                                                                                                      [
+                                                                                                                        String(
+                                                                                                                          _0x2df853[
+                                                                                                                            _0x261390(
+                                                                                                                              0x2e1,
+                                                                                                                            )
+                                                                                                                          ] ||
+                                                                                                                            "",
+                                                                                                                        )[
+                                                                                                                          "slice"
+                                                                                                                        ](
+                                                                                                                          0xb *
+                                                                                                                            0x20c +
+                                                                                                                            -0x263 *
+                                                                                                                              0x7 +
+                                                                                                                            -0x5cf,
+                                                                                                                          0x6be +
+                                                                                                                            0x22bd +
+                                                                                                                            -0x296f,
+                                                                                                                        ),
+                                                                                                                        "…",
+                                                                                                                      ],
+                                                                                                                  },
+                                                                                                                ),
+                                                                                                              ],
+                                                                                                          },
+                                                                                                        ),
+                                                                                                        _0x332f06[
+                                                                                                          "jsxs"
+                                                                                                        ](
+                                                                                                          _0x261390(
+                                                                                                            0x16c,
+                                                                                                          ),
+                                                                                                          {
+                                                                                                            className:
+                                                                                                              "flex\x20flex-wrap\x20gap-2\x20text-[0.625rem]\x20text-slate-500",
+                                                                                                            children:
+                                                                                                              [
+                                                                                                                _0x2df853[
+                                                                                                                  "last_ip"
+                                                                                                                ] &&
+                                                                                                                  _0x332f06[
+                                                                                                                    "jsxs"
+                                                                                                                  ](
+                                                                                                                    "span",
+                                                                                                                    {
+                                                                                                                      className:
+                                                                                                                        _0x261390(
+                                                                                                                          0x25b,
+                                                                                                                        ),
+                                                                                                                      children:
+                                                                                                                        [
+                                                                                                                          _0x332f06[
+                                                                                                                            _0x261390(
+                                                                                                                              0x20b,
+                                                                                                                            )
+                                                                                                                          ](
+                                                                                                                            _0x4bf5ae,
+                                                                                                                            {
+                                                                                                                              size: 0xa,
+                                                                                                                            },
+                                                                                                                          ),
+                                                                                                                          "\x20",
+                                                                                                                          _0x2df853[
+                                                                                                                            _0x261390(
+                                                                                                                              0x269,
+                                                                                                                            )
+                                                                                                                          ],
+                                                                                                                        ],
+                                                                                                                    },
+                                                                                                                  ),
+                                                                                                                _0x2df853[
+                                                                                                                  _0x261390(
+                                                                                                                    0x1f4,
+                                                                                                                  )
+                                                                                                                ] &&
+                                                                                                                  _0x332f06[
+                                                                                                                    _0x261390(
+                                                                                                                      0x309,
+                                                                                                                    )
+                                                                                                                  ](
+                                                                                                                    _0x261390(
+                                                                                                                      0x275,
+                                                                                                                    ),
+                                                                                                                    {
+                                                                                                                      className:
+                                                                                                                        _0x261390(
+                                                                                                                          0x319,
+                                                                                                                        ),
+                                                                                                                      title:
+                                                                                                                        _0x2df853[
+                                                                                                                          _0x261390(
+                                                                                                                            0x1f4,
+                                                                                                                          )
+                                                                                                                        ],
+                                                                                                                      children:
+                                                                                                                        [
+                                                                                                                          _0x332f06[
+                                                                                                                            _0x261390(
+                                                                                                                              0x20b,
+                                                                                                                            )
+                                                                                                                          ](
+                                                                                                                            _0x27c9a7,
+                                                                                                                            {
+                                                                                                                              size: 0xa,
+                                                                                                                            },
+                                                                                                                          ),
+                                                                                                                          "\x20",
+                                                                                                                          _0x2df853[
+                                                                                                                            _0x261390(
+                                                                                                                              0x1f4,
+                                                                                                                            )
+                                                                                                                          ],
+                                                                                                                        ],
+                                                                                                                    },
+                                                                                                                  ),
+                                                                                                              ],
+                                                                                                          },
+                                                                                                        ),
+                                                                                                      ],
+                                                                                                  },
+                                                                                                ),
+                                                                                                _0x332f06[
+                                                                                                  _0x261390(
+                                                                                                    0x309,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x261390(
+                                                                                                    0x16c,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x261390(
+                                                                                                        0x29d,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      [
+                                                                                                        _0x2df853[
+                                                                                                          _0x261390(
+                                                                                                            0x282,
+                                                                                                          )
+                                                                                                        ] &&
+                                                                                                          _0x332f06[
+                                                                                                            _0x261390(
+                                                                                                              0x309,
+                                                                                                            )
+                                                                                                          ](
+                                                                                                            "div",
+                                                                                                            {
+                                                                                                              children:
+                                                                                                                [
+                                                                                                                  _0x261390(
+                                                                                                                    0x19c,
+                                                                                                                  ),
+                                                                                                                  new Date(
+                                                                                                                    _0x2df853[
+                                                                                                                      _0x261390(
+                                                                                                                        0x282,
+                                                                                                                      )
+                                                                                                                    ],
+                                                                                                                  )[
+                                                                                                                    _0x261390(
+                                                                                                                      0x1cf,
+                                                                                                                    )
+                                                                                                                  ](),
+                                                                                                                ],
+                                                                                                            },
+                                                                                                          ),
+                                                                                                        _0x2df853[
+                                                                                                          _0x261390(
+                                                                                                            0x328,
+                                                                                                          )
+                                                                                                        ] &&
+                                                                                                          _0x332f06[
+                                                                                                            _0x261390(
+                                                                                                              0x309,
+                                                                                                            )
+                                                                                                          ](
+                                                                                                            _0x261390(
+                                                                                                              0x16c,
+                                                                                                            ),
+                                                                                                            {
+                                                                                                              children:
+                                                                                                                [
+                                                                                                                  _0x261390(
+                                                                                                                    0x30f,
+                                                                                                                  ),
+                                                                                                                  new Date(
+                                                                                                                    _0x2df853[
+                                                                                                                      _0x261390(
+                                                                                                                        0x328,
+                                                                                                                      )
+                                                                                                                    ],
+                                                                                                                  )[
+                                                                                                                    _0x261390(
+                                                                                                                      0x2c7,
+                                                                                                                    )
+                                                                                                                  ](),
+                                                                                                                ],
+                                                                                                            },
+                                                                                                          ),
+                                                                                                      ],
+                                                                                                  },
+                                                                                                ),
+                                                                                              ],
+                                                                                          },
+                                                                                        ),
+                                                                                        _0x332f06[
+                                                                                          _0x261390(
+                                                                                            0x20b,
+                                                                                          )
+                                                                                        ](
+                                                                                          _0x261390(
+                                                                                            0x16c,
+                                                                                          ),
+                                                                                          {
+                                                                                            className:
+                                                                                              _0x261390(
+                                                                                                0x27e,
+                                                                                              ),
+                                                                                            children:
+                                                                                              _0x332f06[
+                                                                                                _0x261390(
+                                                                                                  0x20b,
+                                                                                                )
+                                                                                              ](
+                                                                                                _0x261390(
+                                                                                                  0x158,
+                                                                                                ),
+                                                                                                {
+                                                                                                  type: _0x261390(
+                                                                                                    0x158,
+                                                                                                  ),
+                                                                                                  onClick:
+                                                                                                    () =>
+                                                                                                      _0x57c52b(
+                                                                                                        _0x2df853[
+                                                                                                          "id"
+                                                                                                        ],
+                                                                                                        _0x4cf5c4[
+                                                                                                          _0x261390(
+                                                                                                            0x295,
+                                                                                                          )
+                                                                                                        ][
+                                                                                                          _0x261390(
+                                                                                                            0x2f6,
+                                                                                                          )
+                                                                                                        ],
+                                                                                                        _0x2df853[
+                                                                                                          _0x261390(
+                                                                                                            0x2e1,
+                                                                                                          )
+                                                                                                        ],
+                                                                                                      ),
+                                                                                                  className:
+                                                                                                    _0x261390(
+                                                                                                      0x2c3,
+                                                                                                    ),
+                                                                                                  children:
+                                                                                                    "移除此设备",
+                                                                                                },
+                                                                                              ),
+                                                                                          },
+                                                                                        ),
+                                                                                      ],
+                                                                                  },
+                                                                                  _0x2df853[
+                                                                                    "id"
+                                                                                  ],
+                                                                                ),
+                                                                            ),
+                                                                            (_0x4cf5c4[
+                                                                              _0x261390(
+                                                                                0x295,
+                                                                              )
+                                                                            ][
+                                                                              _0x261390(
+                                                                                0x243,
+                                                                              )
+                                                                            ] ||
+                                                                              [])[
+                                                                              _0x261390(
+                                                                                0x18e,
+                                                                              )
+                                                                            ](
+                                                                              (
+                                                                                _0x3b9634,
+                                                                              ) =>
+                                                                                _0x332f06[
+                                                                                  "jsx"
+                                                                                ](
+                                                                                  _0x261390(
+                                                                                    0x16c,
+                                                                                  ),
+                                                                                  {
+                                                                                    className:
+                                                                                      _0x261390(
+                                                                                        0x1d1,
+                                                                                      ),
+                                                                                    children:
+                                                                                      _0x332f06[
+                                                                                        _0x261390(
+                                                                                          0x309,
+                                                                                        )
+                                                                                      ](
+                                                                                        "div",
+                                                                                        {
+                                                                                          className:
+                                                                                            _0x261390(
+                                                                                              0x2c6,
+                                                                                            ),
+                                                                                          children:
+                                                                                            [
+                                                                                              _0x332f06[
+                                                                                                _0x261390(
+                                                                                                  0x309,
+                                                                                                )
+                                                                                              ](
+                                                                                                _0x261390(
+                                                                                                  0x16c,
+                                                                                                ),
+                                                                                                {
+                                                                                                  className:
+                                                                                                    "min-w-0",
+                                                                                                  children:
+                                                                                                    [
+                                                                                                      _0x332f06[
+                                                                                                        "jsx"
+                                                                                                      ](
+                                                                                                        _0x261390(
+                                                                                                          0x275,
+                                                                                                        ),
+                                                                                                        {
+                                                                                                          className:
+                                                                                                            _0x261390(
+                                                                                                              0x15f,
+                                                                                                            ),
+                                                                                                          children:
+                                                                                                            _0x261390(
+                                                                                                              0x30e,
+                                                                                                            ),
+                                                                                                        },
+                                                                                                      ),
+                                                                                                      _0x332f06[
+                                                                                                        _0x261390(
+                                                                                                          0x309,
+                                                                                                        )
+                                                                                                      ](
+                                                                                                        _0x261390(
+                                                                                                          0x275,
+                                                                                                        ),
+                                                                                                        {
+                                                                                                          className:
+                                                                                                            _0x261390(
+                                                                                                              0x332,
+                                                                                                            ),
+                                                                                                          children:
+                                                                                                            [
+                                                                                                              String(
+                                                                                                                _0x3b9634[
+                                                                                                                  _0x261390(
+                                                                                                                    0x2e1,
+                                                                                                                  )
+                                                                                                                ] ||
+                                                                                                                  "",
+                                                                                                              )[
+                                                                                                                "slice"
+                                                                                                              ](
+                                                                                                                0x2403 +
+                                                                                                                  0x381 +
+                                                                                                                  -0x2784,
+                                                                                                                0xafe +
+                                                                                                                  0xb2 *
+                                                                                                                    0x22 +
+                                                                                                                  -0x2294,
+                                                                                                              ),
+                                                                                                              "…",
+                                                                                                            ],
+                                                                                                        },
+                                                                                                      ),
+                                                                                                      _0x3b9634[
+                                                                                                        _0x261390(
+                                                                                                          0x2ce,
+                                                                                                        )
+                                                                                                      ] &&
+                                                                                                        _0x332f06[
+                                                                                                          _0x261390(
+                                                                                                            0x20b,
+                                                                                                          )
+                                                                                                        ](
+                                                                                                          _0x261390(
+                                                                                                            0x16c,
+                                                                                                          ),
+                                                                                                          {
+                                                                                                            className:
+                                                                                                              "text-[0.625rem]\x20text-amber-700\x20mt-1",
+                                                                                                            children:
+                                                                                                              new Date(
+                                                                                                                _0x3b9634[
+                                                                                                                  _0x261390(
+                                                                                                                    0x2ce,
+                                                                                                                  )
+                                                                                                                ],
+                                                                                                              )[
+                                                                                                                _0x261390(
+                                                                                                                  0x1cf,
+                                                                                                                )
+                                                                                                              ](),
+                                                                                                          },
+                                                                                                        ),
+                                                                                                    ],
+                                                                                                },
+                                                                                              ),
+                                                                                              _0x332f06[
+                                                                                                _0x261390(
+                                                                                                  0x20b,
+                                                                                                )
+                                                                                              ](
+                                                                                                _0x261390(
+                                                                                                  0x158,
+                                                                                                ),
+                                                                                                {
+                                                                                                  type: _0x261390(
+                                                                                                    0x158,
+                                                                                                  ),
+                                                                                                  onClick:
+                                                                                                    () =>
+                                                                                                      _0x4f3705(
+                                                                                                        _0x4cf5c4[
+                                                                                                          _0x261390(
+                                                                                                            0x295,
+                                                                                                          )
+                                                                                                        ][
+                                                                                                          "user_id"
+                                                                                                        ],
+                                                                                                        _0x3b9634[
+                                                                                                          _0x261390(
+                                                                                                            0x2e1,
+                                                                                                          )
+                                                                                                        ],
+                                                                                                      ),
+                                                                                                  className:
+                                                                                                    _0x261390(
+                                                                                                      0x1ab,
+                                                                                                    ),
+                                                                                                  children:
+                                                                                                    _0x261390(
+                                                                                                      0x252,
+                                                                                                    ),
+                                                                                                },
+                                                                                              ),
+                                                                                            ],
+                                                                                        },
+                                                                                      ),
+                                                                                  },
+                                                                                  "blocked-" +
+                                                                                    _0x3b9634[
+                                                                                      _0x261390(
+                                                                                        0x2e1,
+                                                                                      )
+                                                                                    ],
+                                                                                ),
+                                                                            ),
+                                                                          ],
+                                                                      },
+                                                                    )
+                                                                : _0x4cf5c4[
+                                                                    _0x261390(
+                                                                      0x32e,
+                                                                    )
+                                                                  ][
+                                                                    _0x261390(
+                                                                      0x18e,
+                                                                    )
+                                                                  ](
+                                                                    (
+                                                                      _0x2dd62a,
+                                                                    ) => {
+                                                                      const _0x47ca96 =
+                                                                        _0x261390;
+                                                                      var _0xf10dc9,
+                                                                        _0x26c93c;
+                                                                      const _0x234035 =
+                                                                          (_0xf10dc9 =
+                                                                            _0x2dd62a[
+                                                                              _0x47ca96(
+                                                                                0x18d,
+                                                                              )
+                                                                            ]) !=
+                                                                            null &&
+                                                                          _0xf10dc9[
+                                                                            _0x47ca96(
+                                                                              0x19b,
+                                                                            )
+                                                                          ]
+                                                                            ? (_0x26c93c =
+                                                                                _0x2dd62a[
+                                                                                  _0x47ca96(
+                                                                                    0x18d,
+                                                                                  )
+                                                                                ][
+                                                                                  _0x2dd62a[
+                                                                                    "history"
+                                                                                  ][
+                                                                                    _0x47ca96(
+                                                                                      0x19b,
+                                                                                    )
+                                                                                  ] -
+                                                                                    (-0xb10 +
+                                                                                      -0x1 *
+                                                                                        0x5d8 +
+                                                                                      -0xd *
+                                                                                        -0x14d)
+                                                                                ]) ==
+                                                                              null
+                                                                              ? void (
+                                                                                  0x114f +
+                                                                                  -0x161 *
+                                                                                    -0xe +
+                                                                                  -0x249d
+                                                                                )
+                                                                              : _0x26c93c[
+                                                                                  _0x47ca96(
+                                                                                    0x1e3,
+                                                                                  )
+                                                                                ]
+                                                                            : null,
+                                                                        _0x5aed3e =
+                                                                          _0x2dd62a[
+                                                                            _0x47ca96(
+                                                                              0x1b8,
+                                                                            )
+                                                                          ] ===
+                                                                            _0x47ca96(
+                                                                              0x166,
+                                                                            ) &&
+                                                                          _0x234035 ===
+                                                                            _0x47ca96(
+                                                                              0x2fd,
+                                                                            );
+                                                                      return _0x332f06[
+                                                                        "jsxs"
+                                                                      ](
+                                                                        _0x47ca96(
+                                                                          0x16c,
+                                                                        ),
+                                                                        {
+                                                                          className:
+                                                                            _0x47ca96(
+                                                                              0x171,
+                                                                            ),
+                                                                          children:
+                                                                            [
+                                                                              _0x332f06[
+                                                                                "jsxs"
+                                                                              ](
+                                                                                _0x47ca96(
+                                                                                  0x16c,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    _0x47ca96(
+                                                                                      0x32b,
+                                                                                    ),
+                                                                                  children:
+                                                                                    [
+                                                                                      _0x332f06[
+                                                                                        "jsxs"
+                                                                                      ](
+                                                                                        "div",
+                                                                                        {
+                                                                                          className:
+                                                                                            "flex\x20items-center\x20gap-2\x20flex-wrap",
+                                                                                          children:
+                                                                                            [
+                                                                                              _0x332f06[
+                                                                                                "jsx"
+                                                                                              ](
+                                                                                                _0x47ca96(
+                                                                                                  0x28d,
+                                                                                                ),
+                                                                                                {
+                                                                                                  type: _0x47ca96(
+                                                                                                    0x300,
+                                                                                                  ),
+                                                                                                  checked:
+                                                                                                    _0x200eb0[
+                                                                                                      _0x47ca96(
+                                                                                                        0x12d,
+                                                                                                      )
+                                                                                                    ](
+                                                                                                      _0x2dd62a[
+                                                                                                        "id"
+                                                                                                      ],
+                                                                                                    ),
+                                                                                                  onChange:
+                                                                                                    (
+                                                                                                      _0x334218,
+                                                                                                    ) => {
+                                                                                                      const _0x4d906a =
+                                                                                                        _0x47ca96;
+                                                                                                      (_0x334218[
+                                                                                                        _0x4d906a(
+                                                                                                          0x208,
+                                                                                                        )
+                                                                                                      ](),
+                                                                                                        _0x11123d(
+                                                                                                          _0x2dd62a[
+                                                                                                            "id"
+                                                                                                          ],
+                                                                                                        ));
+                                                                                                    },
+                                                                                                  onClick:
+                                                                                                    (
+                                                                                                      _0xd417ef,
+                                                                                                    ) =>
+                                                                                                      _0xd417ef[
+                                                                                                        "stopPropagation"
+                                                                                                      ](),
+                                                                                                  className:
+                                                                                                    _0x47ca96(
+                                                                                                      0x1bc,
+                                                                                                    ),
+                                                                                                },
+                                                                                              ),
+                                                                                              _0x332f06[
+                                                                                                _0x47ca96(
+                                                                                                  0x20b,
+                                                                                                )
+                                                                                              ](
+                                                                                                _0x47ca96(
+                                                                                                  0x16c,
+                                                                                                ),
+                                                                                                {
+                                                                                                  className:
+                                                                                                    _0x47ca96(
+                                                                                                      0x206,
+                                                                                                    ) +
+                                                                                                    (_0x2dd62a[
+                                                                                                      _0x47ca96(
+                                                                                                        0x1b8,
+                                                                                                      )
+                                                                                                    ] ===
+                                                                                                    "approved"
+                                                                                                      ? _0x47ca96(
+                                                                                                          0x2ea,
+                                                                                                        )
+                                                                                                      : _0x2dd62a[
+                                                                                                            _0x47ca96(
+                                                                                                              0x1b8,
+                                                                                                            )
+                                                                                                          ] ===
+                                                                                                          _0x47ca96(
+                                                                                                            0x26b,
+                                                                                                          )
+                                                                                                        ? _0x47ca96(
+                                                                                                            0x297,
+                                                                                                          )
+                                                                                                        : _0x47ca96(
+                                                                                                            0x12a,
+                                                                                                          )),
+                                                                                                },
+                                                                                              ),
+                                                                                              _0x332f06[
+                                                                                                _0x47ca96(
+                                                                                                  0x309,
+                                                                                                )
+                                                                                              ](
+                                                                                                _0x47ca96(
+                                                                                                  0x275,
+                                                                                                ),
+                                                                                                {
+                                                                                                  className:
+                                                                                                    _0x47ca96(
+                                                                                                      0x2c8,
+                                                                                                    ),
+                                                                                                  children:
+                                                                                                    [
+                                                                                                      _0x47ca96(
+                                                                                                        0x124,
+                                                                                                      ),
+                                                                                                      _0x2dd62a[
+                                                                                                        _0x47ca96(
+                                                                                                          0x2e1,
+                                                                                                        )
+                                                                                                      ][
+                                                                                                        _0x47ca96(
+                                                                                                          0x29e,
+                                                                                                        )
+                                                                                                      ](
+                                                                                                        -0x5 *
+                                                                                                          0x647 +
+                                                                                                          -0x2211 +
+                                                                                                          -0x20ba *
+                                                                                                            -0x2,
+                                                                                                        -0x16f *
+                                                                                                          -0x7 +
+                                                                                                          0x13e9 +
+                                                                                                          -0x1dea,
+                                                                                                      ),
+                                                                                                    ],
+                                                                                                },
+                                                                                              ),
+                                                                                              _0x2dd62a[
+                                                                                                _0x47ca96(
+                                                                                                  0x31b,
+                                                                                                )
+                                                                                              ] ===
+                                                                                                _0x47ca96(
+                                                                                                  0x13a,
+                                                                                                ) &&
+                                                                                                _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x20b,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x275,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x2a7,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      "激活码",
+                                                                                                  },
+                                                                                                ),
+                                                                                              _0x5aed3e &&
+                                                                                                _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x20b,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x275,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x240,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      _0x47ca96(
+                                                                                                        0x2ac,
+                                                                                                      ),
+                                                                                                  },
+                                                                                                ),
+                                                                                            ],
+                                                                                        },
+                                                                                      ),
+                                                                                      _0x332f06[
+                                                                                        _0x47ca96(
+                                                                                          0x309,
+                                                                                        )
+                                                                                      ](
+                                                                                        _0x47ca96(
+                                                                                          0x16c,
+                                                                                        ),
+                                                                                        {
+                                                                                          className:
+                                                                                            "text-[0.625rem]\x20text-slate-400\x20flex\x20flex-col\x20items-end",
+                                                                                          children:
+                                                                                            [
+                                                                                              _0x332f06[
+                                                                                                "jsxs"
+                                                                                              ](
+                                                                                                "span",
+                                                                                                {
+                                                                                                  children:
+                                                                                                    [
+                                                                                                      _0x47ca96(
+                                                                                                        0x19d,
+                                                                                                      ),
+                                                                                                      new Date(
+                                                                                                        _0x2dd62a[
+                                                                                                          _0x47ca96(
+                                                                                                            0x328,
+                                                                                                          )
+                                                                                                        ],
+                                                                                                      )[
+                                                                                                        "toLocaleDateString"
+                                                                                                      ](),
+                                                                                                    ],
+                                                                                                },
+                                                                                              ),
+                                                                                              _0x2dd62a[
+                                                                                                "last_active_at"
+                                                                                              ] &&
+                                                                                                _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x309,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x275,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x201,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      [
+                                                                                                        _0x47ca96(
+                                                                                                          0x1e1,
+                                                                                                        ),
+                                                                                                        new Date(
+                                                                                                          _0x2dd62a[
+                                                                                                            _0x47ca96(
+                                                                                                              0x132,
+                                                                                                            )
+                                                                                                          ],
+                                                                                                        )[
+                                                                                                          _0x47ca96(
+                                                                                                            0x1cf,
+                                                                                                          )
+                                                                                                        ](),
+                                                                                                      ],
+                                                                                                  },
+                                                                                                ),
+                                                                                            ],
+                                                                                        },
+                                                                                      ),
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x332f06[
+                                                                                _0x47ca96(
+                                                                                  0x309,
+                                                                                )
+                                                                              ](
+                                                                                _0x47ca96(
+                                                                                  0x16c,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    "mb-3\x20space-y-1",
+                                                                                  children:
+                                                                                    [
+                                                                                      _0x2dd62a[
+                                                                                        "reason"
+                                                                                      ] &&
+                                                                                        _0x332f06[
+                                                                                          _0x47ca96(
+                                                                                            0x309,
+                                                                                          )
+                                                                                        ](
+                                                                                          "div",
+                                                                                          {
+                                                                                            className:
+                                                                                              _0x47ca96(
+                                                                                                0x307,
+                                                                                              ),
+                                                                                            children:
+                                                                                              [
+                                                                                                _0x332f06[
+                                                                                                  "jsx"
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x275,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x270,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      "Reason:",
+                                                                                                  },
+                                                                                                ),
+                                                                                                _0x2dd62a[
+                                                                                                  "reason"
+                                                                                                ],
+                                                                                              ],
+                                                                                          },
+                                                                                        ),
+                                                                                      _0x332f06[
+                                                                                        _0x47ca96(
+                                                                                          0x309,
+                                                                                        )
+                                                                                      ](
+                                                                                        "div",
+                                                                                        {
+                                                                                          className:
+                                                                                            _0x47ca96(
+                                                                                              0x1d5,
+                                                                                            ),
+                                                                                          children:
+                                                                                            [
+                                                                                              _0x2dd62a[
+                                                                                                _0x47ca96(
+                                                                                                  0x2a4,
+                                                                                                )
+                                                                                              ] &&
+                                                                                                _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x309,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x275,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x25b,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      [
+                                                                                                        _0x332f06[
+                                                                                                          _0x47ca96(
+                                                                                                            0x20b,
+                                                                                                          )
+                                                                                                        ](
+                                                                                                          _0x4bf5ae,
+                                                                                                          {
+                                                                                                            size: 0xa,
+                                                                                                          },
+                                                                                                        ),
+                                                                                                        "\x20",
+                                                                                                        _0x2dd62a[
+                                                                                                          _0x47ca96(
+                                                                                                            0x2a4,
+                                                                                                          )
+                                                                                                        ],
+                                                                                                      ],
+                                                                                                  },
+                                                                                                ),
+                                                                                              _0x2dd62a[
+                                                                                                _0x47ca96(
+                                                                                                  0x1f4,
+                                                                                                )
+                                                                                              ] &&
+                                                                                                _0x332f06[
+                                                                                                  "jsxs"
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x275,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x205,
+                                                                                                      ),
+                                                                                                    title:
+                                                                                                      _0x2dd62a[
+                                                                                                        _0x47ca96(
+                                                                                                          0x1f4,
+                                                                                                        )
+                                                                                                      ],
+                                                                                                    children:
+                                                                                                      [
+                                                                                                        _0x332f06[
+                                                                                                          _0x47ca96(
+                                                                                                            0x20b,
+                                                                                                          )
+                                                                                                        ](
+                                                                                                          _0x3c4a55,
+                                                                                                          {
+                                                                                                            size: 0xa,
+                                                                                                          },
+                                                                                                        ),
+                                                                                                        "\x20",
+                                                                                                        _0x2dd62a[
+                                                                                                          _0x47ca96(
+                                                                                                            0x1f4,
+                                                                                                          )
+                                                                                                        ],
+                                                                                                      ],
+                                                                                                  },
+                                                                                                ),
+                                                                                            ],
+                                                                                        },
+                                                                                      ),
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x332f06[
+                                                                                _0x47ca96(
+                                                                                  0x309,
+                                                                                )
+                                                                              ](
+                                                                                _0x47ca96(
+                                                                                  0x16c,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    _0x47ca96(
+                                                                                      0x2ef,
+                                                                                    ),
+                                                                                  children:
+                                                                                    [
+                                                                                      _0x332f06[
+                                                                                        "jsx"
+                                                                                      ](
+                                                                                        "div",
+                                                                                        {
+                                                                                          className:
+                                                                                            _0x47ca96(
+                                                                                              0x21b,
+                                                                                            ),
+                                                                                          children:
+                                                                                            (_0x2cd2b3 ==
+                                                                                            null
+                                                                                              ? void (
+                                                                                                  0x2d7 *
+                                                                                                    0x7 +
+                                                                                                  -0x208b *
+                                                                                                    0x1 +
+                                                                                                  0xcaa
+                                                                                                )
+                                                                                              : _0x2cd2b3[
+                                                                                                  "id"
+                                                                                                ]) ===
+                                                                                            _0x2dd62a[
+                                                                                              "id"
+                                                                                            ]
+                                                                                              ? _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x20b,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x16c,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x255,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      _0x332f06[
+                                                                                                        _0x47ca96(
+                                                                                                          0x20b,
+                                                                                                        )
+                                                                                                      ](
+                                                                                                        _0x47ca96(
+                                                                                                          0x28d,
+                                                                                                        ),
+                                                                                                        {
+                                                                                                          type: _0x47ca96(
+                                                                                                            0x2fb,
+                                                                                                          ),
+                                                                                                          defaultValue:
+                                                                                                            _0x2dd62a[
+                                                                                                              _0x47ca96(
+                                                                                                                0x127,
+                                                                                                              )
+                                                                                                            ],
+                                                                                                          className:
+                                                                                                            _0x47ca96(
+                                                                                                              0x2ab,
+                                                                                                            ),
+                                                                                                          onKeyDown:
+                                                                                                            (
+                                                                                                              _0x30b401,
+                                                                                                            ) => {
+                                                                                                              const _0x55e237 =
+                                                                                                                _0x47ca96;
+                                                                                                              _0x30b401[
+                                                                                                                _0x55e237(
+                                                                                                                  0x299,
+                                                                                                                )
+                                                                                                              ] ===
+                                                                                                                "Enter" &&
+                                                                                                                _0x420513(
+                                                                                                                  _0x2dd62a[
+                                                                                                                    "id"
+                                                                                                                  ],
+                                                                                                                  _0x30b401[
+                                                                                                                    "target"
+                                                                                                                  ][
+                                                                                                                    _0x55e237(
+                                                                                                                      0x13f,
+                                                                                                                    )
+                                                                                                                  ],
+                                                                                                                );
+                                                                                                            },
+                                                                                                          autoFocus:
+                                                                                                            !(
+                                                                                                              -0x5 *
+                                                                                                                -0x649 +
+                                                                                                              0x12c0 +
+                                                                                                              -0x322d
+                                                                                                            ),
+                                                                                                          onBlur:
+                                                                                                            () =>
+                                                                                                              _0x66c64a(
+                                                                                                                null,
+                                                                                                              ),
+                                                                                                        },
+                                                                                                      ),
+                                                                                                  },
+                                                                                                )
+                                                                                              : _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x309,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  "div",
+                                                                                                  {
+                                                                                                    onClick:
+                                                                                                      () =>
+                                                                                                        _0x66c64a(
+                                                                                                          {
+                                                                                                            id: _0x2dd62a[
+                                                                                                              "id"
+                                                                                                            ],
+                                                                                                            note: _0x2dd62a[
+                                                                                                              _0x47ca96(
+                                                                                                                0x127,
+                                                                                                              )
+                                                                                                            ],
+                                                                                                          },
+                                                                                                        ),
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x2f7,
+                                                                                                      ),
+                                                                                                    children:
+                                                                                                      [
+                                                                                                        _0x332f06[
+                                                                                                          "jsx"
+                                                                                                        ](
+                                                                                                          _0xd0883d,
+                                                                                                          {
+                                                                                                            size: 0xa,
+                                                                                                          },
+                                                                                                        ),
+                                                                                                        _0x2dd62a[
+                                                                                                          "note"
+                                                                                                        ] ||
+                                                                                                          _0x47ca96(
+                                                                                                            0x2b8,
+                                                                                                          ),
+                                                                                                      ],
+                                                                                                  },
+                                                                                                ),
+                                                                                        },
+                                                                                      ),
+                                                                                      _0x332f06[
+                                                                                        _0x47ca96(
+                                                                                          0x20b,
+                                                                                        )
+                                                                                      ](
+                                                                                        _0x47ca96(
+                                                                                          0x16c,
+                                                                                        ),
+                                                                                        {
+                                                                                          className:
+                                                                                            _0x47ca96(
+                                                                                              0x135,
+                                                                                            ),
+                                                                                          children:
+                                                                                            (_0x2acd7c ==
+                                                                                            null
+                                                                                              ? void (
+                                                                                                  -0x6fe +
+                                                                                                  0x2195 +
+                                                                                                  -0x1 *
+                                                                                                    0x1a97
+                                                                                                )
+                                                                                              : _0x2acd7c[
+                                                                                                  "id"
+                                                                                                ]) ===
+                                                                                            _0x2dd62a[
+                                                                                              "id"
+                                                                                            ]
+                                                                                              ? _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x20b,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x28d,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    type: "date",
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x329,
+                                                                                                      ),
+                                                                                                    onChange:
+                                                                                                      (
+                                                                                                        _0x435722,
+                                                                                                      ) =>
+                                                                                                        _0x272b61(
+                                                                                                          _0x2dd62a[
+                                                                                                            "id"
+                                                                                                          ],
+                                                                                                          _0x435722[
+                                                                                                            _0x47ca96(
+                                                                                                              0x14c,
+                                                                                                            )
+                                                                                                          ][
+                                                                                                            _0x47ca96(
+                                                                                                              0x13f,
+                                                                                                            )
+                                                                                                          ],
+                                                                                                        ),
+                                                                                                    onBlur:
+                                                                                                      () =>
+                                                                                                        _0x22a6a7(
+                                                                                                          null,
+                                                                                                        ),
+                                                                                                    autoFocus:
+                                                                                                      !(
+                                                                                                        -0x4 *
+                                                                                                          0x94 +
+                                                                                                        0x23 *
+                                                                                                          -0x3b +
+                                                                                                        0xa61 *
+                                                                                                          0x1
+                                                                                                      ),
+                                                                                                  },
+                                                                                                )
+                                                                                              : _0x332f06[
+                                                                                                  _0x47ca96(
+                                                                                                    0x309,
+                                                                                                  )
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x16c,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    onClick:
+                                                                                                      () =>
+                                                                                                        _0x22a6a7(
+                                                                                                          {
+                                                                                                            id: _0x2dd62a[
+                                                                                                              "id"
+                                                                                                            ],
+                                                                                                          },
+                                                                                                        ),
+                                                                                                    className:
+                                                                                                      _0x47ca96(
+                                                                                                        0x1a4,
+                                                                                                      ) +
+                                                                                                      (_0x2dd62a[
+                                                                                                        _0x47ca96(
+                                                                                                          0x254,
+                                                                                                        )
+                                                                                                      ] &&
+                                                                                                      new Date(
+                                                                                                        _0x2dd62a[
+                                                                                                          _0x47ca96(
+                                                                                                            0x254,
+                                                                                                          )
+                                                                                                        ],
+                                                                                                      ) <
+                                                                                                        new Date()
+                                                                                                        ? "text-rose-500\x20font-bold"
+                                                                                                        : "text-slate-500"),
+                                                                                                    children:
+                                                                                                      [
+                                                                                                        _0x332f06[
+                                                                                                          _0x47ca96(
+                                                                                                            0x20b,
+                                                                                                          )
+                                                                                                        ](
+                                                                                                          _0x29cb78,
+                                                                                                          {
+                                                                                                            size: 0xa,
+                                                                                                          },
+                                                                                                        ),
+                                                                                                        _0x2dd62a[
+                                                                                                          _0x47ca96(
+                                                                                                            0x254,
+                                                                                                          )
+                                                                                                        ]
+                                                                                                          ? new Date(
+                                                                                                              _0x2dd62a[
+                                                                                                                "expires_at"
+                                                                                                              ],
+                                                                                                            )[
+                                                                                                              _0x47ca96(
+                                                                                                                0x2c7,
+                                                                                                              )
+                                                                                                            ]()
+                                                                                                          : _0x47ca96(
+                                                                                                              0x194,
+                                                                                                            ),
+                                                                                                      ],
+                                                                                                  },
+                                                                                                ),
+                                                                                        },
+                                                                                      ),
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                              _0x332f06[
+                                                                                "jsxs"
+                                                                              ](
+                                                                                _0x47ca96(
+                                                                                  0x16c,
+                                                                                ),
+                                                                                {
+                                                                                  className:
+                                                                                    "flex\x20gap-2\x20pt-2\x20border-t\x20border-slate-50",
+                                                                                  children:
+                                                                                    [
+                                                                                      _0x2dd62a[
+                                                                                        _0x47ca96(
+                                                                                          0x1b8,
+                                                                                        )
+                                                                                      ] ===
+                                                                                        _0x47ca96(
+                                                                                          0x26b,
+                                                                                        ) &&
+                                                                                        _0x332f06[
+                                                                                          "jsxs"
+                                                                                        ](
+                                                                                          _0x332f06[
+                                                                                            _0x47ca96(
+                                                                                              0x310,
+                                                                                            )
+                                                                                          ],
+                                                                                          {
+                                                                                            children:
+                                                                                              [
+                                                                                                _0x332f06[
+                                                                                                  "jsx"
+                                                                                                ](
+                                                                                                  "button",
+                                                                                                  {
+                                                                                                    onClick:
+                                                                                                      (
+                                                                                                        _0x3eb374,
+                                                                                                      ) => {
+                                                                                                        const _0x3a49fc =
+                                                                                                          _0x47ca96;
+                                                                                                        (_0x3eb374[
+                                                                                                          _0x3a49fc(
+                                                                                                            0x208,
+                                                                                                          )
+                                                                                                        ](),
+                                                                                                          _0x56ae2a(
+                                                                                                            _0x2dd62a[
+                                                                                                              "id"
+                                                                                                            ],
+                                                                                                            _0x3a49fc(
+                                                                                                              0x1ac,
+                                                                                                            ),
+                                                                                                          ));
+                                                                                                      },
+                                                                                                    className:
+                                                                                                      "flex-1\x20py-1.5\x20bg-slate-900\x20text-white\x20text-xs\x20font-medium\x20rounded-lg\x20hover:bg-slate-800",
+                                                                                                    children:
+                                                                                                      _0x47ca96(
+                                                                                                        0x1f9,
+                                                                                                      ),
+                                                                                                  },
+                                                                                                ),
+                                                                                                _0x332f06[
+                                                                                                  "jsx"
+                                                                                                ](
+                                                                                                  _0x47ca96(
+                                                                                                    0x158,
+                                                                                                  ),
+                                                                                                  {
+                                                                                                    onClick:
+                                                                                                      (
+                                                                                                        _0x2a34ed,
+                                                                                                      ) => {
+                                                                                                        const _0x31e4c1 =
+                                                                                                          _0x47ca96;
+                                                                                                        (_0x2a34ed[
+                                                                                                          _0x31e4c1(
+                                                                                                            0x208,
+                                                                                                          )
+                                                                                                        ](),
+                                                                                                          _0x2860cd(
+                                                                                                            _0x2dd62a[
+                                                                                                              "id"
+                                                                                                            ],
+                                                                                                            _0x31e4c1(
+                                                                                                              0x166,
+                                                                                                            ),
+                                                                                                          ));
+                                                                                                      },
+                                                                                                    className:
+                                                                                                      "flex-1\x20py-1.5\x20bg-white\x20border\x20border-slate-200\x20text-slate-600\x20text-xs\x20font-medium\x20rounded-lg\x20hover:bg-slate-50",
+                                                                                                    children:
+                                                                                                      "Reject",
+                                                                                                  },
+                                                                                                ),
+                                                                                              ],
+                                                                                          },
+                                                                                        ),
+                                                                                      _0x2dd62a[
+                                                                                        _0x47ca96(
+                                                                                          0x1b8,
+                                                                                        )
+                                                                                      ] ===
+                                                                                        _0x47ca96(
+                                                                                          0x1ac,
+                                                                                        ) &&
+                                                                                        _0x332f06[
+                                                                                          _0x47ca96(
+                                                                                            0x20b,
+                                                                                          )
+                                                                                        ](
+                                                                                          "button",
+                                                                                          {
+                                                                                            onClick:
+                                                                                              (
+                                                                                                _0x533253,
+                                                                                              ) => {
+                                                                                                const _0x2cabb8 =
+                                                                                                  _0x47ca96;
+                                                                                                (_0x533253[
+                                                                                                  _0x2cabb8(
+                                                                                                    0x208,
+                                                                                                  )
+                                                                                                ](),
+                                                                                                  _0x2860cd(
+                                                                                                    _0x2dd62a[
+                                                                                                      "id"
+                                                                                                    ],
+                                                                                                    _0x2cabb8(
+                                                                                                      0x257,
+                                                                                                    ),
+                                                                                                  ));
+                                                                                              },
+                                                                                            className:
+                                                                                              _0x47ca96(
+                                                                                                0x2ad,
+                                                                                              ),
+                                                                                            children:
+                                                                                              _0x47ca96(
+                                                                                                0x174,
+                                                                                              ),
+                                                                                          },
+                                                                                        ),
+                                                                                      (_0x2dd62a[
+                                                                                        _0x47ca96(
+                                                                                          0x1b8,
+                                                                                        )
+                                                                                      ] ===
+                                                                                        _0x47ca96(
+                                                                                          0x166,
+                                                                                        ) ||
+                                                                                        _0x2dd62a[
+                                                                                          "status"
+                                                                                        ] ===
+                                                                                          _0x47ca96(
+                                                                                            0x257,
+                                                                                          )) &&
+                                                                                        _0x332f06[
+                                                                                          _0x47ca96(
+                                                                                            0x20b,
+                                                                                          )
+                                                                                        ](
+                                                                                          _0x47ca96(
+                                                                                            0x158,
+                                                                                          ),
+                                                                                          {
+                                                                                            onClick:
+                                                                                              (
+                                                                                                _0x295ad1,
+                                                                                              ) => {
+                                                                                                const _0x1305f2 =
+                                                                                                  _0x47ca96;
+                                                                                                (_0x295ad1[
+                                                                                                  _0x1305f2(
+                                                                                                    0x208,
+                                                                                                  )
+                                                                                                ](),
+                                                                                                  _0x56ae2a(
+                                                                                                    _0x2dd62a[
+                                                                                                      "id"
+                                                                                                    ],
+                                                                                                    _0x1305f2(
+                                                                                                      0x1ac,
+                                                                                                    ),
+                                                                                                  ));
+                                                                                              },
+                                                                                            className:
+                                                                                              _0x47ca96(
+                                                                                                0x150,
+                                                                                              ),
+                                                                                            children:
+                                                                                              _0x47ca96(
+                                                                                                0x1fe,
+                                                                                              ),
+                                                                                          },
+                                                                                        ),
+                                                                                      _0x332f06[
+                                                                                        "jsx"
+                                                                                      ](
+                                                                                        _0x47ca96(
+                                                                                          0x158,
+                                                                                        ),
+                                                                                        {
+                                                                                          onClick:
+                                                                                            (
+                                                                                              _0x48be09,
+                                                                                            ) => {
+                                                                                              const _0x2ff0ec =
+                                                                                                _0x47ca96;
+                                                                                              (_0x48be09[
+                                                                                                _0x2ff0ec(
+                                                                                                  0x208,
+                                                                                                )
+                                                                                              ](),
+                                                                                                _0x41767b(
+                                                                                                  _0x2dd62a[
+                                                                                                    "id"
+                                                                                                  ],
+                                                                                                ));
+                                                                                            },
+                                                                                          className:
+                                                                                            _0x47ca96(
+                                                                                              0x298,
+                                                                                            ),
+                                                                                          children:
+                                                                                            _0x332f06[
+                                                                                              _0x47ca96(
+                                                                                                0x20b,
+                                                                                              )
+                                                                                            ](
+                                                                                              _0x31dee6,
+                                                                                              {
+                                                                                                size: 0xe,
+                                                                                              },
+                                                                                            ),
+                                                                                        },
+                                                                                      ),
+                                                                                    ],
+                                                                                },
+                                                                              ),
+                                                                            ],
+                                                                        },
+                                                                        _0x2dd62a[
+                                                                          "id"
+                                                                        ],
+                                                                      );
+                                                                    },
+                                                                  ),
+                                                          },
+                                                        ),
+                                                      ],
+                                                    },
+                                                  ),
+                                              },
+                                            ),
+                                          ],
+                                        },
+                                        _0x4cf5c4[_0x261390(0x1d9)],
+                                      ),
+                                    ),
+                                    _0x2fc658 >
+                                      -0x5 * 0x733 +
+                                        -0x1 * -0x161e +
+                                        0xde2 * 0x1 &&
+                                      _0x332f06[_0x261390(0x309)](
+                                        _0x261390(0x16c),
+                                        {
+                                          className: _0x261390(0x245),
+                                          children: [
+                                            _0x332f06[_0x261390(0x20b)](
+                                              _0x261390(0x158),
+                                              {
+                                                type: _0x261390(0x158),
+                                                disabled:
+                                                  _0x5e2804 <=
+                                                  -0x5 * -0x10d +
+                                                    -0x1 * 0x10c7 +
+                                                    -0xb87 * -0x1,
+                                                onClick: () =>
+                                                  _0x24c082((_0x4d56cb) =>
+                                                    Math[_0x261390(0x227)](
+                                                      -0xdb6 + -0x1315 + 0x20cc,
+                                                      _0x4d56cb -
+                                                        (-0x1548 +
+                                                          0x10f2 * 0x2 +
+                                                          -0xc9b),
+                                                    ),
+                                                  ),
+                                                className: _0x261390(0x346),
+                                                children: _0x332f06["jsx"](
+                                                  _0x438a88,
+                                                  { size: 0x12 },
+                                                ),
+                                              },
+                                            ),
+                                            _0x332f06["jsxs"](
+                                              _0x261390(0x275),
+                                              {
+                                                className:
+                                                  "text-sm\x20text-slate-600",
+                                                children: [
+                                                  "第\x20",
+                                                  _0x5e2804,
+                                                  _0x261390(0x20a),
+                                                  _0x2fc658,
+                                                  "\x20页",
+                                                ],
+                                              },
+                                            ),
+                                            _0x332f06[_0x261390(0x20b)](
+                                              "button",
+                                              {
+                                                type: _0x261390(0x158),
+                                                disabled:
+                                                  _0x5e2804 >= _0x2fc658,
+                                                onClick: () =>
+                                                  _0x24c082((_0x511fa2) =>
+                                                    Math[_0x261390(0x182)](
+                                                      _0x2fc658,
+                                                      _0x511fa2 +
+                                                        (-0x1 * 0x2335 +
+                                                          0x3c * -0x20 +
+                                                          -0x2ab6 * -0x1),
+                                                    ),
+                                                  ),
+                                                className: _0x261390(0x346),
+                                                children: _0x332f06[
+                                                  _0x261390(0x20b)
+                                                ](_0x107785, { size: 0x12 }),
+                                              },
+                                            ),
+                                          ],
+                                        },
+                                      ),
+                                  ],
+                                }),
+                        }),
+            }),
+          ],
+        })
+      : _0x332f06[_0x261390(0x20b)](_0x261390(0x16c), {
+          className: _0x261390(0x23a),
+          children: _0x332f06[_0x261390(0x309)]("div", {
+            className: _0x261390(0x31e),
+            children: [
+              _0x332f06[_0x261390(0x309)](_0x261390(0x16c), {
+                className: _0x261390(0x2cc),
+                children: [
+                  _0x332f06["jsxs"]("h2", {
+                    className: _0x261390(0x187),
+                    children: [
+                      _0x332f06["jsx"](qs, {
+                        size: 0x14,
+                        className: _0x261390(0x130),
+                      }),
+                      _0x261390(0x15d),
+                    ],
+                  }),
+                  _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                    onClick: _0x59fbc3,
+                    className:
+                      "text-slate-400\x20hover:text-slate-800\x20transition-colors",
+                    children: _0x332f06[_0x261390(0x20b)](_0x12c7ad, {
+                      size: 0x14,
+                    }),
+                  }),
+                ],
+              }),
+              _0x332f06[_0x261390(0x309)](_0x261390(0x253), {
+                onSubmit: _0x2e4d36,
+                className: "space-y-4",
+                children: [
+                  _0x332f06[_0x261390(0x20b)](_0x261390(0x28d), {
+                    type: "password",
+                    value: _0x1b70f9,
+                    onChange: (_0x4e40d4) =>
+                      _0x5c8b14(_0x4e40d4["target"][_0x261390(0x13f)]),
+                    placeholder: _0x261390(0x30a),
+                    className: _0x261390(0x1ec),
+                    autoFocus: !(-0x827 + -0x2015 + -0x19 * -0x19c),
+                  }),
+                  _0x332f06[_0x261390(0x20b)](_0x261390(0x158), {
+                    type: _0x261390(0x15b),
+                    className: _0x261390(0x17b),
+                    children: "Login",
+                  }),
+                ],
+              }),
+            ],
+          }),
+        });
+  };
+function _0xf632(_0xf6325, _0x5cfd64) {
+  _0xf6325 = _0xf6325 - (0x6a6 * -0x2 + -0x7ad + 0x1 * 0x161c);
+  const _0x2d5b73 = _0x2ffe();
+  let _0x416862 = _0x2d5b73[_0xf6325];
+  return _0x416862;
+}
+export { Ms as default };

@@ -1,0 +1,8 @@
+getItem: "d-ai_asyncStorage:device_id"
+getItem: "d-ai_gate_web_device_id"
+getItem: "gatekeeper_diag"
+getItem: "gatekeeper_ui_approved"
+getItem: "help_pending_tutorial_id"
+removeItem: "help_pending_tutorial_id"
+setItem: "gatekeeper_diag"
+setItem: "help_pending_tutorial_id"

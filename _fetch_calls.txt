@@ -1,0 +1,23 @@
+${C}/v1/voices
+${C}/v1/models
+${!1 ? "/api/elevenlabs" : "https://api.elevenlabs.io"}/v1/text-to-speech/${Z.trim()}
+${B.endpoint}/v1/chat/completions
+${k.endpoint}/v1/chat/completions
+${p}/user/detail?uid=${g.userId}&cookie=${encodeURIComponent(x)}
+${p}/likelist?uid=${g.userId}&cookie=${encodeURIComponent(x)}
+${p}/playlist/create?name=${encodeURIComponent($)}&cookie=${encodeURIComponent(x)}
+${p}/playlist/delete?id=${we.platformId}&cookie=${encodeURIComponent(x)}
+${p}/playlist/subscribe?t=2&id=${we.platformId}&cookie=${encodeURIComponent(x)}
+${p}/playlist/tracks?op=add&pid=${z}&tracks=${G.id}&cookie=${encodeURIComponent(x)}&timestamp=${Date.now()}
+${Ie}/scrobble?id=${p.platformId}&sourceid=0&time=${Math.floor(x)}&cookie=${encodeURIComponent(Ce)}
+https://api.open-meteo.com/v1/forecast?latitude=${lt}&longitude=${it}&current_weather=true
+https://api.open-meteo.com/v1/forecast?latitude=${ze.latitude}&longitude=${ze.longitude}&current_weather=true
+${xt.endpoint}/v1/chat/completions
+https://api.ipify.org?format=json
+${Tte}${s}
+https://restapi.amap.com/v3/assistant/inputtips?${r.toString()}
+https://restapi.amap.com/v3/place/around?${f.toString()}
+https://api.open-meteo.com/v1/forecast?latitude=${Ve}&longitude=${Ae}&current=temperature_2m,weather_code&timezone=auto
+https://nominatim.openstreetmap.org/reverse?format=json&lat=${Ve}&lon=${Ae}
+https://api.open-meteo.com/v1/forecast?latitude=${P}&longitude=${z}&current=temperature_2m,weather_code&timezone=auto
+https://nominatim.openstreetmap.org/reverse?format=json&lat=${P}&lon=${z}
