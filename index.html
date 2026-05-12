@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="google" content="notranslate" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <!-- Android：移除 viewport-fit=cover，避免系统状态栏区域发黑；iOS 保留 meta 中的 cover -->
+    <script>
+      (function () {
+        var ua = navigator.userAgent || '';
+        if (!/Android/i.test(ua)) return;
+        var vp = document.querySelector('meta[name="viewport"]');
+        if (!vp) return;
+        var c = (vp.getAttribute('content') || '')
+          .replace(/\s*,\s*viewport-fit=cover\b/i, '')
+          .replace(/\bviewport-fit=cover\s*,?\s*/i, '')
+          .replace(/,\s*,/g, ',')
+          .replace(/^\s*,|,\s*$/g, '')
+          .trim();
+        vp.setAttribute('content', c);
+      })();
+    </script>
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="JuJoo Phone" />
+    <meta name="application-name" content="JuJoo Phone" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" href="/ovo.png" />
+    <link rel="icon" type="image/png" href="/ovo.png" />
+    <title>JuJoo Phone</title>
+    <!-- 引入可爱的手写字体 (Gaegu) -->
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- LUXURY HUB 随身 app 字体 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Noto+Serif+SC:wght@300;500;700;900&family=Inter:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 回忆封存室字体 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Noto+Serif+SC:wght@200;300;400;600&family=Courier+Prime:wght@400;700&family=Manrope:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 昨日气象局 Yesterday Bureau -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600&family=Inter:wght@200;300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 雪夜回望 Reflect -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@200;400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" crossorigin src="/assets/index-CO_e8yUt.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-BBrb-ole.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BPJBYYxY.css">
+  <link rel="manifest" href="/manifest.webmanifest"></head>
+  <body>
+    <script>
+      (function () {
+        var ua = navigator.userAgent || '';
+        var isAndroid = /Android/i.test(ua);
+        var isPwa =
+          window.matchMedia('(display-mode: standalone)').matches ||
+          window.matchMedia('(display-mode: fullscreen)').matches;
+        if (isAndroid && isPwa) document.documentElement.setAttribute('data-android-pwa', 'true');
+      })();
+    </script>
+    <div id="root" translate="no" class="notranslate"></div>
+    <div id="portal-root"></div>
+  </body>
+</html>

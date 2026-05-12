@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>JuJoo 激活码生成器</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8f9fb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+      padding: 36px 32px;
+      width: 100%;
+      max-width: 520px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 28px;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #555;
+      margin-bottom: 6px;
+      margin-top: 16px;
+    }
+    label:first-of-type { margin-top: 0; }
+    input, select, textarea {
+      width: 100%;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 14px;
+      color: #1a1a1a;
+      outline: none;
+      transition: border-color .15s;
+      background: #fafafa;
+    }
+    input:focus, select:focus, textarea:focus { border-color: #555; background: #fff; }
+    .row {
+      display: flex;
+      gap: 12px;
+    }
+    .row > div { flex: 1; }
+    .hint {
+      font-size: 11px;
+      color: #aaa;
+      margin-top: 4px;
+    }
+    button {
+      width: 100%;
+      margin-top: 24px;
+      padding: 13px;
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    button:hover { background: #333; }
+    button:disabled { background: #ccc; cursor: default; }
+    .result-area {
+      margin-top: 24px;
+      display: none;
+    }
+    .result-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .result-title { font-size: 13px; font-weight: 600; color: #1a1a1a; }
+    .copy-btn {
+      font-size: 12px;
+      padding: 4px 12px;
+      margin-top: 0;
+      width: auto;
+      background: #f0f0f0;
+      color: #1a1a1a;
+      border-radius: 8px;
+    }
+    .copy-btn:hover { background: #e0e0e0; }
+    .code-box {
+      background: #f8f9fb;
+      border: 1.5px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 14px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 13px;
+      line-height: 1.9;
+      color: #2a2a2a;
+      max-height: 300px;
+      overflow-y: auto;
+      white-space: pre;
+    }
+    .warn {
+      background: #fff8e1;
+      border: 1.5px solid #ffe082;
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-size: 12px;
+      color: #795548;
+      margin-top: 12px;
+    }
+    .error-msg {
+      background: #fff0f0;
+      border: 1.5px solid #ffcdd2;
+      border-radius: 10px;
+      padding: 12px 14px;
+      font-size: 13px;
+      color: #c62828;
+      margin-top: 16px;
+      display: none;
+    }
+    .loading { opacity: .6; }
+    .badge {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-left: 8px;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+    .step-num {
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      background: #1a1a1a;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 11px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .guide {
+      background: #f0f4ff;
+      border: 1.5px solid #c5d3ff;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 20px;
+    }
+    .guide-title { font-size: 12px; font-weight: 700; color: #1a1a1a; margin-bottom: 10px; }
+    code { background: #e8eaf6; padding: 1px 5px; border-radius: 4px; font-family: monospace; font-size: 11px; }
+  </style>
+</head>
+<body>
+<div class="card">
+  <h1>🔑 JuJoo 激活码生成器</h1>
+  <p class="subtitle">直接调用你的 Supabase 后端生成激活码</p>
+
+  <div class="guide">
+    <div class="guide-title">如何找到「激活码生成密钥」</div>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div>登录 <strong>Supabase 控制台</strong>，进入你的项目</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div>点击左侧 <strong>Table Editor</strong>，找到 <code>internal_config</code> 表</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div>找到 key 为 <code>activation_generate_secret</code> 的行，复制其 value</div>
+    </div>
+  </div>
+
+  <label>激活码生成密钥（来自 Supabase internal_config）</label>
+  <input type="password" id="secret" placeholder="粘贴你的 activation_generate_secret" autocomplete="off" />
+  <div class="hint">不会被发送到任何第三方，仅用于调用你自己的 Supabase RPC</div>
+
+  <div class="row" style="margin-top:16px;">
+    <div>
+      <label>批次类型</label>
+      <select id="category">
+        <option value="initial">初次（initial）</option>
+        <option value="followup">后续（followup）</option>
+      </select>
+    </div>
+    <div>
+      <label>生成数量</label>
+      <input type="number" id="count" value="10" min="1" max="200" />
+    </div>
+  </div>
+
+  <label>批次备注（可选）</label>
+  <input type="text" id="note" placeholder="例如：2026-05 第1批" />
+
+  <button id="genBtn" onclick="generate()">生成激活码</button>
+
+  <div class="error-msg" id="errMsg"></div>
+
+  <div class="result-area" id="resultArea">
+    <div class="result-header">
+      <div class="result-title">
+        生成成功 <span class="badge" id="countBadge"></span>
+      </div>
+      <button class="copy-btn" onclick="copyAll()">一键复制</button>
+    </div>
+    <div class="code-box" id="codeBox"></div>
+    <div class="warn">
+      ⚠️ 明文激活码仅此一次显示，服务端只存储哈希值，请立即复制保存！
+    </div>
+  </div>
+</div>
+
+<script>
+  const SUPABASE_URL = 'https://hrnebfpykywhqxtlqusc.supabase.co';
+  const ANON_KEY    = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhybmViZnB5a3l3aHF4dGxxdXNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg5ODk1OTksImV4cCI6MjA4NDU2NTU5OX0.b3ydkE7_Y7QHpJ-Ud0Fp18Dw2LAvQOh1rEQKyAh0y6s';
+
+  async function generate() {
+    const secret   = document.getElementById('secret').value.trim();
+    const category = document.getElementById('category').value;
+    const count    = parseInt(document.getElementById('count').value) || 10;
+    const note     = document.getElementById('note').value.trim();
+    const btn      = document.getElementById('genBtn');
+    const errMsg   = document.getElementById('errMsg');
+    const resultArea = document.getElementById('resultArea');
+
+    errMsg.style.display = 'none';
+    resultArea.style.display = 'none';
+
+    if (!secret) {
+      showErr('请先填写「激活码生成密钥」');
+      return;
+    }
+    if (count < 1 || count > 200) {
+      showErr('生成数量须在 1 ~ 200 之间');
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = '生成中…';
+
+    try {
+      const res = await fetch(`${SUPABASE_URL}/rest/v1/rpc/admin_generate_activation_codes2`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': ANON_KEY,
+          'Authorization': `Bearer ${ANON_KEY}`,
+        },
+        body: JSON.stringify({
+          p_category: category,
+          p_count:    count,
+          p_secret:   secret.toUpperCase(),
+          p_note:     note || (category === 'initial' ? '初次' : '后续'),
+        }),
+      });
+
+      const raw = await res.json().catch(() => null);
+
+      if (!res.ok) {
+        const errCode = raw?.message || raw?.error || raw?.hint || res.status;
+        if (String(errCode).toLowerCase().includes('unauthorized') || res.status === 401) {
+          showErr('密钥错误：p_secret 与 Supabase internal_config 中的 activation_generate_secret 不匹配');
+        } else {
+          showErr('生成失败：' + JSON.stringify(errCode));
+        }
+        return;
+      }
+
+      // raw 可能是数组（码列表）或 {ok, codes} 对象
+      let codes = [];
+      if (Array.isArray(raw)) {
+        codes = raw.map(r => r.code || r.plaintext_code || r.activation_code || JSON.stringify(r));
+      } else if (raw && Array.isArray(raw.codes)) {
+        codes = raw.codes;
+      } else if (raw && typeof raw === 'object') {
+        // 尝试提取任何看起来是码的字段
+        codes = Object.values(raw).flat().filter(v => typeof v === 'string' && v.length >= 8);
+        if (!codes.length) codes = [JSON.stringify(raw, null, 2)];
+      } else {
+        codes = [String(raw)];
+      }
+
+      document.getElementById('codeBox').textContent = codes.join('\n');
+      document.getElementById('countBadge').textContent = `共 ${codes.length} 个`;
+      resultArea.style.display = 'block';
+
+    } catch (e) {
+      showErr('网络错误：' + e.message);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = '生成激活码';
+    }
+  }
+
+  function showErr(msg) {
+    const el = document.getElementById('errMsg');
+    el.textContent = msg;
+    el.style.display = 'block';
+  }
+
+  function copyAll() {
+    const text = document.getElementById('codeBox').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.querySelector('.copy-btn');
+      btn.textContent = '已复制 ✓';
+      setTimeout(() => btn.textContent = '一键复制', 2000);
+    }).catch(() => {
+      document.getElementById('codeBox').select?.();
+      alert('请手动选中文本复制');
+    });
+  }
+</script>
+</body>
+</html>
